@@ -1,0 +1,18 @@
+# Requirements: MySQL Summary Analytics (MIN, MAX, AVG, GROUP BY)
+#
+# These lessons are SQL-only, so there are no Python packages to install.
+# This file lists the software needed to follow them.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.4 LTS (8.0 or later works)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - Default sql_mode includes ONLY_FULL_GROUP_BY (see GROUP BY lesson, Error 1055)
+
+# --- Client ---
+# MySQL Workbench 8.0 or later (SQL editor + Table Data Import Wizard)
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Sample data ---
+# data/sap_revenue_billing_fy2026.csv (included), loaded into table revenue_lines
+# Setup steps: see README.md
