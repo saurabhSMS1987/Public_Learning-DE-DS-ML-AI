@@ -1,0 +1,23 @@
+KTOPL,SAKNR,TXT50,ACCT_TYPE
+YCOA,0000100000,Cash at bank - Operating,BS
+YCOA,0000110000,Petty cash,BS
+YCOA,0000120000,Trade receivables,BS
+YCOA,0000140000,Inventory - Finished goods,BS
+YCOA,0000160000,Prepaid expenses,BS
+YCOA,0000180000,"Property, plant & equipment",BS
+YCOA,0000185000,Accumulated depreciation - PP&E,BS
+YCOA,0000200000,Trade payables,BS
+YCOA,0000210000,GR/IR clearing,BS
+YCOA,0000220000,Accrued liabilities,BS
+YCOA,0000230000,Income tax payable,BS
+YCOA,0000300000,Share capital,BS
+YCOA,0000310000,Retained earnings,BS
+YCOA,0000400000,Revenue - Domestic sales,PL
+YCOA,0000410000,Revenue - Export sales,PL
+YCOA,0000500000,Cost of goods sold,PL
+YCOA,0000600000,Salaries and wages,PL
+YCOA,0000610000,Rent expense,PL
+YCOA,0000650000,Depreciation expense,PL
+YCOA,0000690000,Bank charges – Bankgebühren,PL
+YCOA,0000700000,Interest expense,PL
+YCOA,0000720000,Other operating income,PL
