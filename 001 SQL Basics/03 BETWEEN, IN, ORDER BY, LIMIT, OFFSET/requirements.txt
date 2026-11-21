@@ -1,0 +1,17 @@
+# Requirements: MySQL Numeric Queries (BETWEEN, IN, ORDER BY, LIMIT, OFFSET)
+#
+# These lessons are SQL-only, so there are no Python packages to install.
+# This file lists the software needed to follow them.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.0 or later
+#   - Download: https://dev.mysql.com/downloads/mysql/
+
+# --- Client ---
+# MySQL Workbench 8.0 or later (SQL editor + Table Data Import Wizard)
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Sample data ---
+# data/sap_ecc_ap_invoices.csv (included), loaded into table ap_invoices
+# Setup steps: see README.md
