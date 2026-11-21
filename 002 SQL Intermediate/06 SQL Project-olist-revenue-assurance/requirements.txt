@@ -1,0 +1,18 @@
+# Requirements: E-Commerce Revenue Assurance with SQL (Olist)
+#
+# The project itself is SQL-only and runs in MySQL.
+#
+# --- Required (not pip packages) ---
+# MySQL Server 8.4 LTS (8.0 or later works; GROUP_CONCAT, CHECK constraints, LOAD DATA)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - Server setting: local_infile = ON   (SET GLOBAL local_infile = 1;)
+#
+# MySQL client, one of:
+#   - mysql command-line client (installed with MySQL Server), to use run_all.sql
+#   - MySQL Workbench 8.0 or later (Edit Connection → Advanced → Others: OPT_LOCAL_INFILE=1)
+#     Download: https://dev.mysql.com/downloads/workbench/
+#
+# --- Optional Python package ---
+# Only needed for scripts/download_data.py (a fresh copy of the data from Kaggle).
+# The data is already included in data/, so you can skip this.
+kaggle>=1.6

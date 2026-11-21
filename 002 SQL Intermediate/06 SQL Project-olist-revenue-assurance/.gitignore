@@ -1,0 +1,5 @@
+# Local outputs
+output.txt
+*.log
+__pycache__/
+.venv/
