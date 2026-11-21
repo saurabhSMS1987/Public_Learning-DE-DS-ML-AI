@@ -1,0 +1,15 @@
+# Requirements: SQL Basics Key Takeaways & Cheat Sheet
+#
+# SQL-only: no Python packages are needed.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.4 LTS (8.0.19 or later works; the upsert example needs 8.0.19+)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+
+# --- Client ---
+# MySQL Workbench 8.0 or later, or the mysql command-line client
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Demo data ---
+# cheatsheet_examples.sql (included): creates the cheatsheet_demo database
