@@ -1,0 +1,3 @@
+# Keep the CSV byte-for-byte: setup.sql expects Windows line endings (\r\n)
+# and the leading/trailing spaces in some fields are part of the exercise.
+*.csv -text

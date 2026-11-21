@@ -1,0 +1,22 @@
+# Requirements: MySQL Transformation Functions
+#
+# These lessons are SQL-only, so there are no Python packages to install.
+# This file lists the software needed to follow them.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.4 LTS (8.0 or later; REGEXP_REPLACE needs MySQL 8.0+)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - local_infile = ON for setup.sql   (SET GLOBAL local_infile = 1;)
+
+# --- Client ---
+# mysql command-line client (installed with MySQL Server) to run setup.sql, or
+# MySQL Workbench 8.0 or later (Edit Connection → Advanced → Others: OPT_LOCAL_INFILE=1)
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Sample data ---
+# data/s4hana_journal_entries_fy2026.csv (included), loaded into journal_entries by setup.sql
+#
+# --- Optional ---
+# Tables from earlier sections (ap_invoices, revenue_lines, cwip_assets, billing,
+# opex_postings) to run the "More real-world examples" snippets.
