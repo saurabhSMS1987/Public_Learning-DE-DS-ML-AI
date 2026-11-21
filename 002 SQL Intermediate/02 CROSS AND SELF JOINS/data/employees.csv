@@ -1,0 +1,7 @@
+EMP_ID,NAME,TITLE,MANAGER_ID,APPROVAL_LIMIT
+E01,Laura Chen,Chief Financial Officer,,1000000.00
+E02,Mark Davis,Finance Manager,E01,50000.00
+E03,Priya Nair,Operations Manager,E01,50000.00
+E04,Tom Wilson,AP Accountant,E02,5000.00
+E05,Sara Lopez,Facilities Lead,E03,10000.00
+E06,Jake Kim,Marketing Specialist,E03,5000.00
