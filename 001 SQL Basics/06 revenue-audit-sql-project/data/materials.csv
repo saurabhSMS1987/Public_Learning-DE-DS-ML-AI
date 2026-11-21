@@ -1,0 +1,9 @@
+MATNR,MAKTX,MATKL_TEXT,LIST_PRICE
+P-100,Steel beam,Steel,1250.00
+P-200,Steel sheet,Steel,480.00
+P-300,Fastener box,Hardware,35.50
+P-400,Installation service,Services,150.00
+P-500,Aluminium panel,Aluminium,320.00
+P-600,Welding rod pack,Hardware,85.00
+P-700,Maintenance contract,Services,2400.00
+P-800,Copper cable drum,Electrical,960.00

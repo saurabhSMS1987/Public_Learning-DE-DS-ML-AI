@@ -1,0 +1,20 @@
+# Requirements: Revenue Audit Analytics with SQL
+#
+# The project is SQL-only: no Python packages are needed to run it.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Required ---
+# MySQL Server 8.4 LTS (8.0.19 or later works)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - Server setting: local_infile = ON   (SET GLOBAL local_infile = 1;)
+#
+# MySQL client, one of:
+#   - mysql command-line client (installed with MySQL Server), to use run_all.sql
+#   - MySQL Workbench 8.0 or later, to run the scripts in sql/ one by one
+#     (Edit Connection → Advanced → Others: OPT_LOCAL_INFILE=1)
+#     Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Optional ---
+# Python 3.8 or later, only to regenerate the CSV files:
+#   python scripts/generate_data.py
+# Uses the standard library only (csv, datetime, random, pathlib).
