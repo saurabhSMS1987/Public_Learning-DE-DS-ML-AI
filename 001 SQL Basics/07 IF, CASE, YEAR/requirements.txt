@@ -1,0 +1,22 @@
+# Requirements: MySQL Calculated Columns (IF, CASE, YEAR, Current Year)
+#
+# These lessons are SQL-only, so there are no Python packages to install.
+# This file lists the software needed to follow them.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.4 LTS (8.0 or later works)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - local_infile = ON for setup.sql   (SET GLOBAL local_infile = 1;)
+
+# --- Client ---
+# mysql command-line client (installed with MySQL Server) to run setup.sql, or
+# MySQL Workbench 8.0 or later (Edit Connection → Advanced → Others: OPT_LOCAL_INFILE=1)
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Sample data ---
+# data/sap_cwip_fy2026.csv (included), loaded into table cwip_assets by setup.sql
+#
+# --- Optional ---
+# Tables from earlier sections (je_lines, ap_invoices, revenue_lines, trial_balance)
+# to run the "More real-world examples" snippets.
