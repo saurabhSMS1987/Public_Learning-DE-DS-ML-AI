@@ -84,8 +84,6 @@ On top of the core sit four higher-level libraries for specific jobs:
 
 ## 3. RDDs vs DataFrames vs Datasets
 
-![RDDs, DataFrames, Datasets and the Catalyst Optimizer slide](images/spark-deep-dive/slide-rdd-dataframe-dataset-catalyst.png)
-
 Before DataFrames and Datasets existed, people coded against **RDDs** directly. That meant long, complicated code full of Python lambda functions. DataFrames and Datasets are **high-level APIs** that hide that complexity: you write much less code, and Spark still uses RDDs underneath.
 
 ```mermaid
