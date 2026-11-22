@@ -6,8 +6,6 @@ This page goes one level deeper into Apache Spark: how a Databricks cluster actu
 
 ## 1. How a cluster runs your work: driver and worker nodes
 
-![Driver and worker node architecture slide](images/spark-deep-dive/slide-driver-worker-architecture.png)
-
 A Spark cluster is a group of machines that act together like one big computer. It has two kinds of nodes:
 
 - **Driver node**: the "boss". It holds the main program, decides how to split up the work, creates the distributed datasets and tells the workers which data to pull and what to do with it. It talks to Spark through a **SparkSession** object. **In Databricks, your notebook is usually the driver program.**
@@ -59,8 +57,6 @@ flowchart TB
 ---
 
 ## 2. Spark APIs and libraries
-
-![Spark APIs and libraries slide](images/spark-deep-dive/slide-spark-apis-and-libraries.png)
 
 ```mermaid
 flowchart BT
