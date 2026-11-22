@@ -2,10 +2,6 @@
 
 This lab (**Databricks Fundamentals, Module 3**) takes a raw CSV file and turns it into **Delta Lake** data. Along the way it covers saving data in Delta format, updating it in place, reading its **change history**, and finally registering it as a **Unity Catalog managed table** that can be governed and queried with SQL. Delta brings versioning, logging and lineage, which is what makes the data trustworthy enough to power AI, ML and BI work.
 
-**What you'll need:** your managed compute cluster attached to the notebook.
-
-**Notebook:** `DatabricksGenAIEngineer/Databricks_Fundamentals/Module_3.ipynb`
-
 ---
 
 ## The big picture
