@@ -68,4 +68,4 @@ To make sure it worked, open one of the notebooks, for example the **SQL AI Quer
 - A **Git folder** in Databricks is a clone of a Git repository that lives right inside your workspace.
 - Add **`.git`** to the end of the repo URL when you create it.
 - Set the Git provider to **GitHub**.
-- Once cloned, all the course notebooks are in one place and ready to run on the compute from [Lab 02](./Lab-02-Deploy-Managed-Compute-on-Databricks.md).
+- Once cloned, all the course notebooks are in one place and ready to run on the compute from Hands on Lab 2.
