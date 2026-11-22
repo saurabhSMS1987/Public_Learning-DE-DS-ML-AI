@@ -1,6 +1,6 @@
 # Lab 05: Advanced Apache Spark Operations
 
-This lab (**Databricks Fundamentals, Module 2**) builds on [Lab 04](./Lab-04-Getting-Hands-on-with-Spark.md). After loading the sales data into a DataFrame again, it moves on to **cleaning** it, **deriving new columns**, building **new DataFrames from existing ones**, and **aggregating** the data with `groupBy`.
+This lab (**Databricks Fundamentals, Module 2**) builds on Lab 04. After loading the sales data into a DataFrame again, it moves on to **cleaning** it, **deriving new columns**, building **new DataFrames from existing ones**, and **aggregating** the data with `groupBy`.
 
 **What you'll need:** your managed compute cluster attached to the notebook.
 
