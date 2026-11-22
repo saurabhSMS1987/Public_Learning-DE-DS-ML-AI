@@ -152,4 +152,4 @@ Sales grew sharply in 2021.
 - `count()` counts all rows, while `distinct().count()` counts unique rows.
 - `groupBy().sum()` and `groupBy().count()` aggregate data into summaries, like totals per product or orders per year.
 - `year()` extracts the year from a date, and `alias()` renames the result.
-- Spark DataFrames are immutable, so each of these operations returns a **new** DataFrame (see [Introduction to Apache Spark](./Introduction-to-Apache-Spark.md)).
+- Spark DataFrames are immutable, so each of these operations returns a **new** DataFrame.
