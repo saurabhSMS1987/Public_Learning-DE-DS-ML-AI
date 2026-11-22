@@ -1,8 +1,6 @@
 # Lab 03: Setting Up the GitHub Repo in Databricks
 
-All the lab notebooks for this course live in a public GitHub repository. This lab walks through pulling that repo into the Databricks workspace as a **Git folder**, so every notebook is ready to open and run.
-
-**Course repo:** [github.com/kuljotSB/DatabricksGenAIEngineer](https://github.com/kuljotSB/DatabricksGenAIEngineer)
+This lab walks through pulling that repo into the Databricks workspace.
 
 ---
 
