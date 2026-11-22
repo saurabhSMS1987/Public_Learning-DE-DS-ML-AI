@@ -189,7 +189,3 @@ The foundation models you see under Serving are already deployed for you and you
 ## Cleaning up
 
 When you're done with the course, delete your resource group so you stop paying for it. Azure will remove the workspace and the managed resource group along with it.
-
----
-
-*Part of the Databricks learning notes series. See also: [Introduction to Databricks](./Introduction-to-Databricks.md)*
