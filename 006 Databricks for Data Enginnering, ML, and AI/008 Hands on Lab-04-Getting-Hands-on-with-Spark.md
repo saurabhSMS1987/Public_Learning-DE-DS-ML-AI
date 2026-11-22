@@ -2,9 +2,6 @@
 
 This is the first hands-on Spark lab (**Databricks Fundamentals, Module 1**). It covers storing raw CSV files in a **Unity Catalog volume**, loading them into a **Spark DataFrame**, giving that DataFrame a proper **schema**, querying it with **SQL**, and finally drawing a **chart** of the results.
 
-
-**Notebook:** `DatabricksGenAIEngineer/Databricks_Fundamentals/Module_1.ipynb`
-
 ---
 
 ## The big picture
