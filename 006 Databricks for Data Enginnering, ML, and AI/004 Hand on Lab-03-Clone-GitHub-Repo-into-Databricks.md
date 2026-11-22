@@ -2,8 +2,6 @@
 
 All the lab notebooks for this course live in a public GitHub repository. This lab walks through pulling that repo into the Databricks workspace as a **Git folder**, so every notebook is ready to open and run.
 
-**What you'll need:** the Databricks workspace from [Lab 01](./Lab-01-Deploy-Databricks-Workspace-on-Azure.md).
-
 **Course repo:** [github.com/kuljotSB/DatabricksGenAIEngineer](https://github.com/kuljotSB/DatabricksGenAIEngineer)
 
 ---
@@ -70,4 +68,4 @@ To make sure it worked, open one of the notebooks, for example the **SQL AI Quer
 - A **Git folder** in Databricks is a clone of a Git repository that lives right inside your workspace.
 - Add **`.git`** to the end of the repo URL when you create it.
 - Set the Git provider to **GitHub**.
-- Once cloned, all the course notebooks are in one place and ready to run on the compute from [Lab 02](./Lab-02-Deploy-Managed-Compute-on-Databricks.md).
+- Once cloned, all the course notebooks are in one place and ready to run on the compute from Hands on Lab 2.
