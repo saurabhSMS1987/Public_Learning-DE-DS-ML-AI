@@ -1,6 +1,6 @@
 # Lab 03: Setting Up the GitHub Repo in Databricks
 
-This lab walks through pulling that repo into the Databricks workspace.
+This lab walks through pulling the GitHub repo into the Databricks workspace.
 
 ---
 
