@@ -192,4 +192,4 @@ When you're done with the course, delete your resource group so you stop paying 
 
 ---
 
-*Part of the Databricks learning notes series. See also: [Introduction to Databricks](./Introduction-to-Databricks.md)*
+*Part of the Databricks learning notes series. See also: [Introduction to Databricks](./001-Introduction-to-Databricks.md)*
