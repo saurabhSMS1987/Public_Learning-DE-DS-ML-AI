@@ -2,8 +2,6 @@
 
 This lab walks through creating an all-purpose compute cluster inside the Databricks workspace. Behind the scenes, Databricks spins up a virtual machine in the managed resource group, and that machine becomes the engine that runs all your Spark queries and Python code.
 
-**What you'll need:** the Databricks workspace from [Lab 01](./Lab-01-Deploy-Databricks-Workspace-on-Azure.md).
-
 ---
 
 ## The big picture
