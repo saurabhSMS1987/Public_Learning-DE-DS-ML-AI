@@ -2,8 +2,6 @@
 
 All the lab notebooks for this course live in a public GitHub repository. This lab walks through pulling that repo into the Databricks workspace as a **Git folder**, so every notebook is ready to open and run.
 
-**What you'll need:** the Databricks workspace from [Lab 01](./Lab-01-Deploy-Databricks-Workspace-on-Azure.md).
-
 **Course repo:** [github.com/kuljotSB/DatabricksGenAIEngineer](https://github.com/kuljotSB/DatabricksGenAIEngineer)
 
 ---
