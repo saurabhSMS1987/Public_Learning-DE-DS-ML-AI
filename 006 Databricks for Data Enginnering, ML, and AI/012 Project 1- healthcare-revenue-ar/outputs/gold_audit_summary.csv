@@ -1,0 +1,18 @@
+area,metric,value
+Revenue,Gross charges per billing subledger,25330065.67
+Revenue,Revenue per general ledger,25314391.21
+Revenue,Difference (GL - subledger),-15674.46
+Revenue,Explained by reconciling items (net),-15674.46
+Revenue,Gross value of reconciling items,515674.46
+Revenue,Unexplained difference,0.0
+AR,Year-end AR per billing subledger,5153358.48
+AR,Year-end AR per general ledger,5070720.84
+AR,Difference (GL - subledger),-82637.64
+AR,Explained by reconciling items (net),-82637.64
+AR,Unexplained difference,0.0
+AR,Open AR older than 180 days,441437.62
+Exceptions,Reconciling items (count),6.0
+Exceptions,High-risk manual journal entries (count),1.0
+Exceptions,Payment with no matching claim (count),12.0
+Exceptions,Duplicate payment (count),30.0
+Exceptions,Claim paid more than billed (credit balance) (count),67.0

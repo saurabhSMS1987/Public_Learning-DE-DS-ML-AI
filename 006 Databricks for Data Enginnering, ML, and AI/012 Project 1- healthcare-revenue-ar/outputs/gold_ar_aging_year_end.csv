@@ -1,0 +1,61 @@
+payer_type,payer_name,aging_bucket,claim_count,open_balance,bucket_order
+GOVERNMENT,Dual Eligible,0-30 days,54,95193.85,1
+GOVERNMENT,Dual Eligible,31-60 days,56,56585.45,2
+GOVERNMENT,Dual Eligible,61-90 days,12,4427.35,3
+GOVERNMENT,Dual Eligible,91-180 days,8,27461.69,4
+GOVERNMENT,Dual Eligible,Over 180 days,22,33863.53,5
+GOVERNMENT,Dual Eligible,Credit balance,3,-466.85,6
+GOVERNMENT,Medicaid,0-30 days,69,284596.31,1
+GOVERNMENT,Medicaid,31-60 days,90,215203.36,2
+GOVERNMENT,Medicaid,61-90 days,36,16777.77,3
+GOVERNMENT,Medicaid,91-180 days,15,34989.59,4
+GOVERNMENT,Medicaid,Over 180 days,25,72142.06,5
+GOVERNMENT,Medicaid,Credit balance,6,-1863.31,6
+GOVERNMENT,Medicare,0-30 days,649,680916.48,1
+GOVERNMENT,Medicare,31-60 days,614,644525.62,2
+GOVERNMENT,Medicare,61-90 days,170,107135.85,3
+GOVERNMENT,Medicare,91-180 days,80,66665.11,4
+GOVERNMENT,Medicare,Over 180 days,173,100685.31,5
+GOVERNMENT,Medicare,Credit balance,34,-12420.82,6
+NO_INSURANCE,NO_INSURANCE,0-30 days,93,136580.99,1
+NO_INSURANCE,NO_INSURANCE,31-60 days,49,44093.60,2
+NO_INSURANCE,NO_INSURANCE,61-90 days,32,94997.95,3
+NO_INSURANCE,NO_INSURANCE,91-180 days,9,13214.51,4
+NO_INSURANCE,NO_INSURANCE,Over 180 days,2,1244.27,5
+NO_INSURANCE,NO_INSURANCE,Credit balance,4,-1802.06,6
+PRIVATE,Aetna,0-30 days,60,91974.31,1
+PRIVATE,Aetna,31-60 days,34,99482.46,2
+PRIVATE,Aetna,61-90 days,28,13964.12,3
+PRIVATE,Aetna,91-180 days,6,38934.94,4
+PRIVATE,Aetna,Over 180 days,28,55842.92,5
+PRIVATE,Aetna,Credit balance,2,-862.80,6
+PRIVATE,Anthem,0-30 days,74,180408.27,1
+PRIVATE,Anthem,31-60 days,58,120342.41,2
+PRIVATE,Anthem,61-90 days,31,32233.05,3
+PRIVATE,Anthem,91-180 days,15,38408.83,4
+PRIVATE,Anthem,Over 180 days,17,13333.31,5
+PRIVATE,Anthem,Credit balance,4,-21058.42,6
+PRIVATE,Blue Cross Blue Shield,0-30 days,80,161253.78,1
+PRIVATE,Blue Cross Blue Shield,31-60 days,56,117995.50,2
+PRIVATE,Blue Cross Blue Shield,61-90 days,32,62231.65,3
+PRIVATE,Blue Cross Blue Shield,91-180 days,18,16527.43,4
+PRIVATE,Blue Cross Blue Shield,Over 180 days,23,83594.07,5
+PRIVATE,Blue Cross Blue Shield,Credit balance,6,-9734.57,6
+PRIVATE,Cigna Health,0-30 days,70,102426.94,1
+PRIVATE,Cigna Health,31-60 days,23,66907.41,2
+PRIVATE,Cigna Health,61-90 days,28,31423.45,3
+PRIVATE,Cigna Health,91-180 days,7,11051.71,4
+PRIVATE,Cigna Health,Over 180 days,9,885.65,5
+PRIVATE,Cigna Health,Credit balance,2,-115.62,6
+PRIVATE,Humana,0-30 days,158,339892.99,1
+PRIVATE,Humana,31-60 days,126,264837.49,2
+PRIVATE,Humana,61-90 days,61,87265.46,3
+PRIVATE,Humana,91-180 days,28,44332.10,4
+PRIVATE,Humana,Over 180 days,37,44656.40,5
+PRIVATE,Humana,Credit balance,2,-606.62,6
+PRIVATE,UnitedHealthcare,0-30 days,48,140755.35,1
+PRIVATE,UnitedHealthcare,31-60 days,47,125261.44,2
+PRIVATE,UnitedHealthcare,61-90 days,27,39397.99,3
+PRIVATE,UnitedHealthcare,91-180 days,12,33121.23,4
+PRIVATE,UnitedHealthcare,Over 180 days,23,35190.10,5
+PRIVATE,UnitedHealthcare,Credit balance,3,-20960.67,6

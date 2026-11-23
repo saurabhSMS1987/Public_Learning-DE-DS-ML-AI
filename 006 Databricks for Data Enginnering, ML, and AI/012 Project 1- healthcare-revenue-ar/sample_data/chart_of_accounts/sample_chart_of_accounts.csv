@@ -1,0 +1,5 @@
+account_number,account_name,account_type,fs_line
+1100,Cash - Operating,ASSET,Cash and cash equivalents
+1200,Patient Accounts Receivable,ASSET,Patient accounts receivable
+4000,Gross Patient Service Revenue,REVENUE,Patient service revenue
+6100,Bank Service Charges,EXPENSE,Other operating expenses

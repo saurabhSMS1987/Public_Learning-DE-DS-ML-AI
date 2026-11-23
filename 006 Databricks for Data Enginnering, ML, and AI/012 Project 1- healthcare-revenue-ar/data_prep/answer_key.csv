@@ -1,0 +1,164 @@
+error_id,layer,description,date,amount,reference
+S1,Subledger,Duplicate payment posted twice,2025-06-01,59.66,e41e363a-c633-1319-4882-6c9831906cf6
+S1,Subledger,Duplicate payment posted twice,2025-03-16,35.0,4a3be2e9-133f-6bda-e88d-c78cd307a6bf
+S1,Subledger,Duplicate payment posted twice,2025-07-18,0.91,2950088e-3815-5c6c-f5f5-67c9165d2dc4
+S1,Subledger,Duplicate payment posted twice,2025-09-29,459.18,c283d51c-7fe7-89cc-a7ad-793aa722a235
+S1,Subledger,Duplicate payment posted twice,2025-09-21,86.28,9258fbc5-31c3-cda7-0aeb-5cf7f189b145
+S1,Subledger,Duplicate payment posted twice,2025-12-08,103.83,75e36aa3-a7bb-13c5-3244-5a4ef1861805
+S1,Subledger,Duplicate payment posted twice,2025-02-16,4366.28,86cc115c-b885-c879-aecf-44354348a8c3
+S1,Subledger,Duplicate payment posted twice,2025-06-30,431.4,01ec1c11-fadd-6229-55b1-1399eb38e094
+S1,Subledger,Duplicate payment posted twice,2025-01-06,27.2,6ef9643a-fb4b-7de9-6e5b-0f205a387ed8
+S1,Subledger,Duplicate payment posted twice,2025-05-07,86.28,24bc9bcf-69b2-ec3c-b326-15faff545efb
+S1,Subledger,Duplicate payment posted twice,2025-05-12,431.4,c6ae9501-348a-7e6b-f247-84801d9ad7b5
+S1,Subledger,Duplicate payment posted twice,2025-07-02,9.2,7931243f-ae20-243a-1b3f-4a37d7511252
+S1,Subledger,Duplicate payment posted twice,2025-08-06,129.94,93387bdb-c9c5-3d6d-12e5-acac679e5bc7
+S1,Subledger,Duplicate payment posted twice,2025-02-20,1029.34,626d4d81-ee03-ad97-d01f-166de4c1f4b6
+S1,Subledger,Duplicate payment posted twice,2025-01-09,1364.38,fe38c04e-0e53-9a3f-f182-ab4b512b2623
+S1,Subledger,Duplicate payment posted twice,2025-04-01,17.11,f61291a5-173d-567c-f8dd-243b4ad604f3
+S1,Subledger,Duplicate payment posted twice,2025-02-26,17.11,988debaa-9ea8-8fe7-14ae-00dde8392a89
+S1,Subledger,Duplicate payment posted twice,2025-06-10,25.67,b40cd46d-c8c6-d124-0669-66307fa17904
+S1,Subledger,Duplicate payment posted twice,2025-03-20,5.44,940a45d5-bef1-87aa-6b31-407afe65c46b
+S1,Subledger,Duplicate payment posted twice,2025-09-01,23.37,0140faa6-d60b-e999-67de-7f713652338b
+S1,Subledger,Duplicate payment posted twice,2025-11-08,0.49,e3e0c080-19ca-986d-0a03-bc9aab100cd9
+S1,Subledger,Duplicate payment posted twice,2025-09-30,14.92,257f367c-dfc0-165b-973e-ad29913a35b1
+S1,Subledger,Duplicate payment posted twice,2025-02-20,78.09,d58c94a8-81cf-efdd-b376-a9cc377b2487
+S1,Subledger,Duplicate payment posted twice,2025-02-01,5.84,5956badc-07e8-f6a5-bbc5-917980620635
+S1,Subledger,Duplicate payment posted twice,2025-08-05,101.51,79618b26-a5af-0b9a-24df-cb4850d17d1f
+S1,Subledger,Duplicate payment posted twice,2025-01-03,59.66,e6f0f3fd-a4b6-3d35-1c25-1de27090ae89
+S1,Subledger,Duplicate payment posted twice,2025-05-20,68.44,94877ab3-7ed0-9738-f95b-ec23e551d14d
+S1,Subledger,Duplicate payment posted twice,2025-10-02,41.04,88b125bc-c052-4d8b-b2eb-d9ada965d8d2
+S1,Subledger,Duplicate payment posted twice,2025-12-23,611.52,f325669c-69bf-d0aa-00ba-e20b627b587e
+S1,Subledger,Duplicate payment posted twice,2025-07-18,17.11,f72ba230-fb61-8b37-4c95-1917169403ca
+S2,Subledger,Payment with no matching claim,2025-08-03,129.42,00000000-0000-0000-7fcc-393092b9fd99
+S2,Subledger,Payment with no matching claim,2025-06-10,85.55,00000000-0000-0000-52b2-152daf6cf1ad
+S2,Subledger,Payment with no matching claim,2025-12-18,431.4,00000000-0000-0000-576a-8560a1eaa333
+S2,Subledger,Payment with no matching claim,2025-03-12,216.61,00000000-0000-0000-2a78-3fb81f0002cf
+S2,Subledger,Payment with no matching claim,2025-09-18,108.8,00000000-0000-0000-2bb8-23753025d699
+S2,Subledger,Payment with no matching claim,2025-03-30,85.55,00000000-0000-0000-2986-66e1890d7221
+S2,Subledger,Payment with no matching claim,2025-03-13,50.0,00000000-0000-0000-579f-b7df8e474a35
+S2,Subledger,Payment with no matching claim,2025-11-30,431.4,00000000-0000-0000-4eb8-4f7c7d755442
+S2,Subledger,Payment with no matching claim,2025-04-07,86.28,00000000-0000-0000-4fad-2585b4c2fb67
+S2,Subledger,Payment with no matching claim,2025-04-07,136.0,00000000-0000-0000-4261-07fc8afb60bb
+S2,Subledger,Payment with no matching claim,2025-04-15,85.55,00000000-0000-0000-2c64-0acf4059fb12
+S2,Subledger,Payment with no matching claim,2025-04-03,136.8,00000000-0000-0000-04bd-ef4c181b2b0b
+S3,Subledger,Missing amount,2025-07-13,,9f5496cc-5486-ad40-b8f7-cfdf78927254
+S3,Subledger,Missing amount,2026-01-20,,ed040ca1-c834-cb9a-ed62-9dd440db228f
+S3,Subledger,Missing amount,2025-04-22,,2e25888d-6d30-fefd-d257-feee6ec182ec
+S3,Subledger,Missing amount,2025-11-10,,69825e48-ee1b-51fa-6ee4-016eaabffeb4
+S3,Subledger,Missing amount,2026-01-23,,d660f060-6065-0fdf-25b7-4b5f7a691e01
+S3,Subledger,Missing amount,2024-05-29,,f4ce23be-ebd1-67cc-2d1c-8788ee0f49ed
+S3,Subledger,Missing amount,2024-05-15,,257f367c-dfc0-165b-b58c-03de2898044e
+S3,Subledger,Missing amount,2025-06-13,,b6b52d20-bbcb-c806-74a1-89c7444a6b12
+S3,Subledger,Missing amount,2025-10-29,,3d03ed8d-a6ee-2b9d-e515-ef15be729314
+S3,Subledger,Missing amount,2025-08-01,,734e1531-2925-ed5a-4afb-934057b1f3a2
+S3,Subledger,Missing amount,2025-06-01,,05c2e089-a8b0-b28d-64cc-4c371aa1fe5a
+S3,Subledger,Missing amount,2025-11-23,,110a51e4-0c8b-427b-eb9d-15036bde0093
+S3,Subledger,Missing amount,2024-10-17,,d81d422d-02cf-e963-36e0-6b107913a320
+S3,Subledger,Missing amount,2024-12-27,,257f367c-dfc0-165b-b0f3-ebc2fc0d4921
+S3,Subledger,Missing amount,2025-02-12,,d81d422d-02cf-e963-a625-1441d8f30874
+S3,Subledger,Missing amount,2025-09-16,,9f5496cc-5486-ad40-15ff-5db67d6ea277
+S3,Subledger,Missing amount,2024-08-19,,e01874c3-158a-f61d-bfa2-b43c3e88588d
+S3,Subledger,Missing amount,2024-08-14,,3d03ed8d-a6ee-2b9d-d65b-6b48174dc281
+S3,Subledger,Missing amount,2024-03-21,,1d12e20a-8df8-a707-5b62-6157fe1a4c45
+S3,Subledger,Missing amount,2024-12-20,,8f38d367-d3c0-f048-f4fe-d9be596597fc
+S3,Subledger,Missing amount,2025-05-21,,b3eebcbc-0027-c640-c2b3-88f90736b6f3
+S3,Subledger,Missing amount,2024-08-18,,65486f21-b670-ae4f-cb61-aac6ce5001bc
+S3,Subledger,Missing amount,2025-10-02,,2c8e3059-f7ae-f6f2-2e2c-c89826bda5a4
+S3,Subledger,Missing amount,2024-04-30,,81d81f08-33d3-431a-9070-0bf0b269547a
+S3,Subledger,Missing amount,2024-12-24,,08e6a63d-3759-3ae0-4419-cfefe002ddfa
+S3,Subledger,Missing amount,2024-05-15,,a2b59cbe-8bff-4163-ab8d-2e7acdb0262a
+S3,Subledger,Missing amount,2024-09-04,,4a6c319b-d62b-5071-4288-c90611f10461
+S3,Subledger,Missing amount,2025-06-07,,cf7cb6c1-dd2c-08e5-7a0f-3ac1580eb780
+S3,Subledger,Missing amount,2025-07-14,,eae89af2-6280-5950-740e-3e3b5ccdf135
+S3,Subledger,Missing amount,2025-03-14,,70513758-1084-e762-6b95-782df4d17d97
+S3,Subledger,Missing amount,2024-07-06,,5f67a063-7f57-4650-9d9c-31b141de3fd2
+S3,Subledger,Missing amount,2025-04-23,,8e2f6899-90ac-251b-7db9-aa5632e68716
+S3,Subledger,Missing amount,2025-07-27,,0012568f-d479-4254-af1e-91f484eb36d5
+S3,Subledger,Missing amount,2025-03-07,,9d42402e-3d11-82ca-1429-064c311d5179
+S3,Subledger,Missing amount,2025-04-23,,a9cb324b-0012-1a0d-93b8-af4c4a8bee89
+S3,Subledger,Missing amount,2025-01-10,,6ef9643a-fb4b-7de9-9190-47939750ffae
+S3,Subledger,Missing amount,2025-04-07,,2bde1281-bd07-a77e-3eac-996aba474d4e
+S3,Subledger,Missing amount,2025-04-28,,adf19601-219c-4744-180c-eee5efe29b87
+S3,Subledger,Missing amount,2024-12-23,,b355c417-c209-69a2-7b87-1017c522d11a
+S3,Subledger,Missing amount,2025-06-15,,310cc341-fee2-8db6-e2fc-9e2355d42409
+S3,Subledger,Negative charge amount,2025-07-05,-136.8,bb31b262-1ee7-07ea-6a72-c63fac00677e
+S3,Subledger,Negative charge amount,2025-01-15,-431.4,b3eebcbc-0027-c640-888c-1ac8dbc69484
+S3,Subledger,Negative charge amount,2024-05-19,-142.58,258aa22b-69a1-ff00-1a5e-a8fdd30f7bfd
+S3,Subledger,Negative charge amount,2024-02-20,-431.4,902dfd51-e4d7-2857-b893-8702b93767c7
+S3,Subledger,Negative charge amount,2024-06-01,-85.55,a80b3d0c-7819-1f9c-bfdb-76fa526396c0
+S3,Subledger,Negative charge amount,2024-10-20,-20484.38,1e86b3cf-f320-481e-5218-53541cf93f31
+S3,Subledger,Negative charge amount,2025-01-05,-431.4,211e283a-cc91-113e-ae33-bb589f774bbf
+S3,Subledger,Negative charge amount,2024-09-25,-129.94,d81d422d-02cf-e963-6ec5-6e09ddf1815d
+S3,Subledger,Negative charge amount,2025-01-26,-922.35,2ca07f9c-ad11-4f86-3331-2ccb6ebc84c7
+S3,Subledger,Negative charge amount,2024-08-28,-9046.75,8802eacd-67b8-3986-ca6b-ba4227f26e03
+S3,Subledger,Negative charge amount,2025-09-18,-136.0,bf791dff-15f4-9655-2fe1-2c6935c5b660
+S3,Subledger,Negative charge amount,2025-01-19,-431.4,3b9ff463-8461-0036-27aa-8b126124bbfd
+S3,Subledger,Negative charge amount,2024-12-05,-20484.38,572eabb3-61ae-faca-2773-7eb2610b1125
+S3,Subledger,Negative charge amount,2024-02-18,-431.4,553ef7a4-7c2e-2a1f-6ca8-4a45991993e0
+S3,Subledger,Negative charge amount,2024-10-14,-0.45,fdf9a599-c147-f924-d180-f52aa1257665
+S3,Subledger,Invalid posting date,2024-09-04,345.12,14bb74ec-84de-4a49-64e6-ff6d2bb17ba5
+S3,Subledger,Invalid posting date,2025-01-21,74.58,79618b26-a5af-0b9a-963e-f4af79acae90
+S3,Subledger,Invalid posting date,2024-04-10,801.79,2bde1281-bd07-a77e-39e1-0386a44490d5
+S3,Subledger,Invalid posting date,2025-04-11,431.4,f14b77c9-8766-bced-1421-8708a6307534
+S3,Subledger,Invalid posting date,2024-05-29,431.4,b58b4e25-007b-e5de-0c03-6e1e2de76e44
+S3,Subledger,Invalid posting date,2024-02-28,6.8,b18f383c-3347-02c0-8b98-b5b650d2c003
+S3,Subledger,Invalid posting date,2026-01-03,431.4,bf352006-bf7c-1166-dc80-dc4d109c953e
+S3,Subledger,Invalid posting date,2025-03-07,431.4,6a7d0b2a-14d9-e344-53c2-5de6d162a67b
+S3,Subledger,Invalid posting date,2024-10-29,431.4,e04aadc4-a059-a09c-d642-7cb920f1b4c8
+S3,Subledger,Invalid posting date,2024-03-22,85.55,6e304b0c-ec9b-febf-e61d-e07c38e09308
+S4,Subledger,Exact duplicate row from extract re-run,2025-01-23,86.28,20e0eacc-bba3-9c4f-9c37-63f4ea02dcba
+S4,Subledger,Exact duplicate row from extract re-run,2024-05-28,17.11,81d81f08-33d3-431a-4898-cee8d427a2e0
+S4,Subledger,Exact duplicate row from extract re-run,2024-08-26,136.0,15f1ae4a-66ae-3a15-40b8-f537ebdaaab5
+S4,Subledger,Exact duplicate row from extract re-run,2024-09-30,103.95,79618b26-a5af-0b9a-a1f0-c6b318b1ccb3
+S4,Subledger,Exact duplicate row from extract re-run,2024-11-15,142.58,2d63b11a-ce46-56af-841e-5026dbe2fabc
+S4,Subledger,Exact duplicate row from extract re-run,2024-05-09,68.44,57d2109a-e26e-434a-50e7-058e8f96e459
+S4,Subledger,Exact duplicate row from extract re-run,2026-01-15,431.4,b6a5c384-c9a8-9032-fbdc-5f7818117951
+S4,Subledger,Exact duplicate row from extract re-run,2025-02-21,74.58,0e5ed539-aec8-2a04-8fb8-01d44e085f51
+S4,Subledger,Exact duplicate row from extract re-run,2024-02-15,431.4,446a08b1-f3d5-d3ba-a5bb-4ec7d07e3685
+S4,Subledger,Exact duplicate row from extract re-run,2024-07-05,9675.57,72108082-928f-9a7a-b5f0-814e9d7edc4a
+S4,Subledger,Exact duplicate row from extract re-run,2024-10-06,86.28,79618b26-a5af-0b9a-363d-b62c50d7ef8e
+S4,Subledger,Exact duplicate row from extract re-run,2025-10-23,86.28,93387bdb-c9c5-3d6d-4d18-72b102b4ca7c
+S4,Subledger,Exact duplicate row from extract re-run,2025-11-15,68.44,57d2109a-e26e-434a-e93f-22e64dc8b33e
+S4,Subledger,Exact duplicate row from extract re-run,2024-05-10,28.52,a69de3f5-7c92-f070-93f5-c9b7da9438dc
+S4,Subledger,Exact duplicate row from extract re-run,2024-01-18,129.94,74085b01-3b39-29cc-56e3-613f549cd105
+S4,Subledger,Exact duplicate row from extract re-run,2025-12-18,114.06,ed040ca1-c834-cb9a-eb07-5a58d8c56ada
+S4,Subledger,Exact duplicate row from extract re-run,2024-08-19,1.37,ed040ca1-c834-cb9a-395e-d711d745a36d
+S4,Subledger,Exact duplicate row from extract re-run,2024-12-26,183.45,1888d0b9-1eee-294a-9bc5-c0406366f72a
+S4,Subledger,Exact duplicate row from extract re-run,2024-04-06,86.28,257f367c-dfc0-165b-e5f4-6484adf7f066
+S4,Subledger,Exact duplicate row from extract re-run,2025-06-19,85.55,57d2109a-e26e-434a-aa9b-dfd78aebaf0c
+S4,Subledger,Exact duplicate row from extract re-run,2025-10-27,345.12,389cb62a-3a45-1889-aecf-bf49d5bda2a8
+S4,Subledger,Exact duplicate row from extract re-run,2024-01-04,74.58,8ddba2f3-41cf-b73e-9741-dcb3d946d6ad
+S4,Subledger,Exact duplicate row from extract re-run,2025-03-12,345.12,3ca0a0c9-0b9a-036c-16b8-05ccfdb63309
+S4,Subledger,Exact duplicate row from extract re-run,2024-02-03,35.0,aee4d2be-b14a-b8e4-5266-925ab433bbbf
+S4,Subledger,Exact duplicate row from extract re-run,2025-12-10,431.4,c262e8ad-0d8c-abfb-a2d9-2e1e52bbbfac
+S4,Subledger,Exact duplicate row from extract re-run,2025-06-28,862.8,ea6f29fa-97c2-0b88-c84f-9b92f45cab76
+S4,Subledger,Exact duplicate row from extract re-run,2024-05-06,17.11,5956badc-07e8-f6a5-6d42-fe5f3c04a236
+S4,Subledger,Exact duplicate row from extract re-run,2024-03-03,714.4,d1443841-77bf-fe2f-ce51-89188380df81
+S4,Subledger,Exact duplicate row from extract re-run,2024-06-02,0.3,34251140-7f97-2a1e-1b6c-df2d4085defc
+S4,Subledger,Exact duplicate row from extract re-run,2025-08-01,68.44,fe38c04e-0e53-9a3f-a5e5-afb81e256ed4
+S4,Subledger,Exact duplicate row from extract re-run,2025-02-23,431.4,ddd5830d-e034-b8f8-0a2f-3472f9da61be
+S4,Subledger,Exact duplicate row from extract re-run,2025-05-06,68.44,e3e0c080-19ca-986d-41d7-3caad38a14fa
+S4,Subledger,Exact duplicate row from extract re-run,2025-01-09,431.4,d1499559-d246-0fa2-d7ff-86d00fda3a84
+S4,Subledger,Exact duplicate row from extract re-run,2025-03-20,431.4,28f73807-8c78-81f9-6b58-c0feba2c329a
+S4,Subledger,Exact duplicate row from extract re-run,2024-06-11,431.4,85a04221-4df7-62ad-da13-971a226b15b3
+S4,Subledger,Exact duplicate row from extract re-run,2025-06-04,431.4,948a40bb-64a3-37b0-9c40-be4011b24d72
+S4,Subledger,Exact duplicate row from extract re-run,2025-01-17,59.66,cbfcd2c2-3772-2598-7fae-31c6616161ca
+S4,Subledger,Exact duplicate row from extract re-run,2026-01-15,86.28,27f24241-f061-71c7-f52e-504932cbae7e
+S4,Subledger,Exact duplicate row from extract re-run,2025-02-13,29.21,57d2109a-e26e-434a-6d98-79007acc777c
+S4,Subledger,Exact duplicate row from extract re-run,2025-02-19,136.0,a788fa66-31c6-778a-69eb-3003edb33ee0
+S4,Subledger,Exact duplicate row from extract re-run,2025-08-03,85.55,0d82800a-c297-83d1-5462-9952a13927ac
+S4,Subledger,Exact duplicate row from extract re-run,2024-06-19,862.8,ac25e4ed-6d82-6cc9-f940-ac4e0c536ad4
+S4,Subledger,Exact duplicate row from extract re-run,2024-07-13,0.11,0012568f-d479-4254-10bb-289486a71add
+S4,Subledger,Exact duplicate row from extract re-run,2025-11-04,68.44,57d2109a-e26e-434a-b95b-9bdedf049aed
+S4,Subledger,Exact duplicate row from extract re-run,2024-04-08,129.94,3d03ed8d-a6ee-2b9d-352b-81ce2da26c20
+S4,Subledger,Exact duplicate row from extract re-run,2024-06-17,74.58,ed040ca1-c834-cb9a-11a2-eb8311a58b10
+S4,Subledger,Exact duplicate row from extract re-run,2024-09-19,109.44,4cc2a3f0-45a0-f1db-9949-af87e09b8080
+S4,Subledger,Exact duplicate row from extract re-run,2024-03-26,74.58,83df7ef5-36b4-4351-cd92-cdd6596564a7
+S4,Subledger,Exact duplicate row from extract re-run,2025-09-17,0.91,e3e0c080-19ca-986d-0db9-04591f368d99
+S4,Subledger,Exact duplicate row from extract re-run,2025-04-26,0.72,40b7bcfc-6567-63ff-2ec6-55f05ab12fe2
+E1,GL,Payment batch posted twice,2025-06-16,66963.18,PAY-2025-06-16
+E2,GL,Charge batch missing from GL,2025-09-03,61242.96,CHG-2025-09-03
+E3,GL,FY2025 charges posted in FY2026 (cut-off),2025-12-29,72115.32,CHG-2025-12-29
+E3,GL,FY2025 charges posted in FY2026 (cut-off),2025-12-30,61504.36,CHG-2025-12-30
+E3,GL,FY2025 charges posted in FY2026 (cut-off),2025-12-31,70811.82,CHG-2025-12-31
+E4,GL,"Unsupported manual revenue entry (weekend, round amount)",2025-12-27,250000.0,jdoe_finance

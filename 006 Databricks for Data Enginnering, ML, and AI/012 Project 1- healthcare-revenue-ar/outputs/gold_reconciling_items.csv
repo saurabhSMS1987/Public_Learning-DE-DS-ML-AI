@@ -1,0 +1,7 @@
+item_type,batch_reference,batch_date,gl_periods,je_id,created_by,revenue_impact,ar_impact
+Batch posted more than once,PAY-2025-06-16,2025-06-16,2025-06,,,0.00,-66963.18
+Batch missing from GL,CHG-2025-09-03,2025-09-03,,,,-61242.96,-61242.96
+Manual journal entry,,2025-12-27,2025-12,JE001543,jdoe_finance,250000.00,250000.00
+Posted after year end (cut-off),CHG-2025-12-29,2025-12-29,2026-01,,,-72115.32,-72115.32
+Posted after year end (cut-off),CHG-2025-12-30,2025-12-30,2026-01,,,-61504.36,-61504.36
+Posted after year end (cut-off),CHG-2025-12-31,2025-12-31,2026-01,,,-70811.82,-70811.82

@@ -1,0 +1,7 @@
+metric,row_count,amount
+1. Rows loaded into Bronze,222128,
+2. Exact duplicate rows removed,50,
+3. Quarantined: Invalid posting date,10,3470.84
+3. Quarantined: Missing amount,40,
+3. Quarantined: Zero or negative amount,15,-53726.18
+4. Clean rows in Silver,222013,99965099.24

@@ -1,0 +1,110 @@
+exception_type,claim_id,transaction_id,posting_date,payer_name,amount,likely_cause
+Claim paid more than billed (credit balance),902dfd51-e4d7-2857-b893-8702b93767c7,,2024-05-05,Dual Eligible,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),553ef7a4-7c2e-2a1f-6ca8-4a45991993e0,,2024-05-15,Medicare,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),b18f383c-3347-02c0-8b98-b5b650d2c003,,2024-06-04,Humana,6.80,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),1d12e20a-8df8-a707-5b62-6157fe1a4c45,,2024-06-12,Blue Cross Blue Shield,136.00,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),2bde1281-bd07-a77e-39e1-0386a44490d5,,2024-06-24,Medicare,801.79,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),a80b3d0c-7819-1f9c-bfdb-76fa526396c0,,2024-07-05,Blue Cross Blue Shield,85.55,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),258aa22b-69a1-ff00-1a5e-a8fdd30f7bfd,,2024-07-25,Medicare,142.58,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),a2b59cbe-8bff-4163-ab8d-2e7acdb0262a,,2024-08-26,NO_INSURANCE,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),b58b4e25-007b-e5de-0c03-6e1e2de76e44,,2024-09-04,Aetna,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),e01874c3-158a-f61d-bfa2-b43c3e88588d,,2024-09-16,Medicare,1.37,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),fdf9a599-c147-f924-d180-f52aa1257665,,2024-10-14,Dual Eligible,0.45,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),65486f21-b670-ae4f-cb61-aac6ce5001bc,,2024-10-20,Medicaid,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),8802eacd-67b8-3986-ca6b-ba4227f26e03,,2024-11-17,Blue Cross Blue Shield,9046.75,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),d81d422d-02cf-e963-6ec5-6e09ddf1815d,,2024-12-04,Medicare,129.94,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),e04aadc4-a059-a09c-d642-7cb920f1b4c8,,2025-01-05,Medicaid,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),fe38c04e-0e53-9a3f-f182-ab4b512b2623,,2025-01-09,Medicare,1364.38,Duplicate payment on this claim
+Claim paid more than billed (credit balance),6ef9643a-fb4b-7de9-6e5b-0f205a387ed8,,2025-01-22,Medicare,27.20,Duplicate payment on this claim
+Claim paid more than billed (credit balance),1e86b3cf-f320-481e-5218-53541cf93f31,,2025-01-23,Anthem,20484.38,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),5956badc-07e8-f6a5-bbc5-917980620635,,2025-02-01,Anthem,5.84,Duplicate payment on this claim
+Claim paid more than billed (credit balance),e6f0f3fd-a4b6-3d35-1c25-1de27090ae89,,2025-02-02,Medicare,59.66,Duplicate payment on this claim
+Claim paid more than billed (credit balance),08e6a63d-3759-3ae0-4419-cfefe002ddfa,,2025-02-09,NO_INSURANCE,507.86,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),626d4d81-ee03-ad97-d01f-166de4c1f4b6,,2025-03-01,Medicare,1029.34,Duplicate payment on this claim
+Claim paid more than billed (credit balance),572eabb3-61ae-faca-2773-7eb2610b1125,,2025-03-05,UnitedHealthcare,20484.38,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),988debaa-9ea8-8fe7-14ae-00dde8392a89,,2025-03-20,Medicare,17.11,Duplicate payment on this claim
+Claim paid more than billed (credit balance),257f367c-dfc0-165b-b0f3-ebc2fc0d4921,,2025-03-23,Medicare,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),86cc115c-b885-c879-aecf-44354348a8c3,,2025-03-25,Medicare,4366.28,Duplicate payment on this claim
+Claim paid more than billed (credit balance),940a45d5-bef1-87aa-6b31-407afe65c46b,,2025-03-28,Medicare,5.44,Duplicate payment on this claim
+Claim paid more than billed (credit balance),b3eebcbc-0027-c640-888c-1ac8dbc69484,,2025-03-31,Medicare,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),d58c94a8-81cf-efdd-b376-a9cc377b2487,,2025-04-02,Medicare,78.09,Duplicate payment on this claim
+Claim paid more than billed (credit balance),79618b26-a5af-0b9a-963e-f4af79acae90,,2025-04-08,Medicare,74.58,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),3b9ff463-8461-0036-27aa-8b126124bbfd,,2025-04-08,Anthem,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),f61291a5-173d-567c-f8dd-243b4ad604f3,,2025-04-11,Medicare,17.11,Duplicate payment on this claim
+Claim paid more than billed (credit balance),2ca07f9c-ad11-4f86-3331-2ccb6ebc84c7,,2025-04-18,Medicare,922.35,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),c6ae9501-348a-7e6b-f247-84801d9ad7b5,,2025-05-12,NO_INSURANCE,431.40,Duplicate payment on this claim
+Claim paid more than billed (credit balance),211e283a-cc91-113e-ae33-bb589f774bbf,,2025-05-16,NO_INSURANCE,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),4a3be2e9-133f-6bda-e88d-c78cd307a6bf,,2025-05-21,Dual Eligible,35.00,Duplicate payment on this claim
+Claim paid more than billed (credit balance),6a7d0b2a-14d9-e344-53c2-5de6d162a67b,,2025-06-05,Blue Cross Blue Shield,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),24bc9bcf-69b2-ec3c-b326-15faff545efb,,2025-06-08,Medicare,86.28,Duplicate payment on this claim
+Claim paid more than billed (credit balance),70513758-1084-e762-6b95-782df4d17d97,,2025-06-12,Cigna Health,74.58,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),94877ab3-7ed0-9738-f95b-ec23e551d14d,,2025-06-27,Medicare,68.44,Duplicate payment on this claim
+Claim paid more than billed (credit balance),2bde1281-bd07-a77e-3eac-996aba474d4e,,2025-07-01,Medicare,85.55,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),7931243f-ae20-243a-1b3f-4a37d7511252,,2025-07-03,Blue Cross Blue Shield,9.20,Duplicate payment on this claim
+Claim paid more than billed (credit balance),e41e363a-c633-1319-4882-6c9831906cf6,,2025-07-04,Medicare,59.66,Duplicate payment on this claim
+Claim paid more than billed (credit balance),b40cd46d-c8c6-d124-0669-66307fa17904,,2025-07-11,Blue Cross Blue Shield,25.67,Duplicate payment on this claim
+Claim paid more than billed (credit balance),01ec1c11-fadd-6229-55b1-1399eb38e094,,2025-07-15,Medicaid,431.40,Duplicate payment on this claim
+Claim paid more than billed (credit balance),f14b77c9-8766-bced-1421-8708a6307534,,2025-07-16,Aetna,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),2950088e-3815-5c6c-f5f5-67c9165d2dc4,,2025-07-18,Medicaid,0.91,Duplicate payment on this claim
+Claim paid more than billed (credit balance),b3eebcbc-0027-c640-c2b3-88f90736b6f3,,2025-08-02,Medicare,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),adf19601-219c-4744-180c-eee5efe29b87,,2025-08-04,Anthem,136.80,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),f72ba230-fb61-8b37-4c95-1917169403ca,,2025-08-06,UnitedHealthcare,17.11,Duplicate payment on this claim
+Claim paid more than billed (credit balance),93387bdb-c9c5-3d6d-12e5-acac679e5bc7,,2025-08-06,Medicare,129.94,Duplicate payment on this claim
+Claim paid more than billed (credit balance),79618b26-a5af-0b9a-24df-cb4850d17d1f,,2025-08-06,Medicare,101.51,Duplicate payment on this claim
+Claim paid more than billed (credit balance),bb31b262-1ee7-07ea-6a72-c63fac00677e,,2025-08-19,Medicaid,136.80,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),310cc341-fee2-8db6-e2fc-9e2355d42409,,2025-09-04,Medicare,74.58,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),0012568f-d479-4254-af1e-91f484eb36d5,,2025-09-14,Humana,599.82,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),0140faa6-d60b-e999-67de-7f713652338b,,2025-09-25,Medicare,23.37,Duplicate payment on this claim
+Claim paid more than billed (credit balance),9f5496cc-5486-ad40-b8f7-cfdf78927254,,2025-10-01,Medicare,74.58,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),734e1531-2925-ed5a-4afb-934057b1f3a2,,2025-10-12,Medicaid,431.40,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),257f367c-dfc0-165b-973e-ad29913a35b1,,2025-10-15,Medicare,14.92,Duplicate payment on this claim
+Claim paid more than billed (credit balance),c283d51c-7fe7-89cc-a7ad-793aa722a235,,2025-10-28,UnitedHealthcare,459.18,Duplicate payment on this claim
+Claim paid more than billed (credit balance),9258fbc5-31c3-cda7-0aeb-5cf7f189b145,,2025-11-04,Medicare,86.28,Duplicate payment on this claim
+Claim paid more than billed (credit balance),88b125bc-c052-4d8b-b2eb-d9ada965d8d2,,2025-11-09,Cigna Health,41.04,Duplicate payment on this claim
+Claim paid more than billed (credit balance),e3e0c080-19ca-986d-0a03-bc9aab100cd9,,2025-11-19,Medicare,0.49,Duplicate payment on this claim
+Claim paid more than billed (credit balance),75e36aa3-a7bb-13c5-3244-5a4ef1861805,,2025-12-18,Medicare,103.83,Duplicate payment on this claim
+Claim paid more than billed (credit balance),3d03ed8d-a6ee-2b9d-e515-ef15be729314,,2026-01-03,Medicare,1449.65,A charge on this claim failed data quality checks (quarantined)
+Claim paid more than billed (credit balance),f325669c-69bf-d0aa-00ba-e20b627b587e,,2026-01-17,Medicare,611.52,Duplicate payment on this claim
+Claim paid more than billed (credit balance),a9cb324b-0012-1a0d-93b8-af4c4a8bee89,,2026-01-28,Blue Cross Blue Shield,9.44,A charge on this claim failed data quality checks (quarantined)
+Duplicate payment,e6f0f3fd-a4b6-3d35-1c25-1de27090ae89,7a2cb16e-3398-331d-5bdf-606a1386163f,2025-01-03,Medicare,59.66,Same charge line paid twice under different transaction ids
+Duplicate payment,6ef9643a-fb4b-7de9-6e5b-0f205a387ed8,8b36f4f4-223f-f170-4b69-56229ec8265b,2025-01-06,Medicare,27.20,Same charge line paid twice under different transaction ids
+Duplicate payment,fe38c04e-0e53-9a3f-f182-ab4b512b2623,85fdc3a1-b3a3-1d1d-d412-e1e3c3bf9131,2025-01-09,Medicare,1364.38,Same charge line paid twice under different transaction ids
+Duplicate payment,5956badc-07e8-f6a5-bbc5-917980620635,bcea270c-154e-05ef-786a-fa60b8a9bcc9,2025-02-01,Anthem,5.84,Same charge line paid twice under different transaction ids
+Duplicate payment,86cc115c-b885-c879-aecf-44354348a8c3,b30f6945-e8f2-022f-1aef-d835a870c722,2025-02-16,Medicare,4366.28,Same charge line paid twice under different transaction ids
+Duplicate payment,626d4d81-ee03-ad97-d01f-166de4c1f4b6,af4c6ae0-f50a-c0ea-fe15-c4ea0c016a12,2025-02-20,Medicare,1029.34,Same charge line paid twice under different transaction ids
+Duplicate payment,d58c94a8-81cf-efdd-b376-a9cc377b2487,8bdb1e7a-b90c-9998-9304-7b2d0df3736f,2025-02-20,Medicare,78.09,Same charge line paid twice under different transaction ids
+Duplicate payment,988debaa-9ea8-8fe7-14ae-00dde8392a89,0ade23b1-0503-77b7-6fd7-0beddedffd31,2025-02-26,Medicare,17.11,Same charge line paid twice under different transaction ids
+Duplicate payment,4a3be2e9-133f-6bda-e88d-c78cd307a6bf,0dff6131-77b7-a25e-d21e-0dbc1b0caf13,2025-03-16,Dual Eligible,35.00,Same charge line paid twice under different transaction ids
+Duplicate payment,940a45d5-bef1-87aa-6b31-407afe65c46b,4d0d1243-1c2e-aaeb-0c68-ce292fd9eea2,2025-03-20,Medicare,5.44,Same charge line paid twice under different transaction ids
+Duplicate payment,f61291a5-173d-567c-f8dd-243b4ad604f3,6b3e024d-7744-0751-355b-4c3e7c3abf49,2025-04-01,Medicare,17.11,Same charge line paid twice under different transaction ids
+Duplicate payment,24bc9bcf-69b2-ec3c-b326-15faff545efb,f45988a3-16c5-0fdd-24fd-f319e79e816b,2025-05-07,Medicare,86.28,Same charge line paid twice under different transaction ids
+Duplicate payment,c6ae9501-348a-7e6b-f247-84801d9ad7b5,9d108a45-5f8b-ff50-ba17-d6817c34b59a,2025-05-12,NO_INSURANCE,431.40,Same charge line paid twice under different transaction ids
+Duplicate payment,94877ab3-7ed0-9738-f95b-ec23e551d14d,30c4ed30-3706-089a-4e73-181f0df7165f,2025-05-20,Medicare,68.44,Same charge line paid twice under different transaction ids
+Duplicate payment,e41e363a-c633-1319-4882-6c9831906cf6,716b2349-701d-984c-7f5c-08f72cd58895,2025-06-01,Medicare,59.66,Same charge line paid twice under different transaction ids
+Duplicate payment,b40cd46d-c8c6-d124-0669-66307fa17904,5f5a8bca-9dee-05b2-9560-da16911b2dea,2025-06-10,Blue Cross Blue Shield,25.67,Same charge line paid twice under different transaction ids
+Duplicate payment,01ec1c11-fadd-6229-55b1-1399eb38e094,2bd5db1d-670b-fa13-0ef5-9d9a179f89bb,2025-06-30,Medicaid,431.40,Same charge line paid twice under different transaction ids
+Duplicate payment,7931243f-ae20-243a-1b3f-4a37d7511252,1c5b7cf3-c400-e5a2-f806-5f22d233f67b,2025-07-02,Blue Cross Blue Shield,9.20,Same charge line paid twice under different transaction ids
+Duplicate payment,2950088e-3815-5c6c-f5f5-67c9165d2dc4,39000156-c108-ed60-bdf1-69d68e74455c,2025-07-18,Medicaid,0.91,Same charge line paid twice under different transaction ids
+Duplicate payment,f72ba230-fb61-8b37-4c95-1917169403ca,5d2f6d89-4aca-753d-5f64-8562c43a6385,2025-07-18,UnitedHealthcare,17.11,Same charge line paid twice under different transaction ids
+Duplicate payment,79618b26-a5af-0b9a-24df-cb4850d17d1f,fb413ec7-dd62-0b88-aec9-1c00ae6e407c,2025-08-05,Medicare,101.51,Same charge line paid twice under different transaction ids
+Duplicate payment,93387bdb-c9c5-3d6d-12e5-acac679e5bc7,dbdda1b1-d9ee-123f-2aa1-0e795faa275a,2025-08-06,Medicare,129.94,Same charge line paid twice under different transaction ids
+Duplicate payment,0140faa6-d60b-e999-67de-7f713652338b,8acb61e1-c972-c8b7-50de-19ecc16dc4d3,2025-09-01,Medicare,23.37,Same charge line paid twice under different transaction ids
+Duplicate payment,9258fbc5-31c3-cda7-0aeb-5cf7f189b145,a9a0ad43-d583-2c3a-19fd-e3ce3ea37315,2025-09-21,Medicare,86.28,Same charge line paid twice under different transaction ids
+Duplicate payment,c283d51c-7fe7-89cc-a7ad-793aa722a235,3d0bc019-f622-ddca-9ef7-a17dd7d67296,2025-09-29,UnitedHealthcare,459.18,Same charge line paid twice under different transaction ids
+Duplicate payment,257f367c-dfc0-165b-973e-ad29913a35b1,b8aa658e-2d14-8ca0-1e38-2729585379e1,2025-09-30,Medicare,14.92,Same charge line paid twice under different transaction ids
+Duplicate payment,88b125bc-c052-4d8b-b2eb-d9ada965d8d2,6a85e975-41a9-6172-6646-e40ffd50cf60,2025-10-02,Cigna Health,41.04,Same charge line paid twice under different transaction ids
+Duplicate payment,e3e0c080-19ca-986d-0a03-bc9aab100cd9,95610b10-f032-1bbc-05de-0f770db8e1f1,2025-11-08,Medicare,0.49,Same charge line paid twice under different transaction ids
+Duplicate payment,75e36aa3-a7bb-13c5-3244-5a4ef1861805,7951158a-0f10-ca85-036d-ac8051b83f10,2025-12-08,Medicare,103.83,Same charge line paid twice under different transaction ids
+Duplicate payment,f325669c-69bf-d0aa-00ba-e20b627b587e,d74ed734-0bdd-ae1f-ac26-c79f2b6d0e86,2025-12-23,Medicare,611.52,Same charge line paid twice under different transaction ids
+Payment with no matching claim,00000000-0000-0000-2a78-3fb81f0002cf,00000000-0000-0000-5778-a2f0088b78b5,2025-03-12,,216.61,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-579f-b7df8e474a35,00000000-0000-0000-7ac6-e3c3f55b3522,2025-03-13,,50.00,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-2986-66e1890d7221,00000000-0000-0000-3c89-487a2f756daa,2025-03-30,,85.55,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-04bd-ef4c181b2b0b,00000000-0000-0000-4692-265aaaf24840,2025-04-03,,136.80,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-4261-07fc8afb60bb,00000000-0000-0000-1119-22d5fd89f53e,2025-04-07,,136.00,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-4fad-2585b4c2fb67,00000000-0000-0000-3468-bc8e38b0396e,2025-04-07,,86.28,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-2c64-0acf4059fb12,00000000-0000-0000-68b7-1d2951a84c40,2025-04-15,,85.55,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-52b2-152daf6cf1ad,00000000-0000-0000-2bf8-60374af52ae1,2025-06-10,,85.55,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-7fcc-393092b9fd99,00000000-0000-0000-3773-f0404305d28d,2025-08-03,,129.42,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-2bb8-23753025d699,00000000-0000-0000-6c1d-2b2fd9fae5fc,2025-09-18,,108.80,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-4eb8-4f7c7d755442,00000000-0000-0000-5aa7-e00926727460,2025-11-30,,431.40,Claim id not found in claims master: unapplied cash
+Payment with no matching claim,00000000-0000-0000-576a-8560a1eaa333,00000000-0000-0000-3ce2-23dcdb55d0e1,2025-12-18,,431.40,Claim id not found in claims master: unapplied cash

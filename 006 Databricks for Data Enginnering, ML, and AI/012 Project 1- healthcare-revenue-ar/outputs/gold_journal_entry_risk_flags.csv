@@ -1,0 +1,27 @@
+je_id,posting_date,fiscal_period,created_by,created_at,description,je_amount,accounts,flag_weekend,flag_round_amount,flag_near_year_end,flag_after_hours,flag_hits_revenue_or_ar,risk_score,risk_level
+JE001543,2025-12-27,2025-12,jdoe_finance,2025-12-27 21:47:00,Revenue true-up per CFO,250000.00,"Gross Patient Service Revenue, Patient Accounts Receivable",True,True,True,True,True,5,HIGH
+JE001541,2025-12-31,2025-12,mlee_treasury,2025-12-31 15:05:00,Monthly bank service charges,1345.80,"Bank Service Charges, Cash - Operating",False,False,True,False,False,1,LOW
+JE001518,2024-01-31,2024-01,mlee_treasury,2024-01-31 15:05:00,Monthly bank service charges,937.15,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001519,2024-02-29,2024-02,mlee_treasury,2024-02-29 15:05:00,Monthly bank service charges,974.30,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001520,2024-03-29,2024-03,mlee_treasury,2024-03-29 15:05:00,Monthly bank service charges,1011.45,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001521,2024-04-30,2024-04,mlee_treasury,2024-04-30 15:05:00,Monthly bank service charges,1048.60,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001522,2024-05-31,2024-05,mlee_treasury,2024-05-31 15:05:00,Monthly bank service charges,1085.75,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001523,2024-06-28,2024-06,mlee_treasury,2024-06-28 15:05:00,Monthly bank service charges,1122.90,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001524,2024-07-31,2024-07,mlee_treasury,2024-07-31 15:05:00,Monthly bank service charges,1160.05,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001525,2024-08-30,2024-08,mlee_treasury,2024-08-30 15:05:00,Monthly bank service charges,1197.20,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001526,2024-09-30,2024-09,mlee_treasury,2024-09-30 15:05:00,Monthly bank service charges,1234.35,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001527,2024-10-31,2024-10,mlee_treasury,2024-10-31 15:05:00,Monthly bank service charges,1271.50,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001528,2024-11-29,2024-11,mlee_treasury,2024-11-29 15:05:00,Monthly bank service charges,1308.65,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001529,2024-12-31,2024-12,mlee_treasury,2024-12-31 15:05:00,Monthly bank service charges,1345.80,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001530,2025-01-31,2025-01,mlee_treasury,2025-01-31 15:05:00,Monthly bank service charges,937.15,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001531,2025-02-28,2025-02,mlee_treasury,2025-02-28 15:05:00,Monthly bank service charges,974.30,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001532,2025-03-31,2025-03,mlee_treasury,2025-03-31 15:05:00,Monthly bank service charges,1011.45,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001533,2025-04-30,2025-04,mlee_treasury,2025-04-30 15:05:00,Monthly bank service charges,1048.60,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001534,2025-05-30,2025-05,mlee_treasury,2025-05-30 15:05:00,Monthly bank service charges,1085.75,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001535,2025-06-30,2025-06,mlee_treasury,2025-06-30 15:05:00,Monthly bank service charges,1122.90,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001536,2025-07-31,2025-07,mlee_treasury,2025-07-31 15:05:00,Monthly bank service charges,1160.05,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001537,2025-08-29,2025-08,mlee_treasury,2025-08-29 15:05:00,Monthly bank service charges,1197.20,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001538,2025-09-30,2025-09,mlee_treasury,2025-09-30 15:05:00,Monthly bank service charges,1234.35,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001539,2025-10-31,2025-10,mlee_treasury,2025-10-31 15:05:00,Monthly bank service charges,1271.50,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001540,2025-11-28,2025-11,mlee_treasury,2025-11-28 15:05:00,Monthly bank service charges,1308.65,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW
+JE001542,2026-01-30,2026-01,mlee_treasury,2026-01-30 15:05:00,Monthly bank service charges,937.15,"Bank Service Charges, Cash - Operating",False,False,False,False,False,0,LOW

@@ -1,0 +1,9 @@
+# Full generated data stays local (too large for GitHub); samples are in sample_data/
+landing/
+synthea/
+output/
+*.jar
+local_warehouse/
+spark-warehouse/
+__pycache__/
+.DS_Store

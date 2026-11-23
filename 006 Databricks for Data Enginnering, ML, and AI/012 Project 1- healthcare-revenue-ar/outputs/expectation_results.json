@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "spark_catalog.silver.claims",
+    "expectation": "claim_id_present",
+    "action": "drop",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.claims",
+    "expectation": "payer_found",
+    "action": "warn",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.billing_transactions",
+    "expectation": "amount_present_and_positive",
+    "action": "drop",
+    "failed_rows": 55
+  },
+  {
+    "dataset": "spark_catalog.silver.billing_transactions",
+    "expectation": "posting_date_valid",
+    "action": "drop",
+    "failed_rows": 10
+  },
+  {
+    "dataset": "spark_catalog.silver.billing_transactions",
+    "expectation": "service_date_valid",
+    "action": "drop",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.billing_transactions",
+    "expectation": "transaction_type_valid",
+    "action": "drop",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.gl_journal_lines",
+    "expectation": "posting_date_valid",
+    "action": "drop",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.gl_journal_lines",
+    "expectation": "amounts_not_negative",
+    "action": "drop",
+    "failed_rows": 0
+  },
+  {
+    "dataset": "spark_catalog.silver.gl_journal_lines",
+    "expectation": "account_in_chart_of_accounts",
+    "action": "warn",
+    "failed_rows": 0
+  }
+]

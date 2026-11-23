@@ -1,0 +1,47 @@
+# Databricks Asset Bundle resources for the Revenue & AR audit pipeline.
+#
+# Defines:
+#   1. The Spark Declarative Pipeline (Bronze -> Silver -> Gold)
+#   2. A Lakeflow Job that runs it on the 3rd of every month at 06:00 Central,
+#      after the client drops the previous month's extracts into the volume.
+#
+# Deploy with the Databricks CLI from the repo root:
+#   databricks bundle deploy
+# (or create the same pipeline and job by hand in the UI; see docs/STEP_BY_STEP_GUIDE.md, Steps 6 and 7)
+
+resources:
+  pipelines:
+    revenue_ar_audit_pipeline:
+      name: revenue-ar-audit-pipeline
+      catalog: healthcare_audit
+      schema: bronze                 # default schema; tables use fully qualified names
+      serverless: true
+      continuous: false              # triggered runs, driven by the job below
+      channel: CURRENT
+      configuration:
+        audit.catalog: healthcare_audit
+        audit.landing_path: /Volumes/healthcare_audit/landing/raw_files
+        audit.fiscal_year: "2025"
+      libraries:
+        - file:
+            path: ../src/pipeline/01_bronze.py
+        - file:
+            path: ../src/pipeline/02_silver.py
+        - file:
+            path: ../src/pipeline/03_gold.py
+
+  jobs:
+    revenue_ar_audit_monthly:
+      name: revenue-ar-audit-monthly
+      schedule:
+        quartz_cron_expression: "0 0 6 3 * ?"     # 06:00 on day 3 of each month
+        timezone_id: America/Chicago
+        pause_status: UNPAUSED
+      email_notifications:
+        on_failure:
+          - your.email@example.com
+      tasks:
+        - task_key: run_revenue_ar_pipeline
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.revenue_ar_audit_pipeline.id}
+            full_refresh: false
