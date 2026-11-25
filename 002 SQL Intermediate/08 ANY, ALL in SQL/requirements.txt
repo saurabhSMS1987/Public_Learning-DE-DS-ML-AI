@@ -1,0 +1,22 @@
+# Requirements: MySQL ANY and ALL Operators
+#
+# These lessons are SQL-only, so there are no Python packages to install.
+# This file lists the software needed to follow them.
+# (Running "pip install -r requirements.txt" is safe: every line is a comment.)
+
+# --- Database ---
+# MySQL Server 8.4 LTS (8.0 or later works)
+#   - Download: https://dev.mysql.com/downloads/mysql/
+#   - local_infile = ON for setup.sql   (SET GLOBAL local_infile = 1;)
+
+# --- Client ---
+# mysql command-line client (installed with MySQL Server) to run setup.sql, or
+# MySQL Workbench 8.0 or later (Edit Connection → Advanced → Others: OPT_LOCAL_INFILE=1)
+#   - Download: https://dev.mysql.com/downloads/workbench/
+
+# --- Sample data ---
+# data/approvers.csv, vendors.csv, expenses.csv (included),
+# loaded into the ox_ tables by setup.sql
+#
+# --- Optional ---
+# Tables from earlier sections to run the "More real-world examples" snippets.

@@ -1,0 +1,8 @@
+vendor_id,name,category,approved,related_party
+V01,Harbor Properties,Rent,Y,N
+V02,Bright Energy,Utilities,Y,N
+V03,CleanCo Services,Cleaning,Y,N
+V04,TechServe IT,IT,Y,N
+V05,Swift Travel,Travel,Y,N
+V06,Nova Marketing,Marketing,N,N
+V07,J. Doe Consulting,Consulting,N,Y
