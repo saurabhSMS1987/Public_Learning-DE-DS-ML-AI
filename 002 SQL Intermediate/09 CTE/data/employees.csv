@@ -1,0 +1,9 @@
+emp_id,name,title,manager_id,approval_limit
+E01,Helen Park,Chief Executive Officer,,1000000.00
+E02,Laura Chen,Chief Financial Officer,E01,250000.00
+E03,Ravi Menon,Chief Operating Officer,E01,250000.00
+E04,Mark Davis,Finance Manager,E02,50000.00
+E05,Priya Nair,Operations Manager,E03,50000.00
+E06,Tom Wilson,AP Accountant,E04,5000.00
+E07,Sara Lopez,Facilities Lead,E05,10000.00
+E08,Jake Kim,Sales Team Lead,E05,5000.00

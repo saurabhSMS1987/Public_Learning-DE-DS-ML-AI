@@ -1,0 +1,10 @@
+cost_center,expense_type,budget_amount
+CC100,Rent,180000.00
+CC100,Cleaning,9600.00
+CC100,Consulting,15000.00
+CC200,Utilities,21000.00
+CC200,Maintenance,24000.00
+CC300,Travel,18000.00
+CC300,Marketing,60000.00
+CC400,Software,80000.00
+CC400,Hardware,20000.00

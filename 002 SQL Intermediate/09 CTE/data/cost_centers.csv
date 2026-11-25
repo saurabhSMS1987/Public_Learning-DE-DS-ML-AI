@@ -1,0 +1,5 @@
+cost_center,name,owner_id
+CC100,Administration,E04
+CC200,Operations,E05
+CC300,Sales,E03
+CC400,IT,E02
