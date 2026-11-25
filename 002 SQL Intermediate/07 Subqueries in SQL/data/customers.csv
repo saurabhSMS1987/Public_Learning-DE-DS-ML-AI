@@ -1,0 +1,9 @@
+customer_id,name,customer_group,credit_limit,blocked,created_on
+C100,Apex Retail,Domestic,60000.00,N,2019-04-01
+C200,Bluewater Foods,Domestic,40000.00,N,2020-07-15
+C300,Cedar Hospitals,Domestic,80000.00,N,2018-02-10
+C400,Delta Distributors,Export,20000.00,N,2026-11-20
+C500,Evergreen Exports,Export,50000.00,N,2021-09-01
+C600,Falcon Subsidiary,Intercompany,0.00,N,2015-01-01
+C700,Granite Builders,Domestic,30000.00,N,2022-03-05
+C800,Harbor Hotels,Domestic,25000.00,Y,2020-05-20
