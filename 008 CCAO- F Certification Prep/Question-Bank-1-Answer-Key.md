@@ -1,10 +1,10 @@
 # Claude Certified Associate – Foundations (CCAO-F)
-## Question Bank 1 — Answer Key & Revision Notes
+## Question Bank 2 — Answer Key & Revision Notes
 
-**Score:** 52 / 60 (86.7%)  
-**Missed:** 8 questions — [Q21](#question-21), [Q23](#question-23), [Q33](#question-33), [Q36](#question-36), [Q42](#question-42), [Q43](#question-43), [Q52](#question-52), [Q58](#question-58)
+**Score:** 29 / 70 (41.4%) · 9 incorrect · 32 skipped (accuracy on attempted: 29/38 = 76.3%)  
+**Missed:** 9 questions — [Q5](#question-5), [Q9](#question-9), [Q13](#question-13), [Q21](#question-21), [Q36](#question-36), [Q41](#question-41), [Q62](#question-62), [Q63](#question-63), [Q64](#question-64)
 
-> Every question lists its correct answer. Full explanations are included **only for missed questions** (marked ❌). Key concepts to revise for the weak topics are in the [Revision Notes](#revision-notes) section at the end.
+> Every question lists its correct answer. Full explanations are included **only for missed questions** (marked ❌). Skipped questions (⏭️) show the correct answer only. Key concepts to revise for the weak topics are in the [Revision Notes](#revision-notes) section at the end.
 
 ## Contents
 - [Score by domain](#score-by-domain)
@@ -13,30 +13,29 @@
 
 ## Score by domain
 
-| Domain | Correct | Total | Score | Missed |
-|---|---:|---:|---:|---|
-| Output Evaluation and Validation | 9 | 13 | 69% | [Q23](#question-23), [Q33](#question-33), [Q36](#question-36), [Q43](#question-43) |
-| Governance, Risk, and Responsible Use | 7 | 9 | 78% | [Q21](#question-21), [Q52](#question-52) |
-| Prompting and Task Execution | 7 | 8 | 88% | [Q58](#question-58) |
-| Workflow Integration and Solution Design | 9 | 10 | 90% | [Q42](#question-42) |
-| Configuration and Knowledge Management | 7 | 7 | 100% | — |
-| Product and Model Selection | 7 | 7 | 100% | — |
-| Troubleshooting and Optimization | 6 | 6 | 100% | — |
+| Domain | Correct | Incorrect | Skipped | Total | Score | Missed |
+|---|---:|---:|---:|---:|---:|---|
+| Responsible Use, Data Protection, and Governance | 3 | 2 | 7 | 12 | 25% | [Q21](#question-21), [Q62](#question-62) |
+| Capability, Model, and Context Selection | 3 | 3 | 4 | 10 | 30% | [Q9](#question-9), [Q13](#question-13), [Q41](#question-41) |
+| Output Evaluation and Quality Control | 5 | 2 | 7 | 14 | 36% | [Q36](#question-36), [Q63](#question-63) |
+| Workflow Design and Integration | 5 | 1 | 7 | 13 | 38% | [Q5](#question-5) |
+| Task Definition and Prompting | 5 | 1 | 5 | 11 | 45% | [Q64](#question-64) |
+| Configuration and Knowledge Management | 8 | 0 | 2 | 10 | 80% | — |
 
 ## Questions & answers
 
 ### Question 1
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Capability, Model, and Context Selection*
 
-A regional food bank's development coordinator uploads the organization's year-end program results document and asks Claude to draft a two-page impact summary for major donors. The draft reads smoothly and contains specific statistics for several programs. Before the summary goes to donors, which TWO checks constitute a sound evaluation of its accuracy and completeness? (Select TWO.)
+A scholarship officer at a community foundation uses Sonnet at its default effort level to produce first-pass scores for applications against a five-part rubric. The scores are decision support only: she is the trained reviewer who makes every award decision, and applicants are told that AI assists the review. Her spot checks of thirty earlier scores agreed with her own judgment, and about 200 applications remain this week. Today one application received an unexpectedly low score; its transcripts come from two schools with different grading scales, and its essay answers two rubric parts together. Which action best fits this situation?
 
-- Ask Claude in the same conversation to confirm that its draft is fully accurate and complete, and proceed once it confirms
-- Regenerate the summary a second time and treat matching statistics across the two versions as evidence that the figures are reliable
-- Walk through the source document's program sections and confirm each one is either represented in the summary or deliberately omitted ✅
-- Trace each statistic and named claim in the draft back to the uploaded results document, and correct anything that cannot be found there ✅
+- Rescore this application with Haiku at a low effort level, because a fast second score is a low-cost way to confirm whether the first was right.
+- Keep the current settings for routine applications, and rescore this one at a higher effort level, because its unusual details need more thorough work. ✅
+- Switch to Opus at the Max effort level for this application and all remaining ones, because scholarship decisions need the most capable settings available.
+- Accept the low score as it is, because thirty matching spot checks show that Sonnet at its default effort level scores this rubric reliably.
 
-**Correct answers:** Walk through the source document's program sections and confirm each one is either represented in the summary or deliberately omitted <br>**+** Trace each statistic and named claim in the draft back to the uploaded results document, and correct anything that cannot be found there
+**Correct answer:** Keep the current settings for routine applications, and rescore this one at a higher effort level, because its unusual details need more thorough work.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -44,16 +43,16 @@ A regional food bank's development coordinator uploads the organization's year-e
 
 ### Question 2
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+✅ Answered correctly · *Task Definition and Prompting*
 
-An architecture firm's bid coordinator has spent months refining a personal Claude process for turning incoming RFP documents into go/no-go summaries for the partners. The prompts have evolved across many old chats, and the firm's evaluation criteria and summary template exist only in the coordinator's head and scattered messages. The coordinator is leaving for three months, and two teammates must run the process weekly while they are away. What should the coordinator do to make the workflow repeatable for the team?
+A safety coordinator at a roofing contractor asks Claude to summarize the state heat-safety rule that took effect two months ago, for a one-page briefing to site supervisors. Web search is still off from an earlier task that used only her own files. Three differently worded prompts, all on Sonnet, each return a confident summary with no sources that describes the older rule she already knows. Which next step is most likely to produce a usable summary?
 
-- Write down the steps and named inputs, add the evaluation criteria and summary template to a Project's knowledge, and set project instructions that apply to every chat ✅
-- Send the teammates the transcripts of the long chats where the process evolved, so they can locate the working prompts and rerun them each week
-- Tell the teammates to open new chats inside the coordinator's existing project, since the context built up in earlier chats carries over to new ones automatically
-- Write a thorough project description explaining the full process, since the description shapes how Claude responds in every chat inside that project
+- Rewrite the prompt with a workplace-safety specialist role and details about the roofing crews, since more context usually improves a weak summary.
+- Switch from Sonnet to Opus and raise the effort level, so Claude reasons more carefully about which version of the rule applies today.
+- Tell Claude in the same chat that its summary describes the older rule, and ask it to correct each requirement to the current version.
+- Turn on web search and repeat the request, asking Claude to cite a source for each requirement so that she can check it. ✅
 
-**Correct answer:** Write down the steps and named inputs, add the evaluation criteria and summary template to a Project's knowledge, and set project instructions that apply to every chat
+**Correct answer:** Turn on web search and repeat the request, asking Claude to cite a source for each requirement so that she can check it.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -61,16 +60,16 @@ An architecture firm's bid coordinator has spent months refining a personal Clau
 
 ### Question 3
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+✅ Answered correctly · *Responsible Use, Data Protection, and Governance*
 
-A craft brewery's operations manager had Claude build a web artifact that tracks keg inventory across the company's three taprooms, iterating on it by prompt inside a Project. Six months later, the finance team uses it for monthly reconciliation, taproom managers check it daily, and there are now requests for guaranteed availability and a connection to the accounting software. How should the operations manager respond to this shift?
+A benefits manager at a furniture manufacturer checks the quarter's Claude use against the company AI policy. The policy says a qualified person who can change the result must review each Claude-drafted recommendation on a tuition reimbursement request. A temporary office assistant reads every recommendation carefully, but has not learned the eligibility rules and may correct only wording. Four denials were later reversed on appeal. Which corrective action is most likely to fix this problem?
 
-- Switch the Project to a more capable Claude model so the artifact can handle the increased demands from the other teams
-- Add more detailed custom instructions to the Project so future iterations of the artifact are more robust and reliable
-- Recognize that the artifact has become a system others depend on and escalate the build toward Developer or Architect expertise ✅
-- Continue refining the artifact by prompt as before, since that iteration loop is what produced a working tool in the first place
+- Assign the review to a benefits specialist who knows the eligibility rules and can change a recommendation before each decision goes to the employee. ✅
+- Give the office assistant a one-page checklist of the eligibility rules and keep the current review step, so that weak recommendations are noticed earlier.
+- Switch to a more capable model and raise the effort level, so that the recommendations are more accurate before the office assistant reads them.
+- Ask Claude to recheck each recommendation against the eligibility rules and add a confidence note, so the office assistant knows which ones to question.
 
-**Correct answer:** Recognize that the artifact has become a system others depend on and escalate the build toward Developer or Architect expertise
+**Correct answer:** Assign the review to a benefits specialist who knows the eligibility rules and can change a recommendation before each decision goes to the employee.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -78,16 +77,17 @@ A craft brewery's operations manager had Claude build a web artifact that tracks
 
 ### Question 4
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+✅ Answered correctly · *Responsible Use, Data Protection, and Governance*
 
-An insurance brokerage's executive assistant has connected Gmail to Claude and is planning a weekly email-management routine. Before building the routine, she wants to confirm what the Gmail connector can actually do so she does not design steps around actions it cannot perform. Which TWO tasks fall within the Gmail connector's capability boundary? (Select TWO.)
+A business development coordinator at an architecture firm is collecting files so that Claude can help draft a capabilities brochure in the firm's approved workspace. Firm policy sets three levels: published or anonymized material may be used freely, internal material that names people or relates to unannounced work needs a manager's review first, and client material under a confidentiality agreement stays out of Claude. When it is unclear which level a file belongs to, the stricter level applies. Which two actions are consistent with the policy? (Select TWO.)
 
-- Ask Claude to open the PDF attachments on incoming claims emails and summarize their contents for the weekly digest
-- Ask Claude to automatically send short acknowledgment replies to routine inquiries on the assistant's behalf
-- Ask Claude to compose reply drafts in Gmail for the assistant to review and send herself from Gmail ✅
-- Ask Claude to search the inbox and summarize this week's client escalation emails, citing the messages it drew from ✅
+- Upload the team résumés, which list names and phone numbers, and ask Claude to remove the personal details before it drafts any text.
+- Ask the manager to review the draft design brief for a museum project that is not yet announced, and upload it only if the manager approves. ✅
+- Upload the project case studies taken from the firm's public website without asking for a review, because they are already published material. ✅
+- Upload a client's site survey that is under a confidentiality agreement in an incognito chat, since incognito chats are kept out of history and memory.
+- Treat a cost report whose source cannot be confirmed as published material and upload it, because nothing in the file marks it as confidential.
 
-**Correct answers:** Ask Claude to compose reply drafts in Gmail for the assistant to review and send herself from Gmail <br>**+** Ask Claude to search the inbox and summarize this week's client escalation emails, citing the messages it drew from
+**Correct answers:** Ask the manager to review the draft design brief for a museum project that is not yet announced, and upload it only if the manager approves. <br>**+** Upload the project case studies taken from the firm's public website without asking for a review, because they are already published material.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -95,16 +95,40 @@ An insurance brokerage's executive assistant has connected Gmail to Claude and i
 
 ### Question 5
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+❌ **Answered incorrectly** · *Workflow Design and Integration*
 
-An HR generalist at a 35-person architecture studio wants Claude to analyze a set of exit-interview transcripts to surface common retention themes. Before uploading, she deletes every departing employee's name from the transcripts. The transcripts still mention details such as "the studio's only landscape architect," specific start and end dates, and named project assignments. What should she do before proceeding?
+A knowledge manager at an architecture firm proposes that architects use Claude with the Google Drive connector to draft building-code checklists from project folders. Web search is off on the firm's account. One partner with little AI experience fears Claude will read the HR and finance folders, which architects cannot open. Another partner assumes Claude already knows the code amendments the city adopted last month. Which two statements should the manager make? (Select TWO.)
 
-- Strip or generalize the remaining details, such as unique job titles, dates, and project assignments, before uploading ✅
-- Classify exit-interview content as data that must stay out of Claude entirely and conduct the theme analysis manually instead
-- Proceed with the upload as is, since deleting the names satisfies the requirement to redact personal identifiers
-- Upload the transcripts unchanged but add an instruction telling Claude not to infer or mention any individual identities in its analysis
+- Say that the connector opens the firm's whole Drive to Claude, so HR and finance folders must move to a separate system before the rollout.
+- Say that the connector lets Claude reach only the Drive files the signed-in architect can already open, so HR and finance folders stay closed to it. ✅ *(your answer)*
+- Say that Claude may not know last month's amendments on its own, so architects will add the adopted text and check each checklist item against it. ✅
+- Say that checklists drafted from the firm's own project folders will be accurate, so architects can issue them without checking each item against the code.
+- Say that Claude cannot use any rule adopted after its training, even when the text is supplied, so checklists must leave out last month's amendments. ❌ *(your answer)*
 
-**Correct answer:** Strip or generalize the remaining details, such as unique job titles, dates, and project assignments, before uploading
+**Correct answers:** Say that the connector lets Claude reach only the Drive files the signed-in architect can already open, so HR and finance folders stay closed to it. <br>**+** Say that Claude may not know last month's amendments on its own, so architects will add the adopted text and check each checklist item against it.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Say that Claude cannot use any rule adopted after its training, even when the text is supplied, so checklists must leave out last month's amendments.*
+
+This statement understates what Claude can do. Claude can read and apply a document that an architect supplies, including a rule adopted after its training. Leaving the amendments out would make the checklists incomplete for no good reason.
+
+**Why the correct answer is right** — *Say that Claude may not know last month's amendments on its own, so architects will add the adopted text and check each checklist item against it.*
+
+Claude's built-in knowledge can be out of date, and web search is off on this account, so Claude may not know a rule adopted last month. Giving Claude the adopted text lets it use the current rule. An architect still checks each item because Claude can misread a source and the architect is responsible for the checklist.
+
+**Overall explanation**
+
+People with little AI experience often make two opposite mistakes. They expect Claude to see or know more than it does, or they expect it to be able to do less than it can. A good explanation states what Claude can reach, what it knows, what it can do with supplied material, and which human check stays in place.
+
+A connector such as Google Drive uses the permissions of the person who signed in. Claude can retrieve the files that person can already open, and nothing more. In this firm, architects cannot open the HR and finance folders, so Claude cannot reach them in an architect's session. Telling the partner this is accurate. Telling the partner that the whole Drive is open to Claude is wrong, and it would lead the firm to move folders for no reason. Note the limit of the claim: if the firm later gives an architect access to a sensitive folder, Claude can reach that folder in that architect's session too, so the firm's Drive sharing settings still matter. See [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
+
+Claude's built-in knowledge can be out of date. It can be wrong or confused about recent events, and it can state an old rule with confidence. Web search is off on the firm's account, so Claude has no way to look up an amendment adopted last month. The accurate message is that Claude may not know the amendment unless an architect supplies the adopted text. Claude can read and apply a supplied document, so the claim that it cannot use any rule adopted after its training understates what it can do. See [Claude is providing incorrect or misleading responses](https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on).
+
+The human check stays in every version of this workflow. Drafting from the firm's own folders reduces errors but does not remove them, because Claude can misread a file or leave out a detail. The architect is responsible for the checklist, so the architect compares each item with the code before the checklist is issued. Stakeholders trust an AI-assisted workflow more when this review step is named clearly, and less when someone promises accuracy that the first visible error will disprove.
+
+</details>
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -114,14 +138,14 @@ An HR generalist at a 35-person architecture studio wants Claude to analyze a se
 
 ✅ Answered correctly · *Configuration and Knowledge Management*
 
-A public library system's programs coordinator created a Project for drafting event announcements. In the instructions field she wrote "Be professional, high quality, and match our voice," followed by the full text of the library's 15-page community engagement policy pasted in below it. Announcements drafted in the Project vary widely in tone and structure from one conversation to the next. What is the most effective fix?
+A student services coordinator at a community college shares a Project that six advisors use to draft weekly reminder emails. The Project instructions limit each email to 150 words and require the advising office hours at the end. This week, the coordinator must also send one email about a one-time change to registration deadlines, which needs about 400 words and a table of dates. The advisors will keep drafting regular reminders all week. Which approach should the coordinator take?
 
-- Rewrite the instructions as specific behavior rules covering audience, format, and missing-information handling, and move the policy text into the project knowledge base ✅
-- Keep the current setup unchanged and paste a reminder at the start of each new conversation asking Claude to follow the existing project instructions carefully
-- Move both the directives and the policy text into the project knowledge base as one uploaded document, and leave the instructions field empty to keep the setup simple
-- Add an expert persona to the instructions, telling Claude it is an award-winning communications director, and keep the policy text in place so it is always applied
+- Ask Claude to remember that deadline emails can run to 400 words with a table, so that memory carries the exception into later chats.
+- Edit the Project instructions to allow a 400-word email with a table of dates, then restore the original rules once the deadline email is sent.
+- Leave the Project instructions unchanged, and state in the request for this email that it is an exception needing about 400 words and a table. ✅
+- Create a second Project whose instructions allow longer emails with tables of dates, and draft the registration deadline email there this week instead.
 
-**Correct answer:** Rewrite the instructions as specific behavior rules covering audience, format, and missing-information handling, and move the policy text into the project knowledge base
+**Correct answer:** Leave the Project instructions unchanged, and state in the request for this email that it is an exception needing about 400 words and a table.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -129,16 +153,16 @@ A public library system's programs coordinator created a Project for drafting ev
 
 ### Question 7
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Workflow Design and Integration*
 
-A veterinary hospital network's client services manager receives a one-line request from leadership: "Can we use Claude to help with client complaint emails?" She asks Claude to expand the request into a requirements document. Claude returns a polished document that specifies a four-hour response target, three escalation categories, and a standard apology tone, none of which leadership ever mentioned. What should the manager do with this document?
+A member insights analyst at a grocery cooperative is mapping the quarterly survey workflow. Claude sorts about 6,000 comments into twelve themes, and the theme counts go into a report that the merchandising committee uses to set priorities. Last quarter, several comments about parking were counted under prices. Labels can be corrected until the report is issued, and sorting by hand used to take a week. The team has marked the sorting step human-reviewed. Which review design fits this step?
 
-- Ask Claude to add more detail so the document covers every possible complaint scenario before showing it to anyone
-- Discard the draft and gather requirements entirely without Claude, since AI-generated requirements documents cannot be relied on
-- Adopt the document as written, since the specifics Claude supplied reflect sensible defaults that can be tuned once the workflow is running
-- Treat Claude's invented specifics as draft questions to confirm with leadership and the complaints team before adopting any of them as requirements ✅
+- Ask Claude to read its labels a second time and correct any that are wrong, then record the step as reviewed before the report is issued.
+- Read all 6,000 comments and confirm or correct every label before the report is issued, because the committee sets its priorities from the theme counts.
+- Compare each theme's count with last quarter's count, and check labels only in a theme whose count changed sharply, because large changes suggest sorting errors.
+- Check a random sample of comments from each theme against Claude's labels, and re-sort any theme with repeated errors before the report is issued. ✅
 
-**Correct answer:** Treat Claude's invented specifics as draft questions to confirm with leadership and the complaints team before adopting any of them as requirements
+**Correct answer:** Check a random sample of comments from each theme against Claude's labels, and re-sort any theme with repeated errors before the report is issued.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -146,16 +170,16 @@ A veterinary hospital network's client services manager receives a one-line requ
 
 ### Question 8
 
-✅ Answered correctly · *Prompting and Task Execution*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A grants writer at a nonprofit food bank asks Claude to draft an update letter for a major funder. The draft has the right tone, but it leaves out the program impact figures the funder always expects, and the writer realizes her prompt never mentioned them. Which TWO actions reflect effective prompt iteration? (Select TWO.)
+A communications lead at a credit union checks the quarter's Claude use against the AI policy, which makes the person who sends member-facing content accountable for its accuracy. An analyst drafted the monthly newsletter with Claude, and a coordinator sent it with an auto loan rate that did not match the published rate sheet. The analyst assumed the coordinator would check the figures; the coordinator checked only the layout, saying Claude wrote the numbers. Which corrective action is most likely to fix this problem?
 
-- Revise the saved prompt itself to include the impact-figure requirement, so future letters do not repeat the same omission ✅
-- Paste the identical original prompt into a fresh conversation and check whether the second attempt happens to include the figures
-- Reply with 'make this letter better and more complete' so Claude improves the draft across every dimension at once
-- Send a follow-up message that names the missing impact figures, provides them, and says where in the letter they belong ✅
+- Have the analyst attach the rate sheet when drafting, so that Claude takes each rate from the source file instead of generating it.
+- Add a statement to each newsletter saying that AI assisted with the draft, so that members know to confirm any rate before relying on it.
+- Make clear that the sender owns every figure, and add a step where the sender checks each rate against the rate sheet before sending. ✅
+- Add a line to the drafting prompt telling Claude to confirm each rate it writes, and to note in the draft that the figures were verified.
 
-**Correct answers:** Revise the saved prompt itself to include the impact-figure requirement, so future letters do not repeat the same omission <br>**+** Send a follow-up message that names the missing impact figures, provides them, and says where in the letter they belong
+**Correct answer:** Make clear that the sender owns every figure, and add a step where the sender checks each rate against the rate sheet before sending.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -163,16 +187,39 @@ A grants writer at a nonprofit food bank asks Claude to draft an update letter f
 
 ### Question 9
 
-✅ Answered correctly · *Output Evaluation and Validation*
+❌ **Answered incorrectly** · *Capability, Model, and Context Selection*
 
-A school district's facilities director used Claude to analyze building utilization and produce a technical report for the school board. The key finding: two elementary schools are operating below 60% capacity, and the report recommends a consolidation study, with a caveat that projections assume current housing trends continue. The director must now adapt this material for the district's parent newsletter. What is the right approach?
+Four grant writers at a community health nonprofit draft sections of funding applications every week. Each writer works in standalone chats and pastes in the program descriptions and the writing rules from a personal copy. Drafts now use different program names, and one writer's copy describes a program that changed in the spring. Their Claude plan lets members share Projects with colleagues, and the director reviews each application. Which change best fits this work?
 
-- Ask Claude to cut the board report to half its original length, since a shorter document will automatically be accessible to parents
-- Have Claude rewrite it in plain language for parents, changing length and vocabulary but keeping the figures, finding, and housing-trend caveat ✅
-- Publish the board version in the newsletter unchanged, since altering any of the report's wording risks distorting the original analysis
-- Have Claude reframe the findings more positively for the newsletter so the mention of a consolidation study does not alarm parents unnecessarily
+- Create one Project shared with all four writers that holds the current program descriptions and writing rules, so every draft starts from the same material. ✅
+- Have each writer build a private Project with a copy of the program descriptions and writing rules, so that nobody has to paste them into each chat again. ❌ *(your answer)*
+- Have all four writers select Opus and raise the effort level, so that the drafts apply program names and writing rules more consistently across the team.
+- Have each writer turn on memory and tell Claude to remember the program descriptions and writing rules, so every new chat begins with that background.
 
-**Correct answer:** Have Claude rewrite it in plain language for parents, changing length and vocabulary but keeping the figures, finding, and housing-trend caveat
+**Correct answer:** Create one Project shared with all four writers that holds the current program descriptions and writing rules, so every draft starts from the same material.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Have each writer build a private Project with a copy of the program descriptions and writing rules, so that nobody has to paste them into each chat again.*
+
+This removes the repeated pasting, which is an improvement on the current setup. It still leaves four separate copies that each writer must update, and the outdated program description shows that separate copies stop matching over time.
+
+**Why the correct answer is right** — *Create one Project shared with all four writers that holds the current program descriptions and writing rules, so every draft starts from the same material.*
+
+The work repeats every week, the background is the same for all four writers, and the drafts differ because each person uses a separate copy. A shared Project gives the team one set of instructions and knowledge files, so when a program changes, the file is updated once and every writer gets the change.
+
+**Overall explanation**
+
+The team's problem is not the quality of any single draft. Four people each work from a personal copy of the same background, and the copies have started to differ. A **Project** holds instructions and knowledge files that every conversation inside it starts from. When a Project is shared with colleagues, everyone with access works from that one set of instructions and files. The program descriptions belong in the Project knowledge and the writing rules belong in the Project instructions. When a program changes, one person replaces one file and all four writers get the update.
+
+A private Project for each writer would stop the repeated pasting, which is a real improvement. The team would still have four copies to keep current, and the writer whose copy missed the spring change shows how quickly separate copies stop matching. **Memory** has the same weakness, because it belongs to each person's own account. It is useful for bringing one person's background, such as role and preferences, into new chats. It does not give a team one shared source.
+
+Choosing Opus or a higher effort level changes how much reasoning goes into each response. Responses take longer and count more against usage limits. The material Claude is given stays the same, so a writer who pastes an old program description will get a well-written draft about the old program. When the same setup produces different results for different people, check what each person is giving Claude before changing the model.
+
+A shared Project still needs maintenance. Someone on the team must be responsible for the files and replace them when programs change. Drafts will also vary from one run to the next, so the director's review stays in the workflow. For more detail, see [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) and [Use Claude's chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context).
+
+</details>
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -180,16 +227,16 @@ A school district's facilities director used Claude to analyze building utilizat
 
 ### Question 10
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Capability, Model, and Context Selection*
 
-A city museum's visitor-experience team plans two Claude tasks for the week: categorizing 900 short visitor-survey comments into five predefined themes, and producing a one-off strategic assessment of a proposed exhibit relocation that involves ambiguous stakeholder feedback and several interacting budget constraints. Which TWO model choices best align each task with its requirements? (Select TWO.)
+An events coordinator at a botanical garden keeps a Project for the spring plant sale. Its knowledge holds the site map and the vendor list, and its memory holds only the sale date. Last week, in one chat in the Project, she and Claude settled the opening hours, three ticket prices, and the parking plan. Today, in a new chat in the Project, a draft of volunteer instructions guesses at the hours and parking. She will draft about a dozen more documents for the sale. Which action best fits this work?
 
-- Use Opus for the survey categorization, since choosing the most capable model ensures the most accurate tagging across all 900 comments
-- Use Haiku for the survey categorization, since it is a structured, high-volume task where speed matters and each item carries low consequence ✅
-- Use Haiku for the exhibit relocation assessment, since the fastest model conserves usage headroom for the larger categorization workload
-- Use Opus for the exhibit relocation assessment, since the inputs are ambiguous, constraints interact, and a subtle error would be costly ✅
+- Write all the remaining sale documents in last week's chat, since that thread already holds the settled hours, prices, and parking plan in full.
+- Paste the settled hours, prices, and parking plan at the start of today's chat, and repeat that step in every later chat for the sale.
+- In last week's chat, ask Claude to summarize the settled hours, prices, and parking plan, check the summary, then add it to the Project's knowledge. ✅
+- Switch today's chat to Opus and raise the effort level, so Claude reasons more carefully about the hours, prices, and parking plan settled in the earlier chat.
 
-**Correct answers:** Use Haiku for the survey categorization, since it is a structured, high-volume task where speed matters and each item carries low consequence <br>**+** Use Opus for the exhibit relocation assessment, since the inputs are ambiguous, constraints interact, and a subtle error would be costly
+**Correct answer:** In last week's chat, ask Claude to summarize the settled hours, prices, and parking plan, check the summary, then add it to the Project's knowledge.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -197,16 +244,16 @@ A city museum's visitor-experience team plans two Claude tasks for the week: cat
 
 ### Question 11
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A boutique hotel group's revenue manager piloted Claude for drafting the weekly occupancy and pricing summary; the pilot cut drafting time roughly in half, and an analyst verifies every figure against the booking system and edits the draft before it is distributed. Impressed by the pilot, an executive proposes announcing to the wider company that "weekly reporting is now fully automated." How should the revenue manager brief leadership?
+A sales manager at a home solar installer receives a spreadsheet that a new hire copied from a former employer, a competitor, without that company's permission. It lists 2,000 of the competitor's customers with names, home addresses, phone numbers, and monthly energy bills. The manager proposes that Claude use code-executed analysis to rank which households the sales team should call first. The operations director asks for a classification. Which classification is the best fit?
 
-- Center the briefing on Claude's error risks and everything it cannot do, keeping leadership's expectations as low as possible so the workflow is never blamed for a mistake
-- Report the measured time savings, describe exactly which steps Claude drafts, and correct the announcement to name the analyst's verification step that remains before distribution ✅
-- Adopt the executive's "fully automated" phrasing in the briefing, since the pilot succeeded and a simpler message will secure support for expanding the workflow faster
-- Present the pilot's time savings now and hold the discussion of limitations and review steps for a later meeting, once leadership has committed to expanding the workflow
+- Appropriate with normal review: ranking sales leads is reversible and low in consequence, and the manager checks the list before any calls are made.
+- Inappropriate: choosing which people to contact needs human judgment, so a salesperson should rank the copied list by hand and Claude should not.
+- Inappropriate: the list was taken without permission and the households never agreed to this use, so the manager should report it and not upload it. ✅
+- Appropriate with safeguards: replace names, addresses, and phone numbers with codes before uploading, so Claude ranks the households without seeing who they are.
 
-**Correct answer:** Report the measured time savings, describe exactly which steps Claude drafts, and correct the announcement to name the analyst's verification step that remains before distribution
+**Correct answer:** Inappropriate: the list was taken without permission and the households never agreed to this use, so the manager should report it and not upload it.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -214,16 +261,16 @@ A boutique hotel group's revenue manager piloted Claude for drafting the weekly 
 
 ### Question 12
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-A city transit agency's policy team uses Claude's Haiku model each week to tag thousands of rider comments into a fixed set of categories, and it performs well. The team lead must now produce a one-off recommendation on a fare restructuring proposal in which budget limits, ridership projections, and equity requirements all interact, and a subtle analytical error would be expensive to walk back. How should the team apply model selection for this new task?
+A procurement analyst uses Claude with web search to summarize a new packaging regulation for a memo that the leadership team will use to decide on a supplier change this week. The summary reads clearly and shows source links for four of its claims. The compliance deadline and the maximum penalty amount appear with no link. So far, the analyst has only read the summary itself. Which action should the analyst take before sending the memo?
 
-- Select Sonnet for the fare analysis, since it is the everyday default and defaults should be used regardless of a task's stakes
-- Standardize on Opus for all of the team's Claude work, including the weekly comment tagging, so output quality is maximized everywhere
-- Stay with Haiku for the fare analysis, since it has handled the team's other Claude work reliably and keeps turnaround fast
-- Select Opus for the fare analysis, since the inputs are ambiguous, several constraints interact, and a subtle error carries real consequences ✅
+- Switch to Opus at a higher effort level, regenerate the summary, and keep the deadline and penalty amount only if the new answer repeats both of them.
+- Ask Claude to rate its confidence in each claim, keep only the claims it rates as high confidence, and record those ratings in the memo.
+- Remove the deadline and penalty amount because they have no links, and send the other four claims as written since each one has a source link.
+- Open each linked source to check that it supports its claim, and confirm the deadline and penalty amount against the regulator's published text. ✅
 
-**Correct answer:** Select Opus for the fare analysis, since the inputs are ambiguous, several constraints interact, and a subtle error carries real consequences
+**Correct answer:** Open each linked source to check that it supports its claim, and confirm the deadline and penalty amount against the regulator's published text.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -231,16 +278,37 @@ A city transit agency's policy team uses Claude's Haiku model each week to tag t
 
 ### Question 13
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+❌ **Answered incorrectly** · *Capability, Model, and Context Selection*
 
-A natural history museum's membership coordinator sets up a Claude Project for drafting renewal reminders and member updates. She types her tone and formatting rules into the Project's description field, and uploads the current membership policy plus two older, superseded versions of it "for completeness." Drafts ignore her tone rules and occasionally cite outdated renewal fees. Which TWO changes will fix the configuration? (Select TWO.)
+A budget analyst at a city water utility uses Claude for many unrelated tasks, in standalone chats and in two Projects. Memory is on and correctly holds her role and her manager's name. In almost every new chat she retypes two facts: the utility's fiscal year starts in October, and amounts should be shown in thousands of dollars. Her memory has no saved topic for either fact. Which action best fits her needs?
 
-- Keep all three policy versions in the knowledge base so Claude can compare them and select the most recent figures on its own
-- Remove the two superseded policy versions so the knowledge base holds only the current authoritative document ✅
-- Move the tone and formatting rules into the Project's instructions, since Claude does not have access to the Project's name or description ✅
-- Explain the tone and formatting rules once in an initial chat, since that context carries over automatically to every other chat in the Project
+- Create a new Project for her budget work and add both facts to its instructions, so that every chat started inside it begins with them. ❌ *(your answer)*
+- Keep one long standalone chat open for all of her tasks, since the two facts she typed at the start will remain in that conversation.
+- Tell Claude in a standalone chat to remember both facts, then check in her memory settings that the saved topic states them correctly. ✅
+- Ask Claude at the start of each new chat to search her past chats for both facts, since many earlier conversations already contain them.
 
-**Correct answers:** Remove the two superseded policy versions so the knowledge base holds only the current authoritative document <br>**+** Move the tone and formatting rules into the Project's instructions, since Claude does not have access to the Project's name or description
+**Correct answer:** Tell Claude in a standalone chat to remember both facts, then check in her memory settings that the saved topic states them correctly.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Create a new Project for her budget work and add both facts to its instructions, so that every chat started inside it begins with them.*
+
+Project instructions apply only to chats inside that one Project. Her standalone chats and her two existing Projects would not get the facts, so she would still retype them for most of her work.
+
+**Why the correct answer is right** — *Tell Claude in a standalone chat to remember both facts, then check in her memory settings that the saved topic states them correctly.*
+
+The two facts are short, stay true, and apply to all of her work, so memory is the place that reaches every new standalone chat and, by default, her chats inside Projects as well. She can tell Claude directly what to remember without waiting for it to save the facts by itself. Reading the saved topic in settings confirms the wording is right before it affects later chats.
+
+**Overall explanation**
+
+Three places can hold background that Claude should start from: one conversation, a Project, and **memory**. Each one reaches a different amount of work. A conversation holds only what was said in it. A Project's instructions and knowledge apply only to chats inside that Project. Memory from chats outside Projects is used in new standalone chats, and by default it is also used alongside a Project's own memory when the user works inside a Project (unless "Use account memory" is turned off on that Project's page).
+
+The analyst's two facts are short, they stay true, and they apply to all of her work, not to one area of work. That is the case for memory. Claude saves memory topics by itself as she chats, but it has not saved these two facts, and she does not have to wait. She can tell Claude what to remember, and the update applies to her next conversation. Opening her memory in settings afterward lets her read the saved topic and edit it if the wording is wrong. This check matters because a wrong topic would affect every later chat. Memory reduces retyping, but she should still check the fiscal year and the number format in each deliverable. See [Use Claude's chat search and memory to build on previous context](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context).
+
+The other actions each cover only part of her work. A new Project with the facts in its instructions helps only the chats started in that Project, as described in [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects). Her standalone chats and her two existing Projects would still need the facts typed in. One long chat for unrelated tasks fills the context window (the amount Claude can keep in view in one conversation). Earlier messages can be summarized as the chat grows, so details typed at the start can have less effect, and material from one task can appear in another (see [How do usage and length limits work?](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)). Searching past chats can find the facts where that feature is available, but she must ask in every new chat, and a search started inside a Project covers only that Project's conversations.
+
+</details>
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -248,16 +316,16 @@ A natural history museum's membership coordinator sets up a Claude Project for d
 
 ### Question 14
 
-✅ Answered correctly · *Prompting and Task Execution*
+✅ Answered correctly · *Workflow Design and Integration*
 
-A regional airline's route planning analyst asks Claude to "tell me about how our competitors have been promoting their new routes." Claude returns a confident, fluent summary, but it names no sources, and some claims appear to describe campaigns from several years ago. Which adjustment best matches the prompting strategy to this kind of task?
+A facilities analyst at a private university runs a monthly building energy report in a shared Project. Claude uses code execution to total costs from a metering system export. Last month a system update split the single cost column into separate electricity and gas columns. Claude totaled only electricity without comment, and the low figures reached the budget committee. A colleague takes over next month. Which change best protects the workflow?
 
-- Ask Claude for twenty varied guesses about what the competitors might be doing and defer any judgment until the full range is on the table
-- Specify an exact format, tone, and word count for the summary so the output arrives polished and ready to circulate to the team
-- Assign Claude the persona of a veteran airline industry analyst so the summary carries more authoritative expertise and insight
-- Scope the request to named competitors and a recent time window, turn on web search for current information, and ask for a citation on each claim ✅
+- Add a final step to each run that asks Claude to confirm the totals are correct, so that errors are caught before the report is sent.
+- Switch the Project's chats to a more capable model and a higher effort level, so that Claude reasons more carefully about each month's export.
+- List the expected export columns in the Project instructions, and tell Claude to stop and report any difference before it calculates the totals. ✅
+- Have the colleague recalculate every building's total by hand in a spreadsheet each month, so that the report no longer depends on Claude's calculations.
 
-**Correct answer:** Scope the request to named competitors and a recent time window, turn on web search for current information, and ask for a citation on each claim
+**Correct answer:** List the expected export columns in the Project instructions, and tell Claude to stop and report any difference before it calculates the totals.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -265,16 +333,16 @@ A regional airline's route planning analyst asks Claude to "tell me about how ou
 
 ### Question 15
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Capability, Model, and Context Selection*
 
-A dental clinic chain's patient education coordinator produces a new patient handout every month. Each handout draws on the same brand voice guide and clinical accuracy checklist, and every finished handout is a standalone document that clinic staff will edit and reuse after she delivers it. Which TWO feature choices best fit this workflow? (Select TWO.)
+A freelance market researcher worked only for a toy company for two years, in standalone chats with memory on. That contract has ended, and she now works for a pharmacy chain. She reviewed her memory and found that almost every topic describes the toy company's products, staff, and report rules; the few others are easy to restate. Her first drafts for the pharmacy chain use the toy company's terms. She wants memory to learn her new work. Which action best fits her situation?
 
-- Have Claude generate each handout as an Artifact so the document can be edited, refined, and reused as a standalone piece ✅
-- Create a Project with the voice guide and checklist in its knowledge base and standing instructions covering tone and format ✅
-- Enable Research mode for each handout so Claude investigates and synthesizes many external sources before drafting
-- Start a fresh Chat each month and paste the voice guide and checklist at the top of the conversation before drafting begins
+- Pause memory in her settings, so that the toy company topics stay saved but are no longer used in her drafts for the pharmacy chain.
+- Delete her old chats about the toy company, so that the topics built from those chats are removed from memory along with them.
+- Reset memory in her settings, which permanently deletes every saved topic, then let memory build again from her new work. ✅
+- Tell Claude at the start of each new chat to ignore the toy company, so that each draft uses only the pharmacy chain's terms.
 
-**Correct answers:** Have Claude generate each handout as an Artifact so the document can be edited, refined, and reused as a standalone piece <br>**+** Create a Project with the voice guide and checklist in its knowledge base and standing instructions covering tone and format
+**Correct answer:** Reset memory in her settings, which permanently deletes every saved topic, then let memory build again from her new work.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -282,16 +350,16 @@ A dental clinic chain's patient education coordinator produces a new patient han
 
 ### Question 16
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+⏭️ Skipped · *Task Definition and Prompting*
 
-An HR coordinator at a maritime logistics firm runs a private Claude Project that answers employee benefits questions. The benefits policy lives in a Google Doc that HR revises several times per quarter. She originally uploaded a copy of the policy to the Project's knowledge base, but Claude has started citing provisions that were changed weeks ago. What is the best way to keep the Project's answers based on the current policy?
+A benefits administrator at a trucking company must explain two new health plan options to drivers and warehouse staff. The company offered only one plan before, so most of them have never compared plans. The insurer's summary uses terms such as coinsurance and out-of-pocket maximum. Her draft prompt attaches the summary and says, "You are a benefits specialist. Write a one-page explanation of the two plan options, with a heading for each." Which addition to the prompt is most likely to produce a usable first draft?
 
-- Add the policy Google Doc to the Project's files through the Google Drive connector and remove the stale uploaded copy ✅
-- Upload a fresh PDF of the policy each time it changes, keeping the earlier versions in the knowledge base for historical reference
-- Begin each conversation by instructing Claude to ignore any outdated provisions it finds in the project knowledge
-- Paste the full current policy text into the Project's standing instructions so every conversation starts with it
+- Select Opus and raise the effort level before sending the prompt, so that Claude reasons more carefully about how to explain the insurer's plan summary.
+- Change the role to a senior benefits consultant with 20 years of experience, so that Claude explains the two plan options with more expertise and authority.
+- State that the readers are drivers and warehouse staff who have never compared health plans, so that Claude explains each insurance term in everyday words. ✅
+- Add the sentence "Keep the explanation clear, simple, and easy to follow" at the end, so that Claude knows the page should not be difficult to read.
 
-**Correct answer:** Add the policy Google Doc to the Project's files through the Google Drive connector and remove the stale uploaded copy
+**Correct answer:** State that the readers are drivers and warehouse staff who have never compared health plans, so that Claude explains each insurance term in everyday words.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -299,16 +367,16 @@ An HR coordinator at a maritime logistics firm runs a private Claude Project tha
 
 ### Question 17
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+⏭️ Skipped · *Workflow Design and Integration*
 
-An insurance brokerage's client-services team set up a Project for drafting policy renewal summaries. In nearly every conversation, someone has to re-explain the same three points: open with the premium change, never promise a claim outcome, and flag anything the policy documents do not cover instead of guessing. The team lead wants these expectations to hold automatically in every chat. What is the most effective way to accomplish this?
+A finance manager at a freight forwarding company is mapping the monthly board reporting workflow. An analyst spends two days building the cash-flow summary from the ledger export, and the map marks the step human-retained because the board sets spending limits from it. In a three-month trial, Claude used code execution on the same export and produced the same totals in under an hour. The manager approves every board report package before it is sent. How should the manager classify this step?
 
-- Write the rules into the Project's description field so Claude reads them automatically at the start of every conversation
-- Write the three expectations as precise, testable rules in the project instructions, including how to handle coverage gaps ✅
-- Paste the full text of the policy documents into the project instructions field so every chat starts with all the facts it needs
-- Add a single general instruction telling Claude to be professional, careful, and accurate when drafting client summaries
+- AI-executed: Claude builds the summary and it goes directly into the package, because code execution calculates each total and matched the analyst's totals for three months.
+- Human-retained: the analyst keeps building the summary without Claude, because the board sets spending limits from these figures and a wrong total would be costly.
+- Human-reviewed: Claude builds the summary, and the manager checks its totals against the ledger before approving the package, because an error can still be fixed then. ✅
+- Human-retained: the analyst keeps building the summary, and Claude compares it with the ledger export afterward, because a second check lowers the chance of a wrong total.
 
-**Correct answer:** Write the three expectations as precise, testable rules in the project instructions, including how to handle coverage gaps
+**Correct answer:** Human-reviewed: Claude builds the summary, and the manager checks its totals against the ledger before approving the package, because an error can still be fixed then.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -316,16 +384,16 @@ An insurance brokerage's client-services team set up a Project for drafting poli
 
 ### Question 18
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Workflow Design and Integration*
 
-A freight logistics company's operations manager has redesigned the invoice-reconciliation process: Claude extracts line items from vendor invoices and flags billing discrepancies, and a billing specialist reviews every flag before any dispute is raised with a vendor. The manager must now describe the new workflow to the leadership team. Which description best communicates Claude's value and limitations?
+A finance operations lead at an engineering consultancy is reviewing the expense workflow. Claude compares each expense line with the written travel policy and marks it "within policy" or "over limit". An approver then approves each report and reads mainly the lines marked "over limit". The marks for meals, mileage and hotel rates have been accurate. This quarter, Claude marked a visa fee and a spouse's flight change, which the policy does not mention, as "within policy", and both were paid. Which change should the lead make?
 
-- Minimize any mention of Claude's involvement so leadership focuses on the improved turnaround times rather than on the tool being used
-- Assure leadership that Claude's flags are reliable enough that the specialist review exists only as a formality and can soon be phased out
-- State that Claude extracts line items and flags discrepancies, and that a specialist approves every flag before a dispute is raised ✅
-- Describe the process as fully automated end to end, since emphasizing maximum efficiency gains will secure leadership buy-in faster
+- Have the approver read every line of every report against the policy before approving it, because Claude's marks have now been shown to contain errors.
+- Add a third mark for expenses the policy does not clearly cover, and have the approver decide each of those, because they need a person's judgment. ✅
+- Switch the policy check to a more capable model and raise the effort level, because unusual expenses need deeper reasoning than routine ones do.
+- Add rules for visa fees and family flight changes to Claude's instructions, because Claude can mark these expenses correctly once each rule is written down.
 
-**Correct answer:** State that Claude extracts line items and flags discrepancies, and that a specialist approves every flag before a dispute is raised
+**Correct answer:** Add a third mark for expenses the policy does not clearly cover, and have the approver decide each of those, because they need a person's judgment.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -333,16 +401,16 @@ A freight logistics company's operations manager has redesigned the invoice-reco
 
 ### Question 19
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Output Evaluation and Quality Control*
 
-A municipal water utility's finance manager used Claude to produce a detailed rate study, which the utility commission has approved. It concludes that residential rates must rise 9% next year, and it includes a caveat that the increase could grow further if a pending state infrastructure grant is denied. The manager must now turn this into a one-page notice for residential customers. What does sound adaptation look like?
+Last month, a contracts analyst at a food distributor uploaded a 48-page supplier agreement and saved Claude's two-page summary without checking it against the agreement. Today she pastes that summary into a new chat and asks for a memo on price increases. The memo's terms, a 4 percent yearly cap and 60 days' notice, match the summary. The purchasing director will set next year's budget from the memo. Which action should the analyst take before sending the memo?
 
-- Mail the approved rate study to customers as it stands with a short cover letter, since the commission-approved document is the most accurate version
-- Have Claude rewrite the material in plain customer language, cutting the methodology but keeping the 9% figure, the reason for it, and the grant caveat intact ✅
-- Have Claude rewrite the notice in reassuring language and leave out the grant caveat, since the added uncertainty would only alarm customers
-- Have Claude soften the figure to a phrase like 'a modest single-digit increase' so the notice reads less negatively for residential customers
+- Open the supplier agreement, find the price-adjustment clause, and confirm that the cap and notice period in the memo match its wording. ✅
+- Upload the agreement to the chat, ask Claude for a new summary, and send the memo if the new summary gives the same price terms.
+- Switch to Opus at a higher effort level, regenerate the memo from the saved summary, and send it if the price terms are unchanged.
+- Send the memo as written, since both of its price terms match the saved summary, which Claude produced from the full agreement last month.
 
-**Correct answer:** Have Claude rewrite the material in plain customer language, cutting the methodology but keeping the 9% figure, the reason for it, and the grant caveat intact
+**Correct answer:** Open the supplier agreement, find the price-adjustment clause, and confirm that the cap and notice period in the memo match its wording.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -350,16 +418,16 @@ A municipal water utility's finance manager used Claude to produce a detailed ra
 
 ### Question 20
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-A grants officer at a nonprofit asks Claude, without attaching any documents, to summarize the eligibility rules for a federal grant program. The response includes three elements: a general description of the program's goals, a confident statement that applications are due March 15 under a specific numbered federal regulation, and a note that some requirements may vary by agency. Which element should the officer treat as the most likely hallucination and check first?
+A claims supervisor at an insurance brokerage keeps her own Project for client claim correspondence. Its instructions set the tone, and its knowledge holds the current claims handbook. Her custom Skill for the six-step monthly claims summary also contains a rule to never predict whether an insurer will pay a claim. The summaries follow that rule, but emails and call notes drafted in the Project sometimes predict payment. Which change best fits this setup?
 
-- Treat all three elements as equally reliable, since they appeared together in the same confident, well-written response
-- Treat the general description of the program's goals as the highest risk, since broad statements are harder to pin down than specific ones
-- Treat the precise deadline and numbered regulation citation as the highest risk and verify them against the official program materials ✅
-- Treat the hedged note that requirements may vary as the highest risk, since hedging shows the model is unsure of everything it wrote
+- Use Opus at a higher effort level for emails and call notes, so that Claude reasons more carefully before it writes about a claim's outcome.
+- Add the payment rule to the Project instructions, because instructions apply to every chat in the Project, whatever she drafts. ✅
+- Add steps for emails and call notes to the Skill, so that Claude also loads the Skill and its payment rule when she drafts those documents.
+- Save the payment rule as a one-page file in the Project's knowledge, so that Claude can find it next to the claims handbook.
 
-**Correct answer:** Treat the precise deadline and numbered regulation citation as the highest risk and verify them against the official program materials
+**Correct answer:** Add the payment rule to the Project instructions, because instructions apply to every chat in the Project, whatever she drafts.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -367,35 +435,37 @@ A grants officer at a nonprofit asks Claude, without attaching any documents, to
 
 ### Question 21
 
-❌ **Answered incorrectly** · *Governance, Risk, and Responsible Use*
+❌ **Answered incorrectly** · *Responsible Use, Data Protection, and Governance*
 
-A regional freight brokerage's dispatch coordinator reads the company's new AI usage policy. It states that client rate agreements and contract documents "must not" be uploaded to Claude, a rule the coordinator considers overly cautious since rates circulate widely inside the company. The policy says nothing at all about the internal driver-scheduling spreadsheets the coordinator wants Claude to analyze. Which TWO actions reflect sound compliance with organizational AI policy? (Select TWO.)
+A grants officer at a community foundation must turn an outline into a slide deck for Friday's board meeting and has built past decks with Anthropic's pre-built PowerPoint Skill. A colleague recommends a third-party Skill with better-looking layouts, from a vendor the foundation has never used. Its description says it also renames, moves, and emails files in connected accounts. The officer's Claude account has Gmail and Google Drive connectors. Which action should the officer take?
 
-- Upload the rate agreements anyway, since the way rates already circulate internally shows the restriction no longer matches the actual risk
-- Ask the policy owner whether the driver-scheduling spreadsheets fall within scope before uploading them ✅ *(your answer)*
-- Keep the rate agreements out of Claude and raise the disagreement with whoever owns the policy through the appropriate channel ✅
-- Proceed with the scheduling spreadsheets right away, since the policy does not prohibit them and anything not restricted is permitted ❌ *(your answer)*
+- Enable the third-party Skill for this one deck, since a colleague has used it without problems, and disable it as soon as the board deck is finished.
+- Leave the third-party Skill disabled and build the deck with the pre-built PowerPoint Skill, because the new Skill does far more than a slide deck needs. ✅
+- Enable the third-party Skill but use it only in an incognito chat, because that chat stays out of the officer's chat history and memory after the session.
+- Ask the foundation's IT contractor to review the third-party Skill, and build the deck with it once the review confirms that the Skill is safe to enable. ❌ *(your answer)*
 
-**Correct answers:** Ask the policy owner whether the driver-scheduling spreadsheets fall within scope before uploading them <br>**+** Keep the rate agreements out of Claude and raise the disagreement with whoever owns the policy through the appropriate channel
+**Correct answer:** Leave the third-party Skill disabled and build the deck with the pre-built PowerPoint Skill, because the new Skill does far more than a slide deck needs.
 
 <details open>
 <summary><b>Explanation</b></summary>
 
-**Why your answer was wrong** — *Proceed with the scheduling spreadsheets right away, since the policy does not prohibit them and anything not restricted is permitted*
+**Why your answer was wrong** — *Ask the foundation's IT contractor to review the third-party Skill, and build the deck with it once the review confirms that the Skill is safe to enable.*
 
-This is incorrect because treating silence as implicit permission is exactly where compliance drift begins. What a policy does not mention is a question for the policy owner, not a green light, especially for data that has never been explicitly cleared.
+Sending a Skill for review is a good practice when the Skill is useful and no lower-risk tool can do the job. In this situation an Anthropic pre-built Skill already builds the deck, so waiting for a review puts Friday's deadline at risk for a small improvement in layout. Even after approval, the officer would be using a Skill that does more than the task needs.
 
-**Why the correct answer is right** — *Keep the rate agreements out of Claude and raise the disagreement with whoever owns the policy through the appropriate channel*
+**Why the correct answer is right** — *Leave the third-party Skill disabled and build the deck with the pre-built PowerPoint Skill, because the new Skill does far more than a slide deck needs.*
 
-This is correct because a stated organizational policy binds employees regardless of whether they agree with it. Believing a rule is overly cautious is a reason to raise the issue with the policy owner, not authorization to ignore the rule while it stands.
+A slide deck needs slide building only, and the Anthropic pre-built PowerPoint Skill already does that from a lower-risk source. The third-party Skill comes from an unknown vendor and is described as moving and emailing files in connected accounts, which is much more than this task needs. Declining it removes the risk, and the deck can still be finished by Friday.
 
 **Overall explanation**
 
-Following organizational AI policy well requires two distinct habits, and this scenario tests both. The first is respecting the precedence order that governs workplace AI decisions: law and regulation bind everyone, the organization's stated policy binds its employees whether or not they agree with it, team conventions come next, and an individual's own judgment is the last tie-breaker rather than the first. The coordinator may be entirely right that the rate-agreement restriction is overly cautious, but being right that a policy is flawed is not authorization to ignore it. The compliant move is to follow the rule as written while escalating the disagreement to whoever owns the policy, who can revise it if the objection holds up.
+A Skill is software. Enabling a third-party Skill makes its bundled instructions available to Claude in the officer's sessions. If connectors such as Gmail and Google Drive are available, those instructions may influence how Claude uses the connected services, within the connector permissions and the action-approval settings on the account. For that reason, a trust check before enabling a Skill asks three questions. **Source:** who published it? **Reach:** what could it affect in the sessions where it will run? **Appropriateness:** is it the right tool for this task, or is it more capability than the task needs? The check can end in one of three results: enable the Skill, escalate it for review, or decline it.
 
-The second habit is reading a policy for what it actually restricts and, just as importantly, for what it does not say. Silence is not permission, and it is not prohibition either; it is a question for the policy owner. The scheduling spreadsheets were simply never considered when the policy was drafted, so uploading them on the theory that "nothing forbids it" would be a guess dressed up as compliance. Asking first converts an ambiguity into a documented answer, which protects both the coordinator and the organization.
+The third-party Skill fails all three questions for this task. The vendor is unknown to the foundation. The officer's account has Gmail and Google Drive connectors, so the Skill's instructions could direct Claude to act on mail and stored files, within the limits of the connector permissions and approval settings. The Skill's own description says it renames, moves, and emails files in connected accounts, and none of those actions is needed to build slides from an outline. Anthropic's guidance is to install Skills only from trusted sources and to review less-trusted ones, including Skills shared by colleagues, because the main risks are prompt injection (hidden instructions that redirect Claude) and data leaving the organization. Anthropic-provided Skills and Skills approved by the organization are the lower-risk starting point, and the pre-built PowerPoint Skill already does this job. Declining the third-party Skill costs only a possible improvement in layout.
 
-The two incorrect approaches represent the two most common failure modes in practice: overriding a rule based on personal risk assessment, and treating a policy gap as a green light. Both are forms of quiet drift, the kind that accumulates on routine, low-visibility decisions and eventually triggers exactly the sort of incident that can freeze an organization's whole AI program. Note also that organizational policy operates alongside Anthropic's own Usage Policy, which applies to all users, and that Team and Enterprise administrators can additionally set organization instructions that apply across every conversation; individual users are expected to work within all of these layers, not around them.
+Asking for a review is the correct route when a Skill is useful and *no lower-risk tool can do the work*. That is not the case for this deck. A review would delay a deck that is due on Friday, and an approved Skill would still be a broader tool than the task needs. An incognito chat answers a different question: it keeps a conversation out of chat history and memory, but it does not tell the officer what the Skill does. Enabling the Skill for one deck because a colleague recommended it treats a personal recommendation as proof of safety. For as long as the Skill is enabled, its instructions can still influence how Claude uses the Gmail and Google Drive connectors, subject to the connector permissions and approval settings.
+
+See [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) for the difference between Anthropic Skills and custom Skills and for Anthropic's guidance on trusting a Skill before enabling it.
 
 </details>
 
@@ -405,16 +475,16 @@ The two incorrect approaches represent the two most common failure modes in prac
 
 ### Question 22
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A regional tourism board's content coordinator is setting up a Claude Project for drafting monthly visitor newsletters. She has two things to configure: a 40-page destination reference guide the newsletters must draw facts from, and a set of standing rules (write at an accessible reading level, keep a warm and inviting tone, always end with a link to the booking page). How should she configure the Project?
+A procurement lead at a regional grocery wholesaler checks the quarter's Claude use against the company AI policy. The policy says supplier pricing agreements may be used only by the six-person procurement team. The lead's Supplier Terms Project holds twelve agreements as knowledge files, and its visibility is set to "public", so everyone in the organization can find and use it. Buyers have never shared a chat from the Project. Which corrective action should the lead take?
 
-- Upload the destination guide to the knowledge base and add the tone rules to the Project's description field so Claude sees them at the start of every chat
-- Paste the full destination guide into the project instructions together with the tone rules, so everything Claude needs sits in a single place
-- Upload the destination guide to the Project's knowledge base and write the tone and formatting rules into the project instructions ✅
-- Save the tone and formatting rules as a text document in the knowledge base and leave the project instructions empty, since uploaded files persist across chats
+- Remind buyers to keep every chat in the Project unshared, since a shared chat would let colleagues outside procurement read the supplier pricing details.
+- Run a policy refresher for all staff, so that people outside procurement know they must not open Projects that hold supplier pricing agreements.
+- Change the Project's visibility to private and invite only the procurement team, so that nobody outside the team can use the pricing agreements. ✅
+- Add a rule to the Project instructions telling Claude to answer supplier pricing questions only when the person asking is on the procurement team.
 
-**Correct answer:** Upload the destination guide to the Project's knowledge base and write the tone and formatting rules into the project instructions
+**Correct answer:** Change the Project's visibility to private and invite only the procurement team, so that nobody outside the team can use the pricing agreements.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -422,39 +492,17 @@ A regional tourism board's content coordinator is setting up a Claude Project fo
 
 ### Question 23
 
-❌ **Answered incorrectly** · *Output Evaluation and Validation*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-A community credit union's compliance trainer has worked with Claude to draft a 40-page staff training handbook. The handbook now needs to go to branch managers, who do not use Claude and will edit and finalize the document in Microsoft Word. Which output approach best fits this handoff?
+An operations manager at a regional bakery chain asked Claude to compare two uploaded warehouse leases on rent, term, renewal options, early-exit costs and maintenance duties. Claude returned an eight-page memo with a one-paragraph recommendation at the top. She has checked every figure in the memo against the leases, and all match. The owner will choose and sign one lease on Monday using the memo. Which two actions should the manager take next? (Select TWO.)
 
-- Ask Claude to rebuild the handbook as an interactive React component artifact so the managers can review it in a polished visual layout ❌ *(your answer)*
-- Ask Claude to create the handbook as a downloadable Word document using file creation, then distribute that file to the branch managers ✅
-- Have Claude produce the handbook as an artifact, publish it, and send the branch managers the link to view
-- Keep the handbook as inline text in the conversation and have each branch manager copy the sections they need into their own Word files
+- Read the recommendation paragraph against the detailed sections to confirm they agree, because a long memo can state one thing early and another later. ✅
+- Send the memo to the owner now, because every figure matched the leases and an internal reader can ask questions before signing the lease on Monday.
+- Compare the memo with her five requested topics and both leases to find any term it leaves out, because matching figures cannot show what is missing. ✅
+- Regenerate the memo with Opus at a higher effort level and send the new version, because a more capable model handles long leases more carefully.
+- Ask Claude in the same chat whether the memo left out anything from either lease, and note its confirmation in the memo, because Claude read both files.
 
-**Correct answer:** Ask Claude to create the handbook as a downloadable Word document using file creation, then distribute that file to the branch managers
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *Ask Claude to rebuild the handbook as an interactive React component artifact so the managers can review it in a polished visual layout*
-
-Interactive components are an artifact type suited to visual or interactive content, not to a text document that must be edited in Word. Choosing a format for its polish rather than for how the recipients will actually work with the content is a format-selection mistake.
-
-**Why the correct answer is right** — *Ask Claude to create the handbook as a downloadable Word document using file creation, then distribute that file to the branch managers*
-
-This is correct because Claude's file creation capability can generate downloadable Word documents (.docx), which is exactly the format the branch managers will edit in. The output format should match how the content will actually be used downstream, and here the downstream tool is Word.
-
-**Overall explanation**
-
-Format selection starts with a simple question: what happens to this output next? Here the answer is clear from the scenario, the handbook leaves Claude entirely and gets edited in Microsoft Word by people who do not use Claude. That points directly to file creation, which lets Claude generate downloadable files including Word documents (.docx), Excel spreadsheets, PowerPoint presentations, and PDFs. The trainer hands over one editable file in the tool the managers already use, with no reformatting or copying required.
-
-It helps to keep a mental model of Claude's three main output paths. Inline text suits quick answers and content consumed inside the conversation. Artifacts suit substantial, self-contained content you will iterate on with Claude; they appear in a dedicated window beside the chat, support versioning, and can be published for viewing via a link. File creation is the bridge out of Claude into standard office tools, producing files people can open, edit, and circulate without a Claude account. Each path exists because different work products have different destinations.
-
-Publishing an artifact fails this scenario twice over: the managers need to edit in Word, not view a page, and on Free, Pro, and Max plans a published artifact is accessible to anyone with the link, which sits uncomfortably with internal compliance content. Copying inline text into separate Word files multiplies manual work and produces divergent copies of what should be one authoritative document. An interactive React component is a real artifact type, but it optimizes for presentation inside Claude when the actual requirement is editability outside it.
-
-See Create and edit files with Claude and What are Artifacts and how do I use them? for details on both output paths.
-
-</details>
+**Correct answers:** Read the recommendation paragraph against the detailed sections to confirm they agree, because a long memo can state one thing early and another later. <br>**+** Compare the memo with her five requested topics and both leases to find any term it leaves out, because matching figures cannot show what is missing.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -462,16 +510,16 @@ See Create and edit files with Claude and What are Artifacts and how do I use th
 
 ### Question 24
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+⏭️ Skipped · *Configuration and Knowledge Management*
 
-A credit union's outreach specialist wants Claude to analyze a spreadsheet of loan-delinquency records to identify repayment patterns that could shape a new financial-counseling program. The spreadsheet contains member names, account numbers, and monthly payment histories. The analysis only needs to surface trends, not identify individual members. The credit union uses a Claude for Work plan. What is the appropriate way to handle the data?
+An account coordinator at a translation agency drafts client quotes in a private Project. Ten months ago she downloaded the agency's rate card, a Google Doc that the finance lead maintains in Drive, and uploaded that copy to the Project knowledge. This month the finance lead put new per-word rates in the Google Doc, but quotes still show the old rates. The Project instructions cover only layout and tone. Which change to the Project is most likely to keep future quotes on the current rates without a repeated manual step for each quote?
 
-- Upload the spreadsheet unchanged, since Anthropic does not use Claude for Work commercial data to train its models by default
-- Remove the member names but keep the account numbers in place so the results can be matched back to individual member records afterward
-- Paste a written description of the records into the chat instead of uploading the file, since typed text is handled with less scrutiny than uploaded documents
-- Replace names and account numbers with generic labels like Member 1 and Member 2, and strip other identifying fields before uploading ✅
+- Switch the Project chats from Sonnet to Opus and raise the effort level, so that Claude reads the rate card more carefully before drafting.
+- Paste the new per-word rates into each chat before asking for a quote, so that every draft starts from the numbers the finance lead set.
+- Add a line to the Project instructions telling Claude to always apply the newest rate card, since instructions reach every chat in the Project.
+- Replace the uploaded copy in the Project knowledge with the rate card added directly from Drive, then draft one test quote to confirm the new rates. ✅
 
-**Correct answer:** Replace names and account numbers with generic labels like Member 1 and Member 2, and strip other identifying fields before uploading
+**Correct answer:** Replace the uploaded copy in the Project knowledge with the rate card added directly from Drive, then draft one test quote to confirm the new rates.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -479,16 +527,16 @@ A credit union's outreach specialist wants Claude to analyze a spreadsheet of lo
 
 ### Question 25
 
-✅ Answered correctly · *Configuration and Knowledge Management*
+⏭️ Skipped · *Task Definition and Prompting*
 
-A regional insurance brokerage's renewals coordinator built a Project six months ago for drafting policy renewal letters. Recently the letters have started citing outdated premium rates and referring to a loyalty discount program by its retired name. Reviewing the Project, the coordinator finds that the standing instructions still use the old program name and the knowledge base contains both last year's rate sheet and the current one. What should the coordinator do?
+A volunteer coordinator at a science museum uploads the volunteer handbook and a single document that collects forty feedback notes from new volunteers. She asks Claude in one message to "find the problems with our onboarding, redesign the two-week schedule, and write a new welcome packet." The reply is a polished packet built on a new schedule. It names the problems in two general bullets that cite no notes. The museum director will ask how the schedule changes were chosen. Which revision is most likely to produce a usable result?
 
-- Archive the Project and rebuild it from scratch, since a configuration that has drifted cannot be reliably corrected in place
-- Begin each new conversation with a reminder telling Claude to ignore the old rate sheet and use the current program name
-- Upload a new document to the knowledge base explaining which rate sheet is current and noting that the program name in the instructions is outdated
-- Update the standing instructions with the current program name and remove the superseded rate sheet so the current one is the single authoritative version ✅
+- Reply in the same chat asking Claude to add a section that explains how the feedback notes support each change in its new schedule.
+- Ask first for a list of onboarding problems tied to the feedback notes, check it, and then request the schedule and the packet. ✅
+- Add an opening line asking Claude to act as a senior volunteer-program consultant and to be thorough and rigorous in all three parts.
+- Resend the same message with a more capable model and a higher effort level, so that each of the three parts receives deeper reasoning.
 
-**Correct answer:** Update the standing instructions with the current program name and remove the superseded rate sheet so the current one is the single authoritative version
+**Correct answer:** Ask first for a list of onboarding problems tied to the feedback notes, check it, and then request the schedule and the packet.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -496,16 +544,16 @@ A regional insurance brokerage's renewals coordinator built a Project six months
 
 ### Question 26
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-An admissions officer at a private university uses Claude daily for a mix of tasks: quick summaries of applicant inquiry emails, routine reply drafting, and an occasional in-depth review of ambiguous borderline application files where several factors interact. Believing that a heavier, more capable model always gives the best results, she has selected Opus, a deep-reasoning specialist, for everything. She now finds responses noticeably slower and regularly hits her plan's usage limits by early afternoon. What is the most appropriate adjustment?
+A sales manager at an industrial equipment distributor turns on web search and asks Claude for a one-page market overview for Thursday's customer presentation. The overview makes seven factual claims. Five have source links, and she has opened each page and confirmed that it supports the claim. The other two, a market growth rate of 6.4 percent and the year a safety standard took effect, have no link. Which action should the manager take for those two claims?
 
-- Upgrade to a higher-capacity plan so Opus can remain the selected model for every task in her daily workload
-- Switch every task, including the borderline application reviews, to Haiku to maximize speed and usage headroom
-- Keep Opus selected for all tasks but start a fresh conversation for each one so shorter threads reduce usage
-- Use Haiku or Sonnet for the quick summaries and routine replies, and reserve Opus for the borderline reviews ✅
+- Look for a reliable published source for the growth rate and for the standard's effective year, and remove whichever claim she cannot confirm. ✅
+- Run the request again with Research, and use the new report's versions of the two claims, since Research runs many searches that build on each other.
+- Keep both claims as written, since they came from the same web search response as the five claims she has already confirmed against their sources.
+- Ask Claude whether the two claims came from pages it found during the search, and keep them if it says that they did.
 
-**Correct answer:** Use Haiku or Sonnet for the quick summaries and routine replies, and reserve Opus for the borderline reviews
+**Correct answer:** Look for a reliable published source for the growth rate and for the standard's effective year, and remove whichever claim she cannot confirm.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -513,16 +561,16 @@ An admissions officer at a private university uses Claude daily for a mix of tas
 
 ### Question 27
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Task Definition and Prompting*
 
-A regional pharmacy chain's compliance team wants to integrate Claude into its monthly audit-report process, which currently runs as twelve manual steps ending in a report filed with a state regulator. The team lead has been told to "put AI on this." Which approach reflects deliberate workflow integration?
+A tenant relations manager at a property management company uploads the old and revised versions of a 30-page lease. In one chat, Claude lists each changed clause with its number, groups the changes by tenant type, and drafts a tenant notice. After each step she asks, "Is this complete and correct?", and Claude answers yes. A colleague then finds two clause numbers that are not in the revised lease and one missing change. Which change should the manager make to her checks between steps?
 
-- Skip redesigning the shared process and encourage each team member to use Claude individually in whatever way suits their own tasks
-- Delegate the entire process to Claude end to end, then add human review at any step where errors begin to surface after go-live
-- Start the integration at the final regulatory sign-off step, since automating the highest-stakes step yields the largest time savings
-- Map each step against reversibility, stakes, and accountability, and delegate to Claude only the steps those criteria show are suited to it ✅
+- Check each step's output against the two lease versions herself, opening every cited clause and looking in each section for changes that the list leaves out. ✅
+- Stop checking between steps and compare only the finished notice with the revised lease, since the notice contains every change that the earlier steps produced.
+- Switch to Opus and raise the effort level for all three steps, so that the answer Claude gives to her question after each step is more reliable.
+- Paste each step's output into a new chat with both lease versions and ask Claude to review it for wrong clause numbers and missing changes before continuing.
 
-**Correct answer:** Map each step against reversibility, stakes, and accountability, and delegate to Claude only the steps those criteria show are suited to it
+**Correct answer:** Check each step's output against the two lease versions herself, opening every cited clause and looking in each section for changes that the list leaves out.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -530,16 +578,16 @@ A regional pharmacy chain's compliance team wants to integrate Claude into its m
 
 ### Question 28
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Workflow Design and Integration*
 
-An environmental consulting firm's permitting specialist has spent weeks in one long Claude conversation preparing a wetland permit application. Recently Claude has started asking for agency requirement documents she supplied at the beginning, and the output format changed partway through the thread. She prepares similar permit applications every month using the same stable agency requirements and templates. Which TWO actions should she take? (Select TWO.)
+A member services lead at an electric cooperative runs a Project in which Claude drafts replies to billing disputes from the rate schedule in its knowledge. Specialists copy each draft into the billing system, edit it there, and send it. In each of the three pilot months, specialists edited about one draft in five, usually the payment-plan paragraph. The cooperative's general manager, who has little AI experience, expects Claude to learn from these edits so that review can stop. Which explanation should the lead give?
 
-- Move the stable agency requirements and templates into a Project's knowledge base so every future application conversation starts with that background already in place ✅
-- Paste the original agency requirements back into the same long thread and keep working there, since everything said in a conversation stays available to Claude
-- Have Claude produce a short summary of the confirmed decisions and progress, verify it against the thread, then continue in a fresh conversation seeded with that summary ✅
-- Switch the current conversation to a more capable model tier so that the requirements supplied at the start come back into view
+- Explain that an edit rate that stayed flat for three months shows Claude cannot improve on this task, so specialists should go back to writing every reply themselves.
+- Explain that repeated edits mean the task needs a more capable model, so the team will switch to Opus at a higher effort level and end review once edits become rare.
+- Confirm that Claude improves as it drafts more replies in the Project, and propose that specialists check only one reply in ten once the edit rate starts to fall.
+- Explain that Claude does not see edits made in the billing system, so the team will add the recurring fixes to the Project instructions and keep reviewing every reply. ✅
 
-**Correct answers:** Move the stable agency requirements and templates into a Project's knowledge base so every future application conversation starts with that background already in place <br>**+** Have Claude produce a short summary of the confirmed decisions and progress, verify it against the thread, then continue in a fresh conversation seeded with that summary
+**Correct answer:** Explain that Claude does not see edits made in the billing system, so the team will add the recurring fixes to the Project instructions and keep reviewing every reply.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -547,16 +595,16 @@ An environmental consulting firm's permitting specialist has spent weeks in one 
 
 ### Question 29
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-An environmental consultancy's field team audits its weekly site-assessment workflow with Claude and finds three recurring frictions: every analyst pastes the same regulatory terminology glossary at the start of each session, every analyst manually adds the required liability disclaimer that Claude keeps omitting, and every analyst walks Claude step by step through the same multi-part report structure. The team wants to promote these fixes into shared configuration so they stop repeating the work. Which plan puts each fix in the right place?
+A development analyst at a regional theater company uploads a spreadsheet of last year's gifts, with donor names replaced by codes. She asks Claude to use code execution to find the average gift from individual donors. The treasurer will present this figure to the board. Claude returns \$412.60 and notes that it averaged all 2,310 rows in the file. The analyst knows that 140 of those rows are corporate sponsorships. What should the analyst do with the figure?
 
-- Write one master prompt containing the glossary, disclaimer, and report steps, and have each analyst copy and paste it at the start of every session
-- Combine the glossary, the disclaimer rule, and the full report procedure into one consolidated set of project instructions for the Project
-- Save the glossary as a project instruction, upload the report procedure as a knowledge base document, and build a Skill that inserts the disclaimer
-- Add the glossary to the Project knowledge base, set a project instruction to include the disclaimer, and create a shared Skill for the report procedure ✅
+- Have Claude run the same calculation a second time and use the figure if both runs match, because two matching results confirm that it is accurate.
+- Treat the figure as needing revision: have Claude recalculate using only individual donor rows, then check the number of rows used against the file. ✅
+- Use the figure in the report as it is, because code execution ran the calculation on the actual file and the result is therefore trustworthy.
+- Keep the figure and add a footnote saying that it includes corporate sponsorships, so that the treasurer can allow for the difference when presenting it.
 
-**Correct answer:** Add the glossary to the Project knowledge base, set a project instruction to include the disclaimer, and create a shared Skill for the report procedure
+**Correct answer:** Treat the figure as needing revision: have Claude recalculate using only individual donor rows, then check the number of rows used against the file.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -564,16 +612,16 @@ An environmental consultancy's field team audits its weekly site-assessment work
 
 ### Question 30
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+⏭️ Skipped · *Workflow Design and Integration*
 
-A publishing house's editorial operations coordinator built a Claude-assisted workflow last quarter for drafting the monthly subscriber newsletter, and at the time it fully complied with the company's AI policy. This month the company circulated an updated AI policy containing several new provisions, including: "AI-assisted external communications must pass a documented human review before sending" and "subscriber personal data must not be uploaded to any non-approved tool." The newsletter workflow drafts from cleared marketing copy and does not handle subscriber personal data. The next newsletter is due in two days. What should the coordinator do?
+A dealer support lead at a kitchen-appliance maker runs a Project in which Claude drafts answers to dealers' warranty questions from the warranty terms in its knowledge. A specialist reviews every draft before it is sent. In a six-week pilot of 300 drafts, Claude added an "I am not certain" note to 12 drafts. Specialists found 9 wrong answers, and 6 of them had no note. The operations director, who has little AI experience, suggests reviewing only drafts that carry the note. Which explanation should the lead give?
 
-- Re-check the workflow against the updated policy and bring it into line with the provisions that now apply before this newsletter is sent, since compliance is judged against the current policy rather than the original one ✅
-- Keep running the workflow exactly as originally designed, since it was compliant when it was created and that earlier standing carries forward until a manager formally flags it
-- Ask Claude to critique its own newsletter draft against the company's quality guidelines and keep that critique on file as the documented review the policy requires
-- Send this issue without the review step given the tight two-day deadline, and build the documented review into the workflow starting with next month's newsletter
+- Explain that Claude can state a wrong answer as confidently as a correct one, so specialists will keep reviewing every draft, with or without a note. ✅
+- Explain that a new Project instruction will make Claude note every answer it is unsure of, so specialists can then review only the noted drafts.
+- Explain that Claude adds a note when it is unsure of an answer, so specialists can review only those drafts and send the others to dealers.
+- Explain that six wrong drafts without a note show Claude is not reliable for warranty questions, so specialists will write every answer themselves again.
 
-**Correct answer:** Re-check the workflow against the updated policy and bring it into line with the provisions that now apply before this newsletter is sent, since compliance is judged against the current policy rather than the original one
+**Correct answer:** Explain that Claude can state a wrong answer as confidently as a correct one, so specialists will keep reviewing every draft, with or without a note.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -581,16 +629,16 @@ A publishing house's editorial operations coordinator built a Claude-assisted wo
 
 ### Question 31
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Capability, Model, and Context Selection*
 
-A fitness equipment manufacturer's technical writer uses Claude in one afternoon to produce three drafts: a social media caption for a product launch, an internal FAQ about the company's return policy, and revised safety warning text for a treadmill user manual. Time for review is limited. How should the writer allocate review effort across the three outputs?
+A customer care lead at a home appliance maker must mark 280 complaints from last month as either a possible safety incident or routine. The company's definition is one paragraph, and customers write vague phrases such as "got very hot" or "smelled odd". The safety team reads only complaints marked as possible incidents, and a missed incident can delay a legally required report. The marking is due in three days. Which selection should the customer care lead make?
 
-- Ask Claude to verify the safety warning text against typical industry standards and treat its detailed confirmation as sufficient sign-off
-- Apply the same quick proofread to all three drafts so the review process stays consistent and efficient across every piece of content
-- Send the social media caption for expert review since it is public-facing, and self-review the internal FAQ and the safety warning text
-- Self-review the caption and the FAQ, and route the treadmill safety warning text to the product safety and legal teams before it enters the manual ✅
+- Use Sonnet at a low effort level for all 280 complaints, then ask Claude in that chat to confirm that no incident was missed.
+- Use Haiku at a low effort level for all 280 complaints, because sorting short items into two groups is high-volume work that needs speed.
+- Use Opus at its default effort level for all 280 complaints, because the vague wording needs judgment and one missed incident is costly. ✅
+- Use Haiku at a low effort level for all 280 complaints, then use Opus to check only those that Haiku marked as possible incidents.
 
-**Correct answer:** Self-review the caption and the FAQ, and route the treadmill safety warning text to the product safety and legal teams before it enters the manual
+**Correct answer:** Use Opus at its default effort level for all 280 complaints, because the vague wording needs judgment and one missed incident is costly.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -598,16 +646,16 @@ A fitness equipment manufacturer's technical writer uses Claude in one afternoon
 
 ### Question 32
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A regional theater company's development officer drafts a major grant application with substantial help from Claude, then thoroughly revises it. The funder's submission guidelines say nothing about AI-assisted writing, and the theater's internal AI policy does not address disclosure either. How should the officer handle disclosure of the AI assistance?
+A customer care lead at a water utility proposes that Claude sort 30,000 overdue accounts into two groups using payment history and neighborhood. One group would be offered payment plans; the other would receive shutoff warnings. The team disagrees about whether using neighborhood is fair. The utility's AI policy does not mention sorting customers, and its AI governance committee reviews new use cases on request. Which action should the lead take first?
 
-- Submit without any mention of AI, since the guidelines' silence on the topic means no disclosure obligation exists
-- Disclose the AI assistance by default rather than conceal it, since neither the guidelines nor internal policy settle it ✅
-- Skip disclosure because the officer's thorough revision means the final proposal is effectively human-authored work
-- Stop using Claude for grant applications entirely until every funder the theater works with publishes an explicit AI policy
+- Remove neighborhood from the sorting, classify the use as appropriate with safeguards on the team's own authority, and have a team member check a sample of accounts.
+- Write down who is affected, what could go wrong, and the open fairness question, then send the proposal to the governance committee before any sorting begins. ✅
+- Classify the use as appropriate and start the sorting, since the AI policy contains no rule against grouping customers and the team can adjust the groups later.
+- Ask Claude whether sorting by neighborhood is fair and compliant with the AI policy, then record its answer as the documented rationale for the team's classification.
 
-**Correct answer:** Disclose the AI assistance by default rather than conceal it, since neither the guidelines nor internal policy settle it
+**Correct answer:** Write down who is affected, what could go wrong, and the open fairness question, then send the proposal to the governance committee before any sorting begins.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -615,37 +663,17 @@ A regional theater company's development officer drafts a major grant applicatio
 
 ### Question 33
 
-❌ **Answered incorrectly** · *Output Evaluation and Validation*
+⏭️ Skipped · *Capability, Model, and Context Selection*
 
-A community college's student-services coordinator is developing a three-page new-student orientation guide with Claude. Claude drafted the guide as ordinary text in the chat, and after several rounds of feedback the conversation now contains five full copies of the guide, making it hard to locate the current version or keep track of earlier revisions. What is the most effective way to continue refining the guide?
+A member services representative at a pension fund answers phone calls with Claude open. During a call she asks short questions about the uploaded plan booklet, such as which section covers early withdrawal, and she confirms each answer in the booklet before telling the member. She is still using Opus at the High effort level, left over from earlier work, and the menu for this model shows no Thinking toggle. The answers are correct on the first response but slow, and callers wait. Which two actions fit these lookups? (Select TWO.)
 
-- Ask Claude to move the guide into an artifact and continue making revisions there ✅
-- Start a fresh conversation for each new revision round so every version of the guide lives in its own separate chat
-- Copy each new version into a separate note-taking app manually and paste the latest one back into the chat before every revision request
-- Ask Claude to label each new copy of the guide in the chat with a version number so the drafts are easier to tell apart ❌ *(your answer)*
+- Keep the current settings and save the questions until each call ends, because accuracy matters more than speed when members ask about their pensions.
+- Choose a lower effort level for the lookups, because on a model with no Thinking toggle, effort is the setting that makes Claude think less. ✅
+- Switch to Haiku for the lookups, because each question is short and narrow, a caller is waiting, and she confirms every answer herself. ✅
+- Raise the effort level to Max for the lookups, because a more thorough first answer removes the need for any follow-up question during a call.
+- Keep Opus at High for the lookups, because a more capable model finishes each task in fewer turns and is therefore faster per call.
 
-**Correct answer:** Ask Claude to move the guide into an artifact and continue making revisions there
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *Ask Claude to label each new copy of the guide in the chat with a version number so the drafts are easier to tell apart*
-
-Numbering the copies makes the clutter slightly easier to navigate but does not remove it. The latest text is still buried among repeated full drafts in the conversation, and there is still no single place where the current guide lives and gets revised.
-
-**Why the correct answer is right** — *Ask Claude to move the guide into an artifact and continue making revisions there*
-
-This is correct because a substantial, self-contained document that will be edited and reused is exactly what artifacts are designed for. An artifact appears in a dedicated window beside the conversation, revisions update it in place rather than producing new full copies in the chat, and the coordinator can switch between versions to review how the guide has evolved.
-
-**Overall explanation**
-
-The useful mental model is that the chat is a dialogue and an artifact is the work product that dialogue is shaping. Claude creates artifacts for content that is significant and self-contained, typically more than 15 lines, likely to be edited, iterated on, or reused, and understandable without the surrounding conversation. A three-page orientation guide going through repeated revision rounds meets every one of those criteria, which is why leaving it as inline chat text produces exactly the symptom described: each revision generates another full copy, and the current version gets buried.
-
-Once the guide lives in an artifact, it appears in a dedicated window to the right of the conversation. Revision requests update that one document in place, the coordinator can edit the text directly, switch between versions to review how the draft evolved, and copy or download the finished guide when it is ready to circulate. The conversation stays readable as a record of feedback, while the artifact stays the single authoritative draft.
-
-The alternatives all fail to separate the dialogue from the deliverable. Spawning a new conversation per revision fragments the work and makes maintaining context harder unless the coordinator restates it or leans on separate memory or search features, and it still yields plain-text copies. Version-numbering the inline drafts labels the clutter without consolidating it. Manually shuttling versions through an external notes app is error-prone busywork that duplicates what the artifact window already does natively. See What are Artifacts and how do I use them? for how artifacts handle iteration and versioning.
-
-</details>
+**Correct answers:** Choose a lower effort level for the lookups, because on a model with no Thinking toggle, effort is the setting that makes Claude think less. <br>**+** Switch to Haiku for the lookups, because each question is short and narrow, a caller is waiting, and she confirms every answer herself.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -653,16 +681,16 @@ The alternatives all fail to separate the dialogue from the deliverable. Spawnin
 
 ### Question 34
 
-✅ Answered correctly · *Output Evaluation and Validation*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-An architecture firm's business development lead asks Claude, with web search enabled, to produce a briefing on regional construction market trends. The response includes several specific figures, each accompanied by citations and source links. Before circulating the briefing to the firm's partners, what does a sound accuracy check involve?
+An outreach coordinator at a county library system uploads a description of a new evening program and asks Claude for a promotion plan aimed at the typical card holder. Claude describes this person as a parent in their thirties, which matches what she sees at her own branch, and every channel in the plan targets parents. The patron survey, which she did not upload, reports card holders by age group and branch. Which action should the coordinator take before the director sets the outreach budget from the plan?
 
-- Ask Claude in the same conversation to verify that each claim matches its cited sources
-- Open the cited sources and check the briefing's key claims against them before circulating it ✅
-- Run the same request again and confirm the second briefing states substantially the same facts
-- Treat the presence of citations and source links as confirmation that the claims are accurate
+- Compare the profile with the patron survey's age and branch figures, then ask Claude to redo the plan for the groups the survey shows. ✅
+- Send the plan to the director as drafted, since the profile is specific and matches the families she sees most often at her own branch.
+- Ask Claude whether the profile is an accurate description of the library's card holders, and keep the plan if Claude says that it is.
+- Delete the profile paragraph and send the list of channels unchanged, so that the plan makes no claim about who the card holders are.
 
-**Correct answer:** Open the cited sources and check the briefing's key claims against them before circulating it
+**Correct answer:** Compare the profile with the patron survey's age and branch figures, then ask Claude to redo the plan for the groups the survey shows.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -670,16 +698,16 @@ An architecture firm's business development lead asks Claude, with web search en
 
 ### Question 35
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A credit union's member communications specialist drafts a weekly newsletter with Claude inside a dedicated Project. Every week the draft comes back with the same flaw: it uses banking jargon that members will not understand, and she spends time rewriting those passages by hand before sending. What is the most effective adjustment?
+An account director at a public relations agency checks two months of Claude use against the agency AI policy. The policy says one client's information must never be used in another client's work; it does not mention memory. Account managers draft media plans in ordinary chats and can all state the rule. Since they turned on memory six weeks ago, two drafts have included another client's launch date. Which action should the director take to fix this problem?
 
-- Write the plain-language requirement into the Project's description field so it shapes every chat in the workspace
-- Add a precise plain-language rule to the Project's instructions, then check that the next draft reflects it ✅
-- Keep rewriting the jargon by hand each week, since manually correcting outputs is a normal part of iterating with Claude
-- Regenerate each week's draft several times and select whichever version happens to contain the least jargon
+- Ask the policy owner to write a new rule about memory, since the current policy does not name the feature and so does not cover this use of it.
+- Have account managers delete the memories that hold client details, and set memory controls so one client's information stays out of other chats. ✅
+- Repeat the confidentiality training for every account manager, since another client's details in a draft show that the rule is not well understood.
+- Add a line to every prompt telling Claude to use only the current client's information, so that details from other accounts are left out of drafts.
 
-**Correct answer:** Add a precise plain-language rule to the Project's instructions, then check that the next draft reflects it
+**Correct answer:** Have account managers delete the memories that hold client details, and set memory controls so one client's information stays out of other chats.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -687,35 +715,35 @@ A credit union's member communications specialist drafts a weekly newsletter wit
 
 ### Question 36
 
-❌ **Answered incorrectly** · *Output Evaluation and Validation*
+❌ **Answered incorrectly** · *Output Evaluation and Quality Control*
 
-A specialty foods importer's product coordinator uses Claude to draft the allergen declaration text for a new snack product's packaging. The coordinator carefully compares the draft against the supplier's ingredient specification and confirms every ingredient matches. The label is scheduled to print next week. What should the coordinator do next?
+A guest experience analyst at a hotel group uploads a 30-page guest survey report and asks Claude for a one-page summary for the regional directors. The summary says check-in satisfaction fell from 84 to 75 and that the self-service kiosks installed in March caused the drop. She has confirmed both scores in the report. The directors will use the summary to decide whether to remove the kiosks. Which action should the analyst take before the summary goes to the directors?
 
-- Send it to print, since the text has already been verified against the authoritative source document ❌ *(your answer)*
-- Ask Claude to check the draft against current labeling regulations and proceed once it confirms compliance
-- Add a broad statement that the product may contain traces of common allergens, then proceed to print
-- Route the draft to the company's food-safety or regulatory specialist for review before it goes to print ✅
+- Ask Claude to confirm that the kiosks caused the drop, and add a line to the summary stating that the findings were verified.
+- Send the summary as written, since both scores match the report and that shows Claude based the whole summary on the uploaded document. ❌ *(your answer)*
+- Check whether the report itself names the kiosks as the cause, and if it does not, remove that statement or label it as unconfirmed. ✅
+- Regenerate the summary with a more capable model at a higher effort level, and send that version if it gives the same cause.
 
-**Correct answer:** Route the draft to the company's food-safety or regulatory specialist for review before it goes to print
+**Correct answer:** Check whether the report itself names the kiosks as the cause, and if it does not, remove that statement or label it as unconfirmed.
 
 <details open>
 <summary><b>Explanation</b></summary>
 
-**Why your answer was wrong** — *Send it to print, since the text has already been verified against the authoritative source document*
+**Why your answer was wrong** — *Send the summary as written, since both scores match the report and that shows Claude based the whole summary on the uploaded document.*
 
-Verifying the draft against the supplier specification is a good accuracy check, but it only confirms the draft faithfully reflects that document. It cannot confirm the specification is complete or that the declaration meets applicable labeling rules, which are questions of expert judgment, not transcription accuracy.
+Matching scores verify only the scores. Claude can copy figures correctly from a document and still add an explanation the document does not contain, written in the same confident tone. The directors will act on the statement about the cause, and nobody has checked it.
 
-**Why the correct answer is right** — *Route the draft to the company's food-safety or regulatory specialist for review before it goes to print*
+**Why the correct answer is right** — *Check whether the report itself names the kiosks as the cause, and if it does not, remove that statement or label it as unconfirmed.*
 
-This is correct because allergen labeling sits above the threshold where expert human review is mandatory: the stakes involve consumer safety, a printed label is costly to recall, and the content carries regulatory exposure. Checking the draft against the ingredient specification confirms it matches the source, but only a qualified specialist can judge whether the specification itself is complete and whether the wording meets labeling requirements.
+The cause is a separate claim from the two scores, and nobody has traced it to the report yet. Claude can add an explanation that fits the topic even when the source does not state it. Checking the report for that claim, and removing or labeling it if it is missing, stops an unsupported reason from becoming the basis for the directors' decision.
 
 **Overall explanation**
 
-The skill being tested is knowing where the line sits between outputs you can verify yourself and outputs that must go to a qualified human reviewer. That line is not drawn by how confident you feel about the draft; it is drawn in advance by the nature of the content: the stakes (an incorrect allergen declaration can physically harm a consumer), the reversibility (a printed label is expensive to pull back), the audience (the public), and the regulatory exposure (food labeling is legally governed). When a task scores high on those factors, expert review is mandatory no matter how polished or well-verified the draft appears.
+Claude writes a guess and a supported fact in the same confident voice. A summary of an uploaded document can therefore mix two kinds of statement: statements taken from the document, and statements that Claude added because they fit the topic. The second kind is a **plausible but unsupported claim**. It is hard to notice because nothing about it looks wrong. The kiosks were installed in March and the score fell afterward, so the cause seems reasonable. But a survey can show that a score fell without showing why it fell.
 
-It is worth separating two different checks that are easy to conflate. Comparing the draft against the supplier's ingredient specification is accuracy verification: it confirms the text faithfully reflects its source, and it is exactly the right first step. Expert review is a different check: a food-safety or regulatory specialist judges whether the source itself is complete, whether the declaration format and wording satisfy labeling requirements, and whether anything consequential is missing. The coordinator's check cannot answer those questions, so passing it does not clear the label for print.
+Checking the two scores verified only the two scores. Each claim in an output has to be traced to the source separately, and a cause or an explanation is a claim in the same way a number is. The analyst should open the report and look for a passage that names the kiosks as the cause. If the report says so, the statement can stay. If it does not, she should remove the statement or mark it clearly as a possibility that the report does not confirm. The check is especially important in this case because the directors may remove the kiosks based on this one sentence, and the analyst is responsible for what she sends them.
 
-Asking Claude to confirm its own draft complies with regulations fails for a documented reason: Anthropic states that Claude can produce incorrect or misleading responses that sound authoritative, and advises users not to rely on Claude as a singular source of truth, especially for high-stakes advice, which should be carefully scrutinized by a human. And adding a vague "may contain traces" statement is an anti-pattern: it hedges the risk rather than resolving it, and does not make an inaccurate declaration safe or compliant. See Claude is providing incorrect or misleading responses. What's going on? for Anthropic's guidance on scrutinizing high-stakes output.
+The other choices do not compare the claim with the source. Matching figures do not show that the rest of the summary came from the report. Asking Claude to confirm its own statement produces another generated answer, not independent evidence, and a note saying "verified" would be untrue. A more capable model or a higher effort level can improve reasoning, but a second summary that repeats the same cause is still not evidence that the report contains it. Anthropic's guidance says that Claude can give responses that look correct but are wrong, and that users should not rely on Claude as a single source of truth: [Claude is providing incorrect or misleading responses. What's going on?](https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on)
 
 </details>
 
@@ -725,16 +753,16 @@ Asking Claude to confirm its own draft complies with regulations fails for a doc
 
 ### Question 37
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+✅ Answered correctly · *Responsible Use, Data Protection, and Governance*
 
-A veterinary clinic network's client communications team audited its weekly pet-discharge instruction workflow and found the same background pasted every session, the same formatting fixed by hand every round, and inconsistent results across staff. They promoted the fixes into a shared Project: reference material in the knowledge base, the formatting procedure as a Skill, and a standing instruction for the recurring correction. The team lead wants all staff to depend on the new setup starting tomorrow. What should the team do first?
+A financial aid counselor at a community college proposes a new use for Claude. The scholarship committee would still decide every award and record its reasons. Claude would then turn each record into a plain-language letter telling the student the outcome and the reasons. About 600 letters go out each term, and students have 14 days to appeal. The dean asks for a classification. Which classification is the best fit?
 
-- Switch all staff over immediately, since moving repeated work into configuration reliably improves output and delaying adoption just prolongs the friction
-- Run the workflow through a few cycles with the new configuration while the old approach is still available, compare the outputs, and commit only once the gain is confirmed ✅
-- Roll the changes back and keep pasting the background and fixing the formatting manually, since shared configuration introduces more risk than the friction it removes
-- Ask Claude to review the new Project setup and confirm that it will produce better outputs than the old manual approach before rolling it out
+- Inappropriate: scholarship awards affect students' education and finances, so no part of the award process, including the letters, should involve Claude at any stage.
+- Appropriate with safeguards: a counselor checks each letter against the committee's record before sending, because Claude explains decisions and does not make them. ✅
+- Appropriate with safeguards: Claude rereads each letter in a separate chat and confirms it matches the committee's record, because a separate chat gives an independent check.
+- Appropriate without safeguards: the committee has already decided each award, so the letters only repeat its record and can be sent to students as Claude writes them.
 
-**Correct answer:** Run the workflow through a few cycles with the new configuration while the old approach is still available, compare the outputs, and commit only once the gain is confirmed
+**Correct answer:** Appropriate with safeguards: a counselor checks each letter against the committee's record before sending, because Claude explains decisions and does not make them.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -742,16 +770,16 @@ A veterinary clinic network's client communications team audited its weekly pet-
 
 ### Question 38
 
-✅ Answered correctly · *Prompting and Task Execution*
+✅ Answered correctly · *Output Evaluation and Quality Control*
 
-A craft brewery's brand manager built one prompt template with strict evaluation criteria, a required table format, and explicit standards. It works well when analyzing taproom sales data, but when reused to brainstorm names for a seasonal beer line, Claude returns a short, repetitive list of similar names. What adjustment reflects sound adaptation of prompting strategy to the task type?
+A visitor services manager at a science museum turns on web search and asks Claude for three attendance benchmarks for a memo to the museum's board, which will use them to set next year's visitor target. Claude returns three figures, each with a source link. She opens the first link. It is a ticketing vendor's blog post, and the figure there counts school-group visits only, not total attendance. Which action should she take before the memo goes to the board?
 
-- Add more constraints to the brainstorming prompt, such as naming conventions and a fixed structure for each entry, so Claude knows precisely what a good name looks like
-- Rerun the identical brainstorming prompt several times in fresh conversations and merge the resulting lists into one larger pool of candidate names
-- Loosen the constraints on both prompts, giving Claude broad latitude on the sales analysis as well so it has room to produce its best work everywhere
-- For the brainstorm, strip the prompt down to the goal and a few guardrails, then ask for a large number of varied options before narrowing anything down ✅
+- Ask Claude to review its three citations, confirm that each figure matches its source page, and add a note to the memo that the benchmarks were verified.
+- Open the other two links, confirm that each page supports its figure as used, and replace the first figure with one from an authoritative source. ✅
+- Remove the first figure and keep the other two as drafted, because each has a source link that board members can open if they question a number.
+- Switch to Opus at a higher effort level and run the same request again, so that Claude chooses stronger sources and reads each page more carefully.
 
-**Correct answer:** For the brainstorm, strip the prompt down to the goal and a few guardrails, then ask for a large number of varied options before narrowing anything down
+**Correct answer:** Open the other two links, confirm that each page supports its figure as used, and replace the first figure with one from an authoritative source.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -759,16 +787,16 @@ A craft brewery's brand manager built one prompt template with strict evaluation
 
 ### Question 39
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+⏭️ Skipped · *Workflow Design and Integration*
 
-A public library system's program coordinator has spent an entire afternoon in one long Claude conversation planning a summer reading program. Early in the session, Claude's responses followed her formatting instructions exactly and correctly referenced the budget figures she pasted at the start. Over the last hour, as the conversation has grown very long, responses have gradually drifted from the required format and started misstating the budget numbers. What is the most appropriate way to resolve this?
+A quality coordinator at a food-testing laboratory is moving her weekly sample turnaround report into a shared Project that a colleague will run. The Project instructions hold the layout rules, and the document that lists turnaround targets changes once a year. Each report must cover only that week's lab-system export. In a trial, she stored four weekly exports in Project knowledge, and the report counted samples from earlier weeks. Which setup best fits this workflow?
 
-- Start a fresh conversation, carrying forward a brief summary of the decisions, formatting instructions, and budget figures ✅
-- Switch the conversation to a different model with extended thinking enabled, since the planning work has become too complex for the current settings
-- Rewrite the original prompt with more detail about audience, format, and constraints, then resend it in the same conversation
-- Audit the Project's standing instructions and knowledge files for content that has drifted out of date and is degrading output
+- Run every report in one long chat in the Project, and upload each week's export there so that Claude keeps the layout from earlier weeks.
+- Leave the exports in Project knowledge, switch to Opus, and raise the effort level so that Claude separates the weekly figures more carefully.
+- Keep only the targets and layout rules in the Project, and upload each week's export in a new chat so that each run is given one export. ✅
+- Keep every weekly export in Project knowledge, and state the week to report in each prompt so that Claude selects the matching export.
 
-**Correct answer:** Start a fresh conversation, carrying forward a brief summary of the decisions, formatting instructions, and budget figures
+**Correct answer:** Keep only the targets and layout rules in the Project, and upload each week's export in a new chat so that each run is given one export.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -776,16 +804,16 @@ A public library system's program coordinator has spent an entire afternoon in o
 
 ### Question 40
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Task Definition and Prompting*
 
-A city museum's membership team had Claude build a dashboard artifact inside a Project to track renewal metrics from an uploaded spreadsheet. The first version works, but one chart groups memberships by join date instead of renewal date, and there is no way to filter by membership tier. What is the most effective next step?
+A logistics manager at a furniture retailer must write a memo for the owners, who want a fair assessment before deciding whether to keep the in-house delivery trucks or hire an outside carrier. She attaches two years of delivery costs and the carrier's quote, then asks Claude, "Write a memo explaining why the outside carrier is the right choice." The figures match her files, but the memo lists only the carrier's benefits. Which revision is most likely to produce a usable memo?
 
-- Escalate the dashboard to developer expertise now, since flaws in a working prototype show it has outgrown prompt-based iteration
-- Continue in the same conversation, describe the two specific problems, and ask Claude to revise the artifact accordingly ✅
-- Start a fresh conversation and rewrite the original prompt from scratch, folding in everything learned, so the artifact is rebuilt cleanly
-- Regenerate the artifact by resubmitting the identical original prompt, since natural variation between responses may correct the flaws
+- Rewrite the request without naming a preferred answer, asking Claude to give the main points for and against each delivery option. ✅
+- Add a line telling Claude to act as a senior logistics consultant, then send the same request so the memo shows an expert's judgment.
+- Switch to a more capable model and raise the effort level, then send the same request so the analysis considers more of the cost data.
+- Reply in the same chat asking Claude to confirm that the memo is balanced and to add a closing paragraph on the carrier's possible risks.
 
-**Correct answer:** Continue in the same conversation, describe the two specific problems, and ask Claude to revise the artifact accordingly
+**Correct answer:** Rewrite the request without naming a preferred answer, asking Claude to give the main points for and against each delivery option.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -793,16 +821,39 @@ A city museum's membership team had Claude build a dashboard artifact inside a P
 
 ### Question 41
 
-✅ Answered correctly · *Prompting and Task Execution*
+❌ **Answered incorrectly** · *Capability, Model, and Context Selection*
 
-A regional theater company's development director asks Claude to "draft a thank-you letter to a donor" and receives a bland, template-like letter that could have come from any organization. Before trying again, she wants to change the one thing most likely to produce a usable draft. What should she do?
+A training manager at a hotel group is trying out a new format for summaries of guest-service workshop feedback, written for regional directors. She has written two summaries in regular chats, each from one workshop's survey export, and she changed the summary's sections after each one. The directors will send more comments over the next month. Only she writes these summaries for now. A colleague suggests building a custom Skill today. Which approach best fits this stage of the work?
 
-- Prepend an expert persona such as "You are an award-winning nonprofit fundraising copywriter with 30 years of experience" and resend the otherwise identical request
-- Ask Claude to rewrite the letter to be far more heartfelt and compelling this time, without changing anything else about the original request
-- Request a letter three times as long as the first one so that more of the donor relationship is likely to be covered somewhere in the draft
-- Add the missing specifics: the gift funded the youth acting program, the letter should mention the season it supports, and the tone should be warm, around 200 words ✅
+- Keep describing the current sections in each chat request while the directors are still commenting, and build a custom Skill once the sections are final. ✅
+- Switch to Opus at a higher effort level and ask Claude to choose the best sections, so the format does not depend on further comments.
+- Create a Project and add both earlier summaries to its knowledge as examples, so Claude follows their sections whenever she uploads a new survey export. ❌ *(your answer)*
+- Build a custom Skill from the current sections today and update it after each round of comments, so every summary follows a packaged procedure.
 
-**Correct answer:** Add the missing specifics: the gift funded the youth acting program, the letter should mention the season it supports, and the tone should be warm, around 200 words
+**Correct answer:** Keep describing the current sections in each chat request while the directors are still commenting, and build a custom Skill once the sections are final.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Create a Project and add both earlier summaries to its knowledge as examples, so Claude follows their sections whenever she uploads a new survey export.*
+
+The two earlier summaries use different sections, and she has already replaced both layouts. Claude would draw on examples that disagree with each other and with the current format. The background for this work is also not stable yet, so a Project has little background to keep from one chat to the next.
+
+**Why the correct answer is right** — *Keep describing the current sections in each chat request while the directors are still commenting, and build a custom Skill once the sections are final.*
+
+The format has changed after both summaries and more comments are coming, so the procedure is not settled yet. Regular prompting lets her change the sections without creating or maintaining a Skill yet. A Skill is most useful after the directors agree on a final version.
+
+**Overall explanation**
+
+A **Skill** is a packaged procedure that Claude loads when a matching task comes up. It is most useful when the procedure is settled, because the same steps then run every time and nobody has to explain them again. It is much less useful while the task is still changing. The manager changed the sections after both summaries and expects a month of further comments, so the procedure is not settled yet.
+
+Regular prompting fits work that is still being explored. Describing the current sections in each request takes a few lines, and she can change those lines freely after each round of comments. Each summary also depends mainly on that workshop's own survey export, so no stable background needs to carry from one chat to the next. When the directors agree on the final sections, she can package them once as a custom Skill. From then on Claude can apply the format in any chat or Project without her describing it. See [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills) for how Skills differ from Projects and instructions.
+
+Building the Skill today is not wrong in principle, but it adds maintenance with little benefit. She would have to edit or update the Skill after each round of comments, so every round would add work on top of writing the summary. Adding the two earlier summaries to a Project's knowledge gives Claude two different layouts that she has already replaced, and Claude may mix them or follow the wrong one. Switching to Opus at a higher effort level changes how deeply Claude reasons, at the cost of slower responses and more usage. It does not tell Claude what the directors want, and their comments are what will decide the format.
+
+The order to remember is: settle the procedure first, then package it. Review of each summary stays in her workflow either way, because a Skill reduces variation between runs but does not remove it.
+
+</details>
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -810,37 +861,16 @@ A regional theater company's development director asks Claude to "draft a thank-
 
 ### Question 42
 
-❌ **Answered incorrectly** · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Capability, Model, and Context Selection*
 
-A boutique hotel group's revenue planner is preparing next season's pricing plan with Claude. One key question, how midweek occupancy trended across the group's three properties over the past year, can be answered entirely from the booking spreadsheets she already has on her laptop. A colleague suggests running Claude's Research feature on the question so the answer comes back with citations. What should the planner do?
+A pricing consultant at a management consulting firm is starting four-month engagements with two competing grocery chains. Each chain has supplied confidential pricing files and uses its own terms, and she will work on both every week. Memory is turned on in her account. Firm policy permits this use of Claude but requires that one client's information never appears in the other client's work. Which setup best fits this work?
 
-- Ask the question without any attachments so Claude can draw on its general knowledge of hospitality occupancy patterns
-- Use Research to gather industry-average occupancy benchmarks and substitute those figures for the properties' own numbers
-- Attach the booking spreadsheets to the conversation and ask Claude to work out the occupancy trend directly from them ✅
-- Run Research on the question so the answer arrives with citations drawn from multiple retrieved sources ❌ *(your answer)*
+- Create a single Project for both chains, label every file with the chain's name, and instruct Claude never to use one chain's details in the other chain's work.
+- Work in standalone chats with memory turned on, and name the chain at the start of each chat, so Claude applies the right chain's saved details.
+- Do all work for both chains in incognito chats and attach the relevant chain's files each time, so nothing is saved to memory or chat history.
+- Create one Project per chain with that chain's files and instructions, turn off "Use account memory" in each Project, and work on each chain only there. ✅
 
-**Correct answer:** Attach the booking spreadsheets to the conversation and ask Claude to work out the occupancy trend directly from them
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *Run Research on the question so the answer arrives with citations drawn from multiple retrieved sources*
-
-Research earns its place when the answer sits outside your own material and several sources must be reconciled. Here the needed data is the group's own booking records, which web retrieval cannot see, so a sweep would be slower and no more reliable than asking directly against the files she already has.
-
-**Why the correct answer is right** — *Attach the booking spreadsheets to the conversation and ask Claude to work out the occupancy trend directly from them*
-
-This is correct because the answer lives entirely inside material the planner already holds. A grounded ask against supplied files is faster than a research sweep and produces a result she can check line by line against the source spreadsheets, which is exactly the verification a plan needs.
-
-**Overall explanation**
-
-The judgment being tested is when a research sweep earns its place over a grounded ask. A grounded ask works from material you supply: it is fast, and its output can be checked against a source you already hold. A sweep with Claude's Research feature goes out across many sources, reconciles them, and shows what it drew on; it conducts multiple searches and returns citations, which is genuinely valuable when the answer is outside your material. When the answer is already sitting in a spreadsheet on your laptop, a sweep is slower and no more reliable, because the authoritative source is the file itself, not anything on the web.
-
-The mental model for planning work is that the trustworthiness of a plan is inherited from the trustworthiness of the numbers under it. Numbers computed from the actual booking data can be defended figure by figure; numbers recalled from general knowledge or borrowed from industry benchmarks cannot, because neither reflects what actually happened at these three properties. Asking without attachments risks hallucinated specifics, and substituting benchmarks quietly swaps the question being answered from "how did our occupancy trend?" to "how did the industry's occupancy trend?", which is a different plan.
-
-Research remains the right tool when its conditions hold: the answer post-dates or sits outside your material, several sources must be reconciled, and you need to see what was used. Details on how Research retrieves and cites sources are in Using Research on Claude.ai, and guidance on supplying your own files for grounded analysis is in What kinds of documents can I upload to Claude.ai.
-
-</details>
+**Correct answer:** Create one Project per chain with that chain's files and instructions, turn off "Use account memory" in each Project, and work on each chain only there.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -848,37 +878,16 @@ Research remains the right tool when its conditions hold: the answer post-dates 
 
 ### Question 43
 
-❌ **Answered incorrectly** · *Output Evaluation and Validation*
+⏭️ Skipped · *Task Definition and Prompting*
 
-A university accreditation office uploads its 320-page self-study report as a single PDF and asks Claude to summarize the key findings for a leadership retreat. The report presents several critical enrollment and retention figures only in charts, with no matching numbers in the surrounding text. Claude's summary is well written but contains none of those chart-based figures. When evaluating the summary for completeness, what should the office conclude and do?
+An operations manager at a bakery chain will meet an oven supplier on Friday to negotiate the supplier's proposed three-year maintenance agreement. She wants to know which terms to ask the supplier to change. Her draft prompt attaches the 12-page agreement and says, "List the key terms on fees, response times, and cancellation in a table." Which change is most likely to produce a usable first draft?
 
-- Ask Claude directly whether it reviewed every chart in the report and, if it confirms that it did, accept the summary as complete for circulation
-- Recognize that a PDF this long is processed as text only, so Claude never saw the chart figures, and add them from the source before the summary is used ✅
-- Treat the omission as Claude's editorial judgment that the chart data was not material to the findings, and circulate the summary to the retreat as delivered
-- Ask Claude to regenerate the summary with an added instruction to include every chart in the report, since the omission indicates the original prompt was too vague ❌ *(your answer)*
+- Begin the prompt with "You are a world-class contract lawyer with 30 years of experience", so that Claude applies expert judgment to each term.
+- Select Opus and raise the effort level before sending the prompt, so that Claude reasons more carefully about fees, response times, and cancellation.
+- State that the bakery chain is the customer, and ask Claude to review the agreement as the buyer and mark each term that favors the supplier. ✅
+- Add the line "Be thorough and include every clause in the agreement", so that no term she might need on Friday is left out.
 
-**Correct answer:** Recognize that a PDF this long is processed as text only, so Claude never saw the chart figures, and add them from the source before the summary is used
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *Ask Claude to regenerate the summary with an added instruction to include every chart in the report, since the omission indicates the original prompt was too vague*
-
-Re-prompting cannot fix this omission because the problem is not instruction quality. At this document length the chart content was never processed, so a more detailed instruction still leaves Claude working from text that does not contain the figures.
-
-**Why the correct answer is right** — *Recognize that a PDF this long is processed as text only, so Claude never saw the chart figures, and add them from the source before the summary is used*
-
-This is correct. PDFs longer than 100 pages are processed as text only, so figures that appear exclusively in charts are invisible to Claude, and no amount of re-prompting in the same setup can surface them. The completeness gap must be closed from the source itself, either by supplying the values directly or by giving Claude a version of the material it can visually analyze.
-
-**Overall explanation**
-
-Evaluating an output for completeness starts with knowing what the tool could actually see. Claude's document handling has documented boundaries: PDFs up to 100 pages can be analyzed for both text and visual content, while PDFs from 101 to 1000 pages are processed as text only, and non-PDF documents are text extraction only. A 320-page report therefore reaches Claude without its charts, so any figure that exists only in a graphic is simply absent from the material Claude summarized. The resulting gap is invisible in the summary itself; it only shows up when you compare the output against the source, which is why completeness checks always run against the original document rather than against how polished the output looks.
-
-The practical fix works at the input, not the prompt. The office can type the chart values into the conversation, or extract the pages containing the key charts into a short PDF (under 100 pages) so Claude can visually analyze them, then have the summary revised from that verified data. Re-prompting the same oversized file with firmer instructions changes nothing, because the limitation is in what was processed, not in what was asked. Treating the omission as deliberate editorial judgment mistakes a mechanical constraint for a decision, and asking Claude to confirm it reviewed the charts asks for assurance about content it never received; Claude's answers can sound authoritative without being grounded, which is why self-confirmation is never a substitute for checking the source.
-
-The broader habit this scenario teaches: before signing off on any summary of an uploaded document, know the format and length limits that applied, walk the source's key sections and figures, and confirm each is represented or consciously omitted. See Upload files to Claude for the processing limits and Claude is providing incorrect or misleading responses for why outputs should never be validated by the model's own say-so.
-
-</details>
+**Correct answer:** State that the bakery chain is the customer, and ask Claude to review the agreement as the buyer and mark each term that favors the supplier.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -886,16 +895,16 @@ The broader habit this scenario teaches: before signing off on any summary of an
 
 ### Question 44
 
-✅ Answered correctly · *Prompting and Task Execution*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-A civil engineering trade association's events coordinator asks Claude to draft a session description for the annual conference. The first draft is too long and too academic for the practicing engineers who attend. She replies "make it better" twice; each new version is different but no closer to what she needs, and the third draft has drifted further from usable than the first. What is the most effective next step?
+A finance coordinator at a county parks department asks Claude to estimate next summer's day-camp budget from an uploaded cost file. Claude replies in the chat with a table of costs and revenue for 400 campers at a \$180 fee, and she has checked the table against the file. The recreation director wants to try other camper numbers and fees herself during a planning meeting on Tuesday. Which format should the coordinator ask Claude for?
 
-- Reply "make it better" a few more times, since repeated rounds of iteration gradually converge on a stronger version of the draft
-- Send the same follow-up message again and regenerate several times, then pick whichever of the new variations happens to read best
-- Ask for the strongest draft to be cut to a set length and rewritten in a plain, practical style suited to working engineers ✅
-- Ask Claude to combine all three drafts into a single merged version so that nothing useful from any of the rounds is lost
+- Ask Claude to create a PDF of the checked table with the department's header, so the director receives a finished file that nobody can change by mistake.
+- Ask Claude for an Excel file with the camper number and fee as input cells and formulas for the totals, then test it with the checked 400-camper case. ✅
+- Ask Claude to add tables to the chat reply for six other combinations of camper number and fee, so the director can compare the totals.
+- Have the director ask Claude in the chat for new totals each time she changes a number in the meeting, so every answer is up to date.
 
-**Correct answer:** Ask for the strongest draft to be cut to a set length and rewritten in a plain, practical style suited to working engineers
+**Correct answer:** Ask Claude for an Excel file with the camper number and fee as input cells and formulas for the totals, then test it with the checked 400-camper case.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -903,16 +912,16 @@ A civil engineering trade association's events coordinator asks Claude to draft 
 
 ### Question 45
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+⏭️ Skipped · *Output Evaluation and Quality Control*
 
-A grocery retail chain's employee benefits coordinator is drawing up a list of ways the team could use Claude. Which TWO of the following proposed uses are appropriate as described? (Select TWO.)
+A finance analyst at a staffing agency uploaded 4,200 third-quarter invoices and asked Claude to total revenue by client with code-executed analysis. Company rules exclude canceled invoices from revenue, and the file marks them in a status column. Claude returned client totals and a chart but did not say which rows it counted. The accounting system shows only a company-wide quarter total. The board will set next year's budget from the client figures. Which action should the analyst take before the figures go to the board?
 
-- Brainstorm campaign names and outreach ideas for the upcoming benefits enrollment period, then refine drafts of the announcement emails through iteration ✅
-- Set up a self-serve chat where employees ask questions about their diagnosed medical conditions and receive personalized guidance without staff involvement
-- Draft a monthly employee wellness newsletter with general tips on sleep, stress management, and exercise, which the coordinator reviews before sending ✅
-- Upload employees' submitted medical documentation and have Claude decide which disability accommodation requests should be approved or denied
+- Confirm how the analysis treated canceled invoices and compare its overall total with the accounting system's quarter total, because computed figures can follow a wrong rule. ✅
+- Ask Claude to run the same analysis again in a new chat and send the client figures if both runs match, because identical results confirm that the totals are right.
+- Set Claude's analysis aside and manually total all 4,200 invoices by client in a spreadsheet, because a manual calculation removes any doubt about the figures the board will use.
+- Send the client totals to the board as returned, because code-executed analysis calculates each figure from the actual invoice rows and the chart agrees with the totals.
 
-**Correct answers:** Brainstorm campaign names and outreach ideas for the upcoming benefits enrollment period, then refine drafts of the announcement emails through iteration <br>**+** Draft a monthly employee wellness newsletter with general tips on sleep, stress management, and exercise, which the coordinator reviews before sending
+**Correct answer:** Confirm how the analysis treated canceled invoices and compare its overall total with the accounting system's quarter total, because computed figures can follow a wrong rule.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -920,16 +929,16 @@ A grocery retail chain's employee benefits coordinator is drawing up a list of w
 
 ### Question 46
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A wind energy cooperative's planning committee is drafting a five-year battery storage investment plan. They ask Claude, with web search turned on, to synthesize several industry analyst reports on future storage costs. Claude returns a single confident cost trajectory presented as settled consensus, yet one committee member knows the analyst firms have published sharply different projections. What should the committee do before building the plan on this synthesis?
+A communications consultant at a public relations agency is starting launch plans for two beverage companies that are direct competitors. Each plan will run for about three months and build on earlier drafts. Until now the consultant has done all client work in standalone chats with memory turned on. Agency policy approves the Claude workspace for client material but requires that one client's information never carries into another client's work. Which setup meets the policy and supports the work?
 
-- Regenerate the synthesis a second time and treat matching conclusions across the two versions as confirmation that the trajectory is reliable
-- Ask Claude to rewrite the synthesis with substantially more detail and supporting reasoning so that any weak points become easier to spot
-- Rerun the request with a source required for each claim and disagreements reported explicitly, then check key figures against those sources ✅
-- Accept the trajectory as presented, since a synthesis drawn from multiple independent reports is inherently more reliable than any single analyst's view
+- Keep using standalone chats and open each one by naming the client and telling Claude to ignore anything it remembers about the other client.
+- Put both clients in one Project set to private with a knowledge file for each, so that only the consultant can open the client material.
+- Create a separate Project for each client, keep that client's chats and files there, and turn off "Use account memory" on each Project page. ✅
+- Do the work for both clients in incognito chats, since incognito chats are not saved to chat history or memory and cannot carry anything over.
 
-**Correct answer:** Rerun the request with a source required for each claim and disagreements reported explicitly, then check key figures against those sources
+**Correct answer:** Create a separate Project for each client, keep that client's chats and files there, and turn off "Use account memory" on each Project page.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -937,16 +946,16 @@ A wind energy cooperative's planning committee is drafting a five-year battery s
 
 ### Question 47
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+⏭️ Skipped · *Responsible Use, Data Protection, and Governance*
 
-A city transit agency's outreach coordinator proposes using Claude to draft the denial letters sent to applicants who do not qualify for the reduced-fare program. Working through the ethics of the idea, the coordinator notes that thousands of low-income residents would be affected each year, an unfair or inconsistent phrasing could cause real harm, and the agency's AI policy says nothing about using AI in benefits communications. What should the coordinator do next?
+During a monthly review of Claude use, a billing supervisor at a group of physical therapy clinics learns that a specialist pasted 60 rows of a claims export, with patient names, birth dates, and treatment codes, into an incognito chat last week to find reasons for rejected claims. The specialist keeps memory turned on for other work. Company policy keeps patient records out of the Claude workspace and requires that any breach of this rule be reported to the privacy officer. Which action should the supervisor take first?
 
-- Ask Claude to evaluate whether the proposed workflow is ethical and proceed if it concludes the use case is fair
-- Add a line to each letter disclosing that AI assisted the drafting, then proceed, since transparency resolves the ethical concern
-- Treat the policy's silence on benefits communications as permission and proceed, since no rule explicitly restricts this use
-- Escalate the question to the agency's AI governance function, sharing the documented reasoning rather than a proceed-or-stop verdict ✅
+- Note in the review that no report is needed, because incognito chats are not saved to chat history or memory and so leave no record of the patient data behind.
+- Report the incident to the privacy officer now, because the records were shared and incognito chats are still kept under the organization's retention settings. ✅
+- Ask the specialist to open the memory settings and delete every entry that mentions the claims export, so that the patient details cannot appear in any later chats.
+- Remind the whole team at the next meeting that patient records must stay out of the Claude workspace, so that the same mistake does not happen a second time.
 
-**Correct answer:** Escalate the question to the agency's AI governance function, sharing the documented reasoning rather than a proceed-or-stop verdict
+**Correct answer:** Report the incident to the privacy officer now, because the records were shared and incognito chats are still kept under the organization's retention settings.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -954,16 +963,16 @@ A city transit agency's outreach coordinator proposes using Claude to draft the 
 
 ### Question 48
 
-✅ Answered correctly · *Product and Model Selection*
+⏭️ Skipped · *Configuration and Knowledge Management*
 
-A specialty insurance brokerage's training coordinator has two Claude tasks this month. First, she drafts new-hire onboarding materials every month, always working from the same set of product guides and internal compliance policies. Second, she needs a well-sourced overview of regulatory changes announced across multiple state insurance departments over the past quarter, synthesized from many current sources. Which TWO actions best match Claude's features to these tasks? (Select TWO.)
+A maintenance planner at a city water utility exports overdue work orders by hand each Monday and writes a summary for her director. She wants Claude to prepare the summary from the work-order system instead. The connector that the utility's IT team approved for that system lets Claude search and read work orders, and also create, reassign, and close them. Field supervisors schedule crews from work-order status. Which setup best fits this workflow?
 
-- Create a Project with the guides and compliance policies in its knowledge base, and draft each month's onboarding materials inside it ✅
-- Start a fresh plain Chat each month and paste the product guides and compliance policies at the top of the conversation before drafting
-- Use Research mode for the regulatory-changes overview, so Claude investigates many current sources and shows where the synthesis came from ✅
-- Ask a plain Chat without web access about the past quarter's regulatory changes, relying on Claude's built-in knowledge of recent announcements
+- Keep every connector tool on and add a Project instruction never to create, reassign, or close work orders, so the rule applies in every chat.
+- Keep every connector tool on and decline any approval request to change a work order, because Claude asks before it takes those actions.
+- Disconnect the connector and upload a spreadsheet export of the overdue work orders each Monday, so that Claude cannot change anything in the system.
+- Turn off the connector's create, reassign, and close tools and keep search and read on, because the summary only needs to read work orders. ✅
 
-**Correct answers:** Create a Project with the guides and compliance policies in its knowledge base, and draft each month's onboarding materials inside it <br>**+** Use Research mode for the regulatory-changes overview, so Claude investigates many current sources and shows where the synthesis came from
+**Correct answer:** Turn off the connector's create, reassign, and close tools and keep search and read on, because the summary only needs to read work orders.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -971,16 +980,17 @@ A specialty insurance brokerage's training coordinator has two Claude tasks this
 
 ### Question 49
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+⏭️ Skipped · *Workflow Design and Integration*
 
-An architecture firm's proposal writer uses Claude to draft the executive summary for a major bid. Her director reads the draft and says only, "This misses the point." She wants the next draft from Claude to actually be different, not another guess. What should she do first?
+A visitor services manager at a science museum drafted a weekend staffing plan with Claude. Code-executed analysis of 12 months of ticket-scan records showed an average of 2,300 Saturday visitors, and the plan recommends four more floor staff. The ticketing team now reports that school group scans were counted twice in three of those months and sends a corrected file. The Research findings on peer museums are not affected. Which two actions should the manager take before the plan goes to the director? (Select TWO.)
 
-- Paste the director's comment into the conversation verbatim, telling Claude the draft misses the point and asking it to fix the problem
-- Discard the current prompt entirely and rewrite it from scratch so nothing from the failed attempt carries over into the next draft
-- Resend the identical prompt several times and bring the director the version that reads best, since responses naturally vary between attempts
-- Work out what specifically would need to be present for the summary to be right, then change the prompt element that controls it ✅
+- Tell Claude that school group scans were counted twice in three months, and ask it to lower the Saturday averages in the plan text by a matching amount.
+- Upload the corrected file and have Claude repeat the code-executed analysis, so that the visitor averages come from the corrected records. ✅
+- Ask Claude whether a correction of this size is likely to change the staffing recommendation, and keep the plan as drafted if Claude says it is not.
+- Ask Claude to list every statement in the plan that depends on the visitor figures, then review whether the staffing recommendation still applies. ✅
+- Switch to Opus, raise the effort level, and ask Claude to write the plan again, so that the reasoning behind the staffing recommendation is stronger.
 
-**Correct answer:** Work out what specifically would need to be present for the summary to be right, then change the prompt element that controls it
+**Correct answers:** Upload the corrected file and have Claude repeat the code-executed analysis, so that the visitor averages come from the corrected records. <br>**+** Ask Claude to list every statement in the plan that depends on the visitor figures, then review whether the staffing recommendation still applies.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -988,16 +998,16 @@ An architecture firm's proposal writer uses Claude to draft the executive summar
 
 ### Question 50
 
-✅ Answered correctly · *Prompting and Task Execution*
+✅ Answered correctly · *Workflow Design and Integration*
 
-A regional food bank network's development manager must use Claude to produce an annual impact report covering four parts: verified donation totals, program outcomes, volunteer statistics, and a forward-looking appeal narrative. The program outcomes and appeal narrative sections will both cite the donation totals. A single prompt requesting the full report returned uneven, shallow coverage. Which TWO practices reflect effective task decomposition for this work? (Select TWO.)
+A service planner at a regional bus agency is preparing a plan for an evening on-demand shuttle. Her confirmed requirements list says the board wants cost per rider and first-year ridership from agencies serving towns under 100,000 people. She asked Research, "How do transit agencies run on-demand shuttles?" The 14-page cited report mostly covers large cities and programs that ended years ago, and gives only two cost figures. Which next step is most likely to produce findings she can use in the plan?
 
-- Resubmit the original single prompt but double the requested word count so each of the four sections has enough room for proper depth
-- Begin with the donation totals, since later sections depend on those figures being correct, and confirm them before drafting anything that cites them ✅
-- Work through the report as a sequence of focused requests, reviewing each part's output before the next request builds on it ✅
-- Split the report into four separate requests but defer all review until the complete draft is assembled, so drafting momentum is not interrupted
+- Ask Claude to cut the current report down to its small-town examples and cost figures, since every source in that report is already cited.
+- Switch to Opus, raise the effort level, and run the same question again, since a more capable model will select more relevant agencies and figures.
+- Run Research again with a question that states the town size, a recent date range, and the two measures the board wants for each agency. ✅
+- Ask Claude in a regular chat to estimate typical cost per rider and ridership for small-town shuttles, since it knows the transit sector well.
 
-**Correct answers:** Begin with the donation totals, since later sections depend on those figures being correct, and confirm them before drafting anything that cites them <br>**+** Work through the report as a sequence of focused requests, reviewing each part's output before the next request builds on it
+**Correct answer:** Run Research again with a question that states the town size, a recent date range, and the two measures the board wants for each agency.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1005,16 +1015,16 @@ A regional food bank network's development manager must use Claude to produce an
 
 ### Question 51
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-A solar installation company's procurement coordinator uploads three supplier quotes to Claude and asks for a recommendation memo. The memo Claude produces includes specific panel prices, warranty lengths, and delivery dates, and it will go to the company owner to decide which supplier gets a six-figure order. Which validation approach is soundest before the memo is sent?
+A client care lead at a veterinary clinic group shares a Project that front-desk staff use to draft replies to pet owners. The Project instructions hold four reply rules followed by the full fee schedule, pasted in as text, and the knowledge holds only a clinic address list. Fees change every quarter. In two recent updates, the person pasting the new fees deleted or changed a reply rule by mistake. Which change is most likely to keep the replies consistent through future fee updates?
 
-- Regenerate the memo a second time and confirm that the figures in the new version match the figures in the first one
-- Compare the figures against prices and terms from the company's previous panel orders and accept them if nothing seems unusual
-- Trace each price, warranty term, and delivery date in the memo back to the supplier quote it came from and confirm it matches ✅
-- Ask Claude in the same conversation to double-check the memo and confirm that all of the figures are accurate before sending it
+- Move the fee schedule into a file in the Project's knowledge, replaced each quarter, and keep only the four reply rules in the instructions. ✅
+- Move the reply rules and the fee schedule together into one knowledge file, so that everything the Project relies on is in a single document.
+- Keep both in the instructions, add a clear heading above each part, and ask whoever updates the fees to edit only the fee section.
+- Remove the fee schedule from the Project, and have each staff member paste the current fees into the request whenever a reply needs them.
 
-**Correct answer:** Trace each price, warranty term, and delivery date in the memo back to the supplier quote it came from and confirm it matches
+**Correct answer:** Move the fee schedule into a file in the Project's knowledge, replaced each quarter, and keep only the four reply rules in the instructions.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1022,37 +1032,16 @@ A solar installation company's procurement coordinator uploads three supplier qu
 
 ### Question 52
 
-❌ **Answered incorrectly** · *Governance, Risk, and Responsible Use*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-A veterinary clinic chain's regional manager is screening four proposed Claude use cases against the team's delegation criteria: reversibility, consequence, human element, and accountability. Which proposed use, as described, should be classified as inappropriate rather than appropriate or appropriate-with-review?
+A program manager at a city transit agency keeps her own Project for a year-long fare-system upgrade. Claude needs four kinds of information for this work: the agency's writing rules for board updates, the signed vendor contract, the agency's five-step procedure for building the monthly board update, and a running record of decisions and steering-committee preferences that changes in most weekly planning chats. She wants to restate as little as possible in each chat. Which kind of information is best left to the Project's memory?
 
-- Have Claude assign final annual performance ratings for clinic staff and release the results to each employee with no human review ✅
-- Have Claude brainstorm candidate names for a new pet-wellness newsletter that the marketing team will choose from afterward
-- Have Claude draft appointment-reminder email templates that front-desk staff review and edit before any messages are sent ❌ *(your answer)*
-- Have Claude summarize published veterinary industry articles into a short weekly digest circulated to the clinic managers
+- Leave the signed vendor contract to memory, because Claude will keep its terms after she attaches the contract once in an early planning chat.
+- Leave the running record of decisions and committee preferences to memory, because it builds up from chat to chat and applies only to this Project. ✅
+- Leave the agency's writing rules for board updates to memory, because Claude will learn them from her corrections to the first few drafts in the Project.
+- Leave the five-step board update procedure to memory, because Claude will repeat the steps after it has followed them in two or three chats.
 
-**Correct answer:** Have Claude assign final annual performance ratings for clinic staff and release the results to each employee with no human review
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *Have Claude draft appointment-reminder email templates that front-desk staff review and edit before any messages are sent*
-
-Drafting with a human review step before anything reaches a customer is the classic appropriate-with-review pattern, not an inappropriate use. The review gate keeps accountability with staff and makes any error fully correctable before it has consequences.
-
-**Why the correct answer is right** — *Have Claude assign final annual performance ratings for clinic staff and release the results to each employee with no human review*
-
-This use fails every delegation criterion at once: the consequences for individuals are high, a released rating is hard to reverse, the human element is central, and accountability for a personnel judgment cannot be handed to a tool. Employment-related decisions that directly affect individuals also fall into a category where Anthropic requires qualified human review, so releasing outputs unreviewed makes this inappropriate as described.
-
-**Overall explanation**
-
-Screening use cases is a judgment exercise, and the delegation criteria give it structure: how reversible is the outcome, how serious are the consequences, how central is the human element, and who holds accountability? A use case does not have to be exotic to be inappropriate; it just has to fail those tests. Assigning final performance ratings and releasing them without review fails all four: ratings shape pay and careers (high consequence), a released rating is difficult to walk back (low reversibility), evaluating a person is inherently human work, and no one is standing behind the output when it reaches the employee.
-
-This is also where organizational judgment lines up with Anthropic's own rules. The Anthropic Usage Policy treats employment-related use cases as high-risk when they produce recommendations or decisions directly affecting individuals, and it requires a qualified human to review those outputs. The point is not that Claude can never touch performance-review work; a manager drafting summaries from their own notes, then verifying each one, can be appropriate-with-review. The point is that the as-described design, with no human in the loop before the output lands on an employee, is the part that makes it inappropriate.
-
-The other proposals show what the appropriate end of the spectrum looks like. Brainstorming newsletter names and summarizing published articles are low-stakes, reversible tasks squarely within Claude's documented everyday uses (see What are some things I can use Claude for?). Drafting reminder templates with a staff review gate is appropriate-with-review: the human checkpoint converts a customer-facing task from risky delegation into safe assistance. The skill being tested is recognizing that the same tool can be appropriate or inappropriate depending entirely on stakes and on where the human sits in the workflow.
-
-</details>
+**Correct answer:** Leave the running record of decisions and committee preferences to memory, because it builds up from chat to chat and applies only to this Project.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1060,16 +1049,16 @@ The other proposals show what the appropriate end of the spectrum looks like. Br
 
 ### Question 53
 
-✅ Answered correctly · *Workflow Integration and Solution Design*
+✅ Answered correctly · *Output Evaluation and Quality Control*
 
-A community college's student services office is asked by the dean to "have Claude analyze the student feedback we collect each semester." The coordinator turning this into a written requirement has so far documented the data source (the semester survey exports), the person who will receive the output (the dean's office), and a monthly delivery cadence. Before designing the workflow, which remaining question is most important to answer?
+A sales consultant at a solar installation company used Claude to draft a proposal for a school district from 12 months of uploaded utility bills and the current price list. The proposal gives a projected annual saving and a payback period, and the school board will vote on the purchase using it. She has not checked those figures and plans to add a footer: "Prepared with AI assistance; figures may contain errors." Which action should the consultant take before sending the proposal?
 
-- Decide whether the monthly output should be delivered as a polished artifact or an inline summary
-- Select which Claude model and features, such as a dedicated Project, the workflow should use
-- Run a trial analysis on last semester's survey export to see what kind of output Claude produces
-- Establish what decision the analysis will feed and what the consequence of a wrong output would be ✅
+- Ask Claude to recalculate the saving and the payback period from the uploaded bills, then change the footer to say that the figures have been rechecked.
+- Check the projected saving and payback period against the utility bills and price list before sending, because the footer leaves her responsible for both figures. ✅
+- Send the proposal with the footer as planned, because a clear notice of AI assistance tells the school board to confirm the figures before it votes.
+- Regenerate the proposal with Opus at a higher effort level and keep the footer, because a more capable model makes fewer mistakes when it works with financial figures.
 
-**Correct answer:** Establish what decision the analysis will feed and what the consequence of a wrong output would be
+**Correct answer:** Check the projected saving and payback period against the utility bills and price list before sending, because the footer leaves her responsible for both figures.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1077,16 +1066,16 @@ A community college's student services office is asked by the dean to "have Clau
 
 ### Question 54
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-A state tourism board's research analyst uses Claude to draft an investor briefing. The draft states that visitor spending rose 8.3% last year, attributing the figure to "the 2024 State Visitor Economy Report." The analyst searches online and confirms that a report with that exact title exists and is published on a government website. What should the analyst do next before the figure goes into the briefing?
+A leasing coordinator at a property management company drafts lease summaries in a Project. For seven months, her custom Skill gave every summary the company's four-part layout. For two weeks, summaries have arrived as plain paragraphs, and the steps Claude shows no longer include loading the Skill. Two weeks ago she cleaned up her settings and turned off several items she rarely used. The Skill file and the Project instructions are unchanged. Which check should the coordinator make first?
 
-- Open the report itself and confirm that the 8.3% figure and its context actually appear in it ✅
-- Regenerate the briefing in a fresh conversation and keep the figure if the same 8.3% appears in the second draft
-- Treat the verification as complete, since confirming the cited report is real and publicly available establishes the claim
-- Ask Claude to quote the exact passage from the report where the figure appears and rely on that quoted text
+- Switch to a more capable model and raise the effort level, then regenerate the last two weeks of summaries to see whether the layout returns.
+- Copy the four layout steps from the Skill into the Project instructions, so that every chat in the Project receives the layout rules directly.
+- Rewrite the Skill with stricter rules for the four-part layout, upload it as a new version, and then request one test summary to compare.
+- Confirm in her settings that the Skill is still turned on and that code execution and file creation are enabled, then request one test summary. ✅
 
-**Correct answer:** Open the report itself and confirm that the 8.3% figure and its context actually appear in it
+**Correct answer:** Confirm in her settings that the Skill is still turned on and that code execution and file creation are enabled, then request one test summary.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1094,16 +1083,16 @@ A state tourism board's research analyst uses Claude to draft an investor briefi
 
 ### Question 55
 
-✅ Answered correctly · *Prompting and Task Execution*
+✅ Answered correctly · *Task Definition and Prompting*
 
-A children's museum's grants coordinator must prepare a foundation grant application with four connected parts: a needs statement, a program design, a budget narrative, and an evaluation plan. The budget narrative and evaluation plan must both align with whatever the program design says. A single prompt asking for the full application produced sections that contradicted each other. How should the coordinator restructure the work?
+A billing lead at a commercial laundry company must send a second payment reminder to a hotel whose invoice is 45 days overdue. The hotel has been a customer for nine years, and the owner wants to keep the account. Her draft prompt gives the invoice number, the amount, and a new payment deadline, and says, "Write a payment reminder email, under 120 words." Which addition to the prompt is most likely to produce a usable first draft?
 
-- Ask for two complete drafts of the full application in one prompt and keep whichever version reads more consistently across its sections
-- Resubmit the original single prompt unchanged except for an added instruction telling Claude to work carefully through all four sections step by step
-- Request each of the four sections in its own brand-new conversation so every section starts from a completely clean context
-- Draft the program design as its own request, review it, then ask for the budget narrative and evaluation plan as follow-up steps built on it ✅
+- Open the prompt with a role, such as an experienced collections specialist, so that Claude writes with the judgment of someone who handles overdue accounts.
+- Attach the hotel's full invoice and payment records for the nine years, so that Claude can see for itself how reliable the customer has been.
+- State that the hotel is a nine-year customer the owner wants to keep, and ask for a tone that is polite but firm about the deadline. ✅
+- Add a closing line that asks Claude to make the email professional and well written, so that it reads well to the hotel's accounts team.
 
-**Correct answer:** Draft the program design as its own request, review it, then ask for the budget narrative and evaluation plan as follow-up steps built on it
+**Correct answer:** State that the hotel is a nine-year customer the owner wants to keep, and ask for a tone that is polite but firm about the deadline.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1111,16 +1100,16 @@ A children's museum's grants coordinator must prepare a foundation grant applica
 
 ### Question 56
 
-✅ Answered correctly · *Troubleshooting and Optimization*
+✅ Answered correctly · *Task Definition and Prompting*
 
-A children's museum's exhibits coordinator sets up a Claude Project for an upcoming tide pool exhibit. She writes a thorough project description in the description field covering the exhibit's theme, the target age group, and the key educational messages. Yet every time she starts a new chat in the Project and asks for signage copy or family activity guides, the drafts are generic and never reflect any of those details. What should she do to fix this?
+An account director at an insurance brokerage has the Google Calendar and Gmail connectors turned on in Claude. Each Friday she sends one request: "Prepare a briefing for my client meetings next week." She updates the briefing during the week, because meetings move and new emails arrive. This week's briefing is clearly written, but it covers four of her six client meetings, and one section summarizes an email thread from a different client with a similar name. Which change to her approach is most likely to produce a briefing she can rely on each week?
 
-- Begin each new chat by instructing Claude to review the Project's description carefully before drafting anything
-- Add the exhibit theme, audience, and messaging details to the Project's instructions or knowledge base instead of relying on the description field ✅
-- Switch the Project's conversations to a more capable model tier, since generic output signals the current model lacks the depth for the task
-- Delete the Project and create a new one with the same description, since the original Project's configuration has likely gone stale
+- Reply in the same chat asking whether any meetings or emails were missed, and accept the briefing if Claude answers that both sources were fully covered.
+- Switch to a more capable model and raise the effort level, then send the same request again so that Claude reads the calendar and inbox more carefully.
+- Export next week's calendar and the related email threads by hand, upload the files to a new Project, and ask for the briefing from those files.
+- Work in steps: list next week's client meetings from the calendar and check the list, then list each client's Gmail threads and check them, then draft. ✅
 
-**Correct answer:** Add the exhibit theme, audience, and messaging details to the Project's instructions or knowledge base instead of relying on the description field
+**Correct answer:** Work in steps: list next week's client meetings from the calendar and check the list, then list each client's Gmail threads and check them, then draft.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1128,16 +1117,16 @@ A children's museum's exhibits coordinator sets up a Claude Project for an upcom
 
 ### Question 57
 
-✅ Answered correctly · *Output Evaluation and Validation*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-An architecture firm's bid coordinator uploads a client's 40-page request for proposals and asks Claude to summarize the submission requirements. Claude returns a clean list of five requirements. Four match the coordinator's memory of the document, but the fifth, a requirement to include LEED certification documentation, is common in the industry yet the coordinator does not recall seeing it in this RFP. How should the coordinator handle the summary?
+A project coordinator at a commercial construction company turns on the Google Drive and Gmail connectors and asks Claude for the expected completion date of a clinic renovation. Claude answers March 14. Her Drive holds four versions of the project schedule with similar file names, including the revision the client approved last week, and several emails discuss possible dates. The date will go into a client update this afternoon. Which action should she take first?
 
-- Rely on the summary as written, since Claude had the actual RFP attached and could only draw its list from that document
-- Ask Claude whether the LEED requirement appears in the RFP and accept its answer as confirmation
-- Compile the LEED documentation and include it in the bid anyway, since satisfying an extra requirement cannot hurt the submission
-- Check each listed requirement against the RFP text itself, starting with the unfamiliar one, before using the summary to plan the bid ✅
+- Ask the question again and tell Claude to use only the newest schedule file in her Drive, then put the new answer into the update.
+- Ask Claude to confirm that March 14 comes from the most recent schedule, and include the date in the update if Claude says it does.
+- Open the citations in Claude's answer to see which file or email the date came from, then compare that source with the approved schedule. ✅
+- Switch to a more capable model and a higher effort level, then ask again so that Claude reasons more carefully about which schedule is current.
 
-**Correct answer:** Check each listed requirement against the RFP text itself, starting with the unfamiliar one, before using the summary to plan the bid
+**Correct answer:** Open the citations in Claude's answer to see which file or email the date came from, then compare that source with the approved schedule.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1145,37 +1134,16 @@ An architecture firm's bid coordinator uploads a client's 40-page request for pr
 
 ### Question 58
 
-❌ **Answered incorrectly** · *Prompting and Task Execution*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-An environmental consultancy's compliance analyst pastes a table of quarterly water sample readings into Claude, along with the permit's threshold limits for each contaminant. She needs a site-by-site summary of exceedances that will go into a report the regulator will read. A few readings in the table are blank. Which prompt best fits this analysis task?
+A grants manager at a community health nonprofit is preparing a funder report in a chat with the Google Drive connector turned on. Claude finds and summarizes the program narrative and the outcomes tracker from her Drive. It reports that it cannot find the audited financial statement. The finance director keeps that file in a folder shared only with the finance team, which does not include her. Which action is most likely to let Claude use the statement?
 
-- "Compare each reading against the permit threshold table I provided, flag every exceedance in a site-by-site table, and mark any blank reading as 'data missing' rather than estimating a value." ✅
-- "Analyze this water sample data extremely carefully and thoroughly; accuracy is absolutely critical here, so double-check every single conclusion before you respond." ❌ *(your answer)*
-- "Act as a senior environmental scientist with twenty years of regulatory compliance experience, and analyze this sample data with the full rigor and professionalism that role demands."
-- "Review the data against the permit limits and use your best judgment to interpret ambiguous results and fill in any blank readings so the final summary is complete."
+- Disconnect the Google Drive connector and connect it again, so that Claude refreshes its view of the Drive and can search the finance team's folder.
+- Turn on research and repeat the request, since research runs many searches across the web and her connected tools and is more thorough than chat.
+- Ask the finance director for the statement's Google Drive link and paste it into the chat, so that Claude opens the file directly without searching.
+- Ask the finance director to share the statement with her Google account, because the connector can reach only the files her own account can open. ✅
 
-**Correct answer:** "Compare each reading against the permit threshold table I provided, flag every exceedance in a site-by-site table, and mark any blank reading as 'data missing' rather than estimating a value."
-
-<details open>
-<summary><b>Explanation</b></summary>
-
-**Why your answer was wrong** — *"Analyze this water sample data extremely carefully and thoroughly; accuracy is absolutely critical here, so double-check every single conclusion before you respond."*
-
-Urging carefulness adds emphasis but no information: it names no thresholds, no output format, and no rule for the blank readings. Claude still has to guess what the analysis should measure and how to present it, which is what produces vague or unusable results.
-
-**Why the correct answer is right** — *"Compare each reading against the permit threshold table I provided, flag every exceedance in a site-by-site table, and mark any blank reading as 'data missing' rather than estimating a value."*
-
-This prompt gives Claude explicit criteria (the permit thresholds), a defined output shape (a site-by-site exceedance table), and a rule for handling ambiguity (label blanks instead of estimating). Analysis tasks reward exactly this kind of tight specification, and the missing-data instruction prevents fabricated values from reaching a regulator-facing report.
-
-**Overall explanation**
-
-Different task types reward different balances of specification and latitude, and analysis sits at the high-specification end. An effective analysis prompt tells Claude three things: what to measure, what standard to measure it against, and how to handle ambiguity. In this scenario those map directly to the readings, the permit threshold table, and an explicit rule that blank fields get labeled data missing rather than estimated. Adding a defined output shape (a site-by-site table) makes the result checkable line by line before it enters a regulator-facing report.
-
-The instruction about blanks deserves particular attention. A language model will generally try to complete the task it is given, so a prompt that asks for a "complete" summary over incomplete data implicitly invites plausible-looking invented values. Telling Claude how to treat gaps closes that door up front, which is far cheaper than trying to detect fabricated numbers during review. This is why explicitly inviting Claude to "use judgment to fill in blank readings" is an anti-pattern in compliance work: it converts a data gap into a fabricated data point.
-
-The weaker prompts fail for a shared reason: they add pressure or personality without adding information. A persona ("senior environmental scientist") and intensity language ("be extremely careful, accuracy is critical") change the styling of the response, not its substance, because neither supplies the criteria the analysis depends on. Anthropic's guidance on getting helpful answers makes the same point: explain the ask clearly, provide the context and materials Claude cannot guess, and be specific about what the output should contain. See My prompt isn't giving me a helpful answer for Anthropic's prompting recommendations.
-
-</details>
+**Correct answer:** Ask the finance director to share the statement with her Google account, because the connector can reach only the files her own account can open.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1183,16 +1151,17 @@ The weaker prompts fail for a shared reason: they add pressure or personality wi
 
 ### Question 59
 
-✅ Answered correctly · *Product and Model Selection*
+✅ Answered correctly · *Configuration and Knowledge Management*
 
-A freight logistics company's operations team is standardizing which Claude model tier to use for several recurring and one-off tasks. Which TWO choices correctly apply the trade-off between speed and capability across the Haiku, Sonnet, and Opus tiers? (Select TWO.)
+A tenancy officer at a housing association that uses Claude on a Team plan shares a Project with one colleague for drafting rent-arrears notices. The instructions set a formal, legal tone, and the knowledge holds the tenancy handbook. The association's five-step notice procedure is a custom Skill that she uploaded to her own account. Her notices follow the steps, but her colleague's do not. She also drafts items for the residents' newsletter in this Project, and those items come out formal and quote the handbook. Which two changes should she make? (Select TWO.)
 
-- Use Opus for the daily reformatting of routine delivery-status updates, since the most capable model always produces the best results
-- Use Haiku to sort thousands of incoming shipment-exception emails into a fixed set of categories defined by a clear rubric ✅
-- Use Haiku for the quarterly network-strategy assessment with ambiguous inputs, since finishing the analysis faster is what matters most for leadership
-- Use Opus for a one-off analysis of an ambiguous carrier-contract renegotiation where several constraints interact and a subtle error would be costly ✅
+- Ask the organization's Owner to make the notice Skill available to the team, because a Skill belongs to an account and is not shared with the Project. ✅
+- Add a line to the Project instructions telling Claude to ignore the tone rules and the handbook whenever a chat is about newsletter items.
+- Draft the newsletter items in a separate Project with its own instructions, because this Project's instructions and knowledge apply to every chat in it. ✅
+- Turn off "Use account memory" on the Project's page, so that the newsletter chats stay separate from the rent-arrears notices drafted in the same Project.
+- Ask the colleague to name the notice Skill at the start of each request, so that Claude loads the five-step procedure for his notices.
 
-**Correct answers:** Use Haiku to sort thousands of incoming shipment-exception emails into a fixed set of categories defined by a clear rubric <br>**+** Use Opus for a one-off analysis of an ambiguous carrier-contract renegotiation where several constraints interact and a subtle error would be costly
+**Correct answers:** Ask the organization's Owner to make the notice Skill available to the team, because a Skill belongs to an account and is not shared with the Project. <br>**+** Draft the newsletter items in a separate Project with its own instructions, because this Project's instructions and knowledge apply to every chat in it.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1200,16 +1169,256 @@ A freight logistics company's operations team is standardizing which Claude mode
 
 ### Question 60
 
-✅ Answered correctly · *Governance, Risk, and Responsible Use*
+✅ Answered correctly · *Output Evaluation and Quality Control*
 
-A national logistics company's HR recruiter proposes a new workflow: Claude reviews incoming applications for warehouse supervisor roles, scores each candidate against the job description, and automatically triggers rejection emails to anyone scoring below a threshold, with no one on the team reading Claude's assessments. How should this proposal be handled?
+A safety coordinator at a food packaging plant has a one-page Claude summary of last quarter's incident log, built around a 12-row table. She has checked it against the log: hand injuries rose from 4 to 9, 7 of the 9 happened during blade changes, and a new glove rule starts Monday. Supervisors will read it aloud at five-minute shift briefings, where workers have no screens or handouts. Which revision best fits this delivery?
 
-- Proceed as designed, since screening is an early hiring stage and rejected candidates remain free to apply for future openings
-- Drop the idea entirely, because using AI in any part of a hiring process falls under prohibited use
-- Approve the automation after adding prompt instructions that tell Claude to evaluate every candidate fairly and without bias
-- Redesign the workflow so a qualified person reviews Claude's assessment of each candidate before any rejection is sent ✅
+- Ask Claude for a two-sentence reminder that hand injuries rose and everyone should take more care, since short general messages are easy to remember.
+- Ask Claude to rebuild the summary as an artifact with a cleaner table and bold headings, so supervisors have a well-formatted page to read from.
+- Have supervisors read the checked summary aloud as written, including each row of the table, since every detail in it matches the incident log.
+- Ask Claude for a short script in plain spoken sentences that gives the rise from 4 to 9, the blade-change finding, and Monday's glove rule. ✅
 
-**Correct answer:** Redesign the workflow so a qualified person reviews Claude's assessment of each candidate before any rejection is sent
+**Correct answer:** Ask Claude for a short script in plain spoken sentences that gives the rise from 4 to 9, the blade-change finding, and Monday's glove rule.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 61
+
+✅ Answered correctly · *Capability, Model, and Context Selection*
+
+A procurement specialist at a public school district must score five bids for a cafeteria equipment contract. Six weeks ago, in a standalone chat, she and Claude worked out a scoring method with five weighted criteria, and her director approved the weights. She has had many chats since then and does not remember that chat's title. On her paid plan, both research and past-chat search are available. Which action should she take first?
+
+- Switch to Opus at a higher effort level and describe the criteria as she recalls them, so Claude can work out the likely weights.
+- Ask Claude in a new standalone chat to find the earlier conversation about bid scoring, then open the cited chat and confirm the weights. ✅
+- Create a Project for the cafeteria contract and ask Claude there to find the earlier chat, so the method stays with the contract files.
+- Turn on research and ask Claude to locate the scoring method, because research runs many searches and reports its sources with citations.
+
+**Correct answer:** Ask Claude in a new standalone chat to find the earlier conversation about bid scoring, then open the cited chat and confirm the weights.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 62
+
+❌ **Answered incorrectly** · *Responsible Use, Data Protection, and Governance*
+
+A claims analyst at a marine insurance broker is finishing a review of one shipping client's loss records. The loss files are in the knowledge of a private Project shared with two colleagues, and the analyst often rates Claude's replies with the thumbs-up button. The engagement closes Friday. Company policy approves the Claude workspace for client files, requires their removal when an engagement closes, and forbids sharing client content with any vendor for product improvement. Which two actions are consistent with the policy? (Select TWO.)
+
+- Remove the other members from the Project on Friday, so that the loss files stay in its knowledge but only the analyst can open them.
+- Stop rating replies in the analysis chats, because a thumbs-up or thumbs-down sends the whole related chat to Anthropic as feedback. ✅
+- Delete the loss files from the Project's knowledge on Friday, because files kept there stay available to later chats in the Project. ✅ *(your answer)*
+- Keep rating replies in the analysis chats, because chats in a company workspace are not used for model training by default.
+- Ask Claude in a final Project chat to forget the loss files and to confirm that no client content remains in the Project. ❌ *(your answer)*
+
+**Correct answers:** Stop rating replies in the analysis chats, because a thumbs-up or thumbs-down sends the whole related chat to Anthropic as feedback. <br>**+** Delete the loss files from the Project's knowledge on Friday, because files kept there stay available to later chats in the Project.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Ask Claude in a final Project chat to forget the loss files and to confirm that no client content remains in the Project.*
+
+A request in a chat does not delete files from the Project's knowledge, so the files would still be stored after Friday. Claude's statement that nothing remains is also not a check carried out by a person.
+
+**Why the correct answer is right** — *Stop rating replies in the analysis chats, because a thumbs-up or thumbs-down sends the whole related chat to Anthropic as feedback.*
+
+Clicking a rating button submits the related conversation, including the client content in it, as feedback that Anthropic can store and may use for model training. The policy forbids sharing client content with a vendor for product improvement, so the rating buttons should not be used on these chats.
+
+**Overall explanation**
+
+A Project's knowledge is **persistent** storage. A file added there is available as reference in every conversation in that Project until someone deletes it. Closing an engagement does not change this. A rule that client files must be removed at close is met only when the files themselves are deleted from the knowledge. Changing who can open the Project is a different control: it limits *who* can see the files, and the files are still stored. Asking Claude to forget the files changes nothing either, because a reply in a chat does not delete knowledge files, and Claude's statement that nothing remains is not a check carried out by a person. See [Upload files to Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude) and [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing).
+
+Feedback ratings are a separate way in which content can leave the normal handling of a company workspace. For commercial products such as Claude for Work, Anthropic does not use inputs or outputs to train models by default. Explicit feedback is the exception. When a user clicks the thumbs-up or thumbs-down button, the related conversation, including its content, is submitted as feedback. Anthropic can store it for up to five years and may use it for model training. If that conversation contains client loss records, the rating shares client content with a vendor for product improvement, which the policy forbids. The analyst can still tell colleagues what worked well in other ways; the rating buttons should stay unused on chats that hold client content. See [Is my data used for model training?](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training).
+
+Each control answers one question. Visibility settings answer who can see the content. Deletion answers whether the content is still stored. Feedback answers whether a conversation is sent to the vendor for improvement work. Read each policy rule, decide which of these questions it asks, and then use the control that answers that question. A true statement about one control, such as the default that commercial chats are not used for training, is not enough to satisfy a rule that depends on a different control.
+
+</details>
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 63
+
+❌ **Answered incorrectly** · *Output Evaluation and Quality Control*
+
+A quality lead at a furniture manufacturer uploads a returns log and works with Claude for an hour on why returns rose. She has checked the final summary against the log. The summary says "as the second table above shows," uses "Group A" and "Group B" (labels she defined early in the chat for two product lines), and gives no dates. Plant managers will forward it to their supervisors. Which action best prepares the summary for that use?
+
+- Ask Claude to move the summary, unchanged, into an artifact, so it becomes a separate document that she can download and send to all the plant managers. ❌ *(your answer)*
+- Ask Claude to revise it so it stands alone: replace the group labels with product names, state the period covered, and include the table it mentions. ✅
+- Send the summary as it is and attach the full returns log, so that any supervisor who is unsure can look up the missing details in the data.
+- Switch to Opus, raise the effort level, and ask Claude to write the summary again from the log, so the wording is clearer for supervisors.
+
+**Correct answer:** Ask Claude to revise it so it stands alone: replace the group labels with product names, state the period covered, and include the table it mentions.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Ask Claude to move the summary, unchanged, into an artifact, so it becomes a separate document that she can download and send to all the plant managers.*
+
+An artifact is a good format for a document that will be reused outside the chat, but it only changes where the text is held. The unchanged text would still point to a table that is not in the document, use labels that only she and Claude understand, and give no dates. The content must first be changed so that it does not depend on the chat. Only then can the format help.
+
+**Why the correct answer is right** — *Ask Claude to revise it so it stands alone: replace the group labels with product names, state the period covered, and include the table it mentions.*
+
+Supervisors who receive the forwarded summary never saw the chat, so they cannot see the earlier table, do not know what Group A and Group B mean, and cannot tell which months the figures cover. This revision puts all three inside the summary and does not change the checked findings. She should still compare the revised figures with the checked summary, because a rewrite is new output.
+
+**Overall explanation**
+
+A summary written at the end of a long chat is written for the person who was in that chat. Claude points back to a table earlier in the conversation, reuses short labels the user created, and assumes the reader knows which period the data covers. The quality lead understands all of this. A supervisor who receives the text after it has been forwarded twice has only the text. For that reader, "the second table above" points to nothing, "Group A" has no meaning, and a rise in returns with no dates cannot be acted on.
+
+Editing for an audience includes making the document **self-contained**. Every reference must point to something inside the document. Every label must be a name the reader already uses, such as the product line names. The period and the source of the data must be stated. None of this changes the findings: the figures and conclusions she checked stay the same, and only the way the content is presented changes. After Claude revises the text, she should compare the figures with the version she checked, because any rewrite is new output and can change a number.
+
+Format and content are separate decisions. Anthropic describes artifacts as suited to content that can stand alone without extra conversation context and that is useful outside the chat (see [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)). That is a description of the content, not a result of using the format. Moving unchanged text into an artifact gives her a separate document, but the text inside still depends on the chat. The guidance for Claude Docs makes a related point: a good request states the purpose, the audience, and what the document should cover (see [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)).
+
+Attaching the returns log is a reasonable habit, because readers can check the source. It does not solve this problem, because the labels were defined in the conversation and not in the log, and each reader would have to work out the meaning alone. Changing to Opus and raising the effort level changes how much reasoning goes into the answer. The summary was already accurate, so more reasoning is not what is missing. What is missing is a clear instruction about who will read the summary and what those readers cannot see.
+
+</details>
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 64
+
+❌ **Answered incorrectly** · *Task Definition and Prompting*
+
+A program manager at a youth soccer league had Claude prepare next season's fee change in four steps in one chat: summarize costs from the uploaded budget, propose three fee options, draft a parent letter, and draft a question-and-answer sheet. The cost summary matches the budget she checked. The letter announces the second option, which Claude called the most balanced. The board, which often adjusts proposals, votes on the options Thursday. Which change should the manager make to the sequence of steps?
+
+- Ask Claude to draft a letter and a sheet for each of the three options, so that a finished set is ready whichever option the board chooses. ❌ *(your answer)*
+- Keep the sequence, and ask Claude to explain why the second option is the most balanced, so that the board can read the reasoning.
+- Rerun the options step with Opus at a higher effort level, so that the option used in the letter is based on deeper analysis.
+- Stop after the three fee options, take them to the board, and request the letter and the sheet after the vote, using the board's choice. ✅
+
+**Correct answer:** Stop after the three fee options, take them to the board, and request the letter and the sheet after the vote, using the board's choice.
+
+<details open>
+<summary><b>Explanation</b></summary>
+
+**Why your answer was wrong** — *Ask Claude to draft a letter and a sheet for each of the three options, so that a finished set is ready whichever option the board chooses.*
+
+This approach does not depend on Claude's choice, so it lowers the risk. However, it means three times as much drafting and checking, and two of the three sets will not be used. This board often adjusts proposals, so the option it approves may not match any of the three prepared sets.
+
+**Why the correct answer is right** — *Stop after the three fee options, take them to the board, and request the letter and the sheet after the vote, using the board's choice.*
+
+The letter and the question-and-answer sheet both depend on a decision that belongs to the board, and the board has not made it yet. When the manager stops after the options step, a human decision comes before the later steps. The later documents are then based on the real choice, not on an assumption that Claude made so that it could continue.
+
+**Overall explanation**
+
+Breaking a large piece of work into steps works when each step has one action, one output that a person can check, and **no dependency on something that has not happened yet**. The first two steps in this workflow meet that test. The cost summary can be checked against the budget, and the three fee options can be read and compared. The parent letter and the question-and-answer sheet do not meet the test, because both depend on which fee option the league adopts, and the board has not voted.
+
+When a step needs an input that is missing, Claude often supplies a reasonable assumption and continues. That is what happened in this workflow: Claude called the second option the most balanced and wrote the letter around it. The letter reads as finished, so the assumption is easy to miss. A correct cost summary does not help, because when one step passes its check, that tells you nothing about the steps after it.
+
+Checkpoints between steps are not only for checking accuracy. At some checkpoints, a person with authority must make a decision before the work can continue. Setting the fee is the board's responsibility. The sequence should therefore *stop* after the options step, and the options should go to the board. The manager should request the letter and the sheet after the vote, and state the board's choice in the request. This also deals with the fact that the board often adjusts proposals: the later documents are written from what was approved, not from what was proposed.
+
+Asking Claude to explain its preference produces a more convincing argument for an option that the board still has not chosen. Switching to Opus or raising the effort level can make the analysis more detailed, but the problem is the missing decision, not the quality of the reasoning. Drafting a full set for every option is a valid practice, and it does avoid depending on Claude's choice. However, it means three times as much drafting and checking, and an adjusted option would match none of the sets.
+
+Anthropic's guidance on unhelpful answers recommends breaking complex requests into smaller steps and using follow-up requests: [My prompt isn't giving me a helpful answer](https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer).
+
+</details>
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 65
+
+✅ Answered correctly · *Workflow Design and Integration*
+
+A compliance lead at a credit union owns a custom Skill that builds the monthly member-complaints summary. She shares it with nine branch managers, and each manager runs the summary in their own branch's Project, which holds that branch's background files. The summaries have matched for a year. From next month, the board wants a new section on unresolved complaints in every summary. Which change best keeps the summaries consistent?
+
+- Send the managers the revised Skill files, and ask each one to upload a personal copy to use in place of the shared Skill.
+- Ask each manager to add the new section to their branch Project's instructions, so that every chat in that Project applies it.
+- Update the shared Skill to include the new section, so that each manager gets the revised layout the next time they use it. ✅
+- Add the new section to her own account-wide instructions for Claude, so that the rule applies wherever the monthly summary is produced.
+
+**Correct answer:** Update the shared Skill to include the new section, so that each manager gets the revised layout the next time they use it.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 66
+
+✅ Answered correctly · *Output Evaluation and Quality Control*
+
+An office manager at an architecture firm asks Claude, in a chat with web search turned off, to draft an updated travel expense guide. She types in the firm's hotel and meal limits, and the draft repeats them correctly. She also asks for the national tax agency's standard mileage rate, which the agency resets each year. The draft states 67 cents per mile. Which action should she take before publishing the guide?
+
+- Ask Claude in the same chat whether 67 cents is still the current rate, and publish the guide if Claude confirms that the figure is correct.
+- Check the current mileage rate on the tax agency's own website and correct the draft if the figure differs, because the agency sets the rate. ✅
+- Turn on web search, ask Claude for the rate again, and publish whichever figure comes back, because that answer will include a link to its source.
+- Switch to Opus at a higher effort level and regenerate the guide, because a more capable model is more likely to state the correct rate.
+
+**Correct answer:** Check the current mileage rate on the tax agency's own website and correct the draft if the figure differs, because the agency sets the rate.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 67
+
+✅ Answered correctly · *Task Definition and Prompting*
+
+A finance coordinator at a veterinary hospital group is building a supplier spending review in four steps and checks each output before moving on. In step two, Claude read an uploaded export of 3,100 invoice lines and stated a yearly total for each of 14 suppliers directly in its reply, showing no calculation. She adds up two suppliers by hand, and both of Claude's totals are a few hundred dollars off. Step three ranks the suppliers by these totals. Which action should the coordinator take next?
+
+- Repeat step two and ask Claude to compute the totals with code-executed analysis, then compare her two manual totals again before step three. ✅
+- Repeat step two with Opus at a higher effort level, because a more capable model works through a long list of invoice lines with more care.
+- Divide step two into 14 requests, one for each supplier, so that every request covers fewer invoice lines and each total is easier to get right.
+- Ask Claude to recheck all 14 totals against the export and confirm that each is correct, then continue to step three once it confirms.
+
+**Correct answer:** Repeat step two and ask Claude to compute the totals with code-executed analysis, then compare her two manual totals again before step three.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 68
+
+✅ Answered correctly · *Task Definition and Prompting*
+
+An events planner at a trade association pastes her notes on fourteen conference venues into a chat and asks Claude to "summarize the capacity, daily rate, parking, catering, and airport distance for each venue." Claude replies with fourteen paragraphs, and the details she checks match her notes. She needs to paste the results into the planning committee's comparison spreadsheet. Which next step is most likely to produce a usable result?
+
+- Switch to a more capable model, raise the effort level, and send the same request again, so that Claude organizes the venue details more carefully.
+- Start a new chat and rewrite the whole prompt with an analyst role and background on the committee, so that Claude understands the purpose of the summary.
+- Reply in the same chat and ask Claude to present the same details as a table, with one row per venue and one column for each detail. ✅
+- Copy each detail from the fourteen paragraphs into the spreadsheet by hand, since the content is already correct and only the layout needs to change.
+
+**Correct answer:** Reply in the same chat and ask Claude to present the same details as a table, with one row per venue and one column for each detail.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 69
+
+✅ Answered correctly · *Workflow Design and Integration*
+
+A membership director at a fitness club chain is preparing a plan to reduce cancellations. The six club managers meet on Monday and are expected to leave with agreed tasks. Claude drafted the plan from a confirmed requirements list, checked Research findings, and code-executed analysis of 18 months of cancellation records. The draft explains accurately why members leave, then ends with a list of eight ideas in no order, with no dates and no person named for each. Which request should the director make next?
+
+- Run Research again to collect more retention examples from other fitness chains, so that the list of ideas in the final section is more complete.
+- Ask Claude to turn the findings into recommended actions in priority order, each with a proposed owner, a start date, and the supporting figure. ✅
+- Switch to Opus at a higher effort level and regenerate the draft, because a more capable model will produce stronger recommendations from the same material.
+- Ask Claude to shorten the draft to a one-page summary with the main charts, so that the managers can read all of it before Monday.
+
+**Correct answer:** Ask Claude to turn the findings into recommended actions in priority order, each with a proposed owner, a start date, and the supporting figure.
+
+[↑ Back to top](#claude-certified-associate--foundations-ccao-f)
+
+---
+
+### Question 70
+
+✅ Answered correctly · *Workflow Design and Integration*
+
+A leasing operations lead at a property management company built a shared Project that drafts monthly lease-renewal letters from a lease export. The Project instructions hold the letter rules, and a custom Skill she shares sets the layout. For five months only she has run it, and the letters have been correct. Next month eleven property managers will run it for their own buildings, and the letters go to tenants. Which action should the lead take first?
+
+- Tell each property manager to select Opus and a higher effort level in their chats, so that the letters stay correct across eleven different users.
+- Expand the Project instructions with more detail on each letter rule, so that the property managers can run the workflow without asking her questions.
+- Record a video of herself running the workflow from start to finish, and send it to the eleven property managers before their first run.
+- Have two property managers draft letters for their buildings using only what is already set up, then fix each point where they needed her help. ✅
+
+**Correct answer:** Have two property managers draft letters for their buildings using only what is already set up, then fix each point where they needed her help.
 
 [↑ Back to top](#claude-certified-associate--foundations-ccao-f)
 
@@ -1217,114 +1426,90 @@ A national logistics company's HR recruiter proposes a new workflow: Claude revi
 
 ## Revision notes
 
-Concepts drawn from the 8 missed questions, grouped by domain. Output Evaluation and Validation had the most misses (4 of 8), so start there.
+Concepts drawn from the 9 missed questions, grouped by domain. **Capability, Model, and Context Selection** had the most misses (3 of 9), so start there.
 
-### 1. Output Evaluation and Validation (Q23, Q33, Q36, Q43)
+### 1. Capability, Model, and Context Selection (Q9, Q13, Q41)
 
-#### Choosing the output format (Q23, Q33)
-Start with one question: **what happens to this output next, and who works on it?**
-
-| Output path | Best for | Not for |
+#### Where background should live: chat, Project, memory or Skill
+| Where | What it reaches | Best for |
 |---|---|---|
-| **Inline chat text** | Quick answers, short content used inside the conversation | Long documents revised many times (copies pile up in the chat) |
-| **Artifact** | Large, self-contained content you will keep revising with Claude: shows in its own window, updates in place, keeps versions, can be published as a view-only link | People who must **edit** the file in Office tools; internal or sensitive content (on Free/Pro/Max plans, anyone with a published link can see it) |
-| **File creation** (.docx, .xlsx, .pptx, .pdf) | Handing work to people **outside Claude** who will edit it in Word/Excel/PowerPoint | Content you are still actively revising with Claude |
+| **One conversation** | Only that chat | Context for a single task |
+| **Private Project** | Chats inside that Project, for one person | One area of work for one person |
+| **Shared Project** | Chats inside that Project, for **everyone it's shared with** | A team working from **one shared source** (one file to update) |
+| **Memory** | All of **one person's** standalone chats, and by default their Project chats too ("Use account memory" can be turned off per Project) | Short, lasting, personal facts that apply to *all* of your work (role, fiscal year, number format) |
+| **Skill** | Any chat or Project where a matching task comes up | A **settled**, repeatable procedure |
 
-- **When Claude makes an artifact:** the content is large (usually 15+ lines), self-contained, likely to be edited or reused, and makes sense without the chat around it.
-- **What the chat and the artifact each do:** the chat is the conversation; the artifact is the document being shaped. Five numbered copies in the chat is still clutter. Move the document into an artifact.
-- **Mistake to avoid:** picking a format because it looks polished (for example, an interactive React artifact) instead of picking it for where the content goes next.
+- **A team using different copies of the same material (Q9):** use **one shared Project**. Private Projects or memory still leave separate copies that drift apart. Memory belongs to each person's account, so it can't give a team one source.
+- **Personal facts you retype everywhere (Q13):** use **memory**. A new Project only helps chats inside it. You can **tell Claude to remember** something, then **check and edit the saved topic in memory settings**, because a wrong topic affects every later chat.
+- **A procedure that is still changing (Q41):** keep describing it in each prompt. **Settle the procedure first, then package it as a Skill.** Building the Skill too early means updating it after every round of feedback. Adding old examples to a Project gives Claude outdated layouts it may mix together.
+- **Upgrading the model or effort level doesn't fix a context problem.** Opus or a higher effort level means deeper reasoning, slower replies and more usage. It doesn't change the material Claude is given. If the same setup gives different results for different people, **check what each person is giving Claude** before changing the model.
+- A shared Project still needs **someone responsible for keeping its files current**, and human review stays in place.
 
-#### Accuracy check vs expert review (Q36)
-- **Accuracy check:** you compare the draft with its source. This proves the draft matches the source. It does **not** prove the source is complete or that the text meets legal rules.
-- **Expert review** is a separate gate, and it is **required** when:
-  - **Stakes** are high (safety, health, legal, money)
-  - **Reversibility** is low (printed labels, published material, sent notices)
-  - **Audience** is the public or a regulator
-  - **Regulatory exposure** applies (labeling, compliance, legal text)
-- The content decides this in advance, not how confident you feel about the draft.
-- **Wrong fixes:** asking Claude to confirm its own work is compliant; adding a vague "may contain" disclaimer. That avoids the risk instead of checking for it.
-- **Anthropic's advice:** don't treat Claude as your only source of truth. A person should carefully check high-stakes advice.
+### 2. Responsible Use, Data Protection, and Governance (Q21, Q62)
 
-#### Document processing limits (Q43)
-| Document | What Claude processes |
-|---|---|
-| PDF **≤ 100 pages** | Text **and** visuals (charts, images, tables as images) |
-| PDF **101–1000 pages** | **Text only**, so charts and images are invisible |
-| Non-PDF documents | Text extraction only |
+#### Checking whether to trust a Skill (Q21)
+A Skill is software. Once enabled, its instructions can affect how Claude uses your connectors (within connector permissions and approval settings). Ask three questions:
+1. **Source:** who published it? Is it Anthropic, approved by your organization, or from an unknown vendor?
+2. **Reach:** what could it affect here? Think about which connectors (Gmail, Drive, and so on) are active.
+3. **Appropriateness:** does the task need everything it can do?
 
-- If key figures appear **only in charts** in a long PDF, Claude never saw them. A sharper prompt can't fix this, because the problem is in the input.
-- **Fix the input:** type the values in, or pull the chart pages into a PDF of 100 pages or fewer.
-- **Completeness check:** go through the source's sections and figures and confirm each one is either in the output or left out on purpose. A missing item leaves no visible gap in a well-written summary.
-- **Never** accept Claude's own word ("yes, I reviewed every chart") as proof.
+- There are three possible results: **enable, send for review, or decline**.
+- **Decline** when a lower-risk tool (such as Anthropic's pre-built Skill) already does the job. **Send for review** only when the Skill is useful *and no lower-risk tool can do the work*.
+- **Main risks:** prompt injection (hidden instructions that redirect Claude) and data leaving the organization.
+- Only install Skills from trusted sources. Review less-trusted ones, **including Skills shared by colleagues**.
+- Using it only once, or using it in an incognito chat, **doesn't reduce what it can reach**.
 
-#### General validation rules (all of this domain)
-- Writing that reads smoothly can still be wrong. Always check against something **Claude did not generate**.
-- Asking Claude to check itself, or regenerating and comparing two versions, tests **consistency, not truth**.
+#### How data persists and leaves your workspace (Q62)
+- **Project knowledge is persistent.** Files stay available to every chat in the Project until someone deletes them. To meet a removal rule, **delete the files**.
+- Removing members only limits **who can see** the files; the files are still stored.
+- Asking Claude to "forget" files **deletes nothing**, and Claude saying "nothing remains" is not a check done by a person.
+- **Feedback buttons:** Claude for Work (commercial) data is **not used for training by default**. **Feedback is the exception:** clicking thumbs-up or thumbs-down sends **the whole related conversation** to Anthropic. It can be kept **for up to 5 years** and may be used for training.
+- Don't rate chats that contain client or confidential content when your policy forbids sharing it with vendors.
+- Each control answers a different question: *Where is the data stored?* · *Who can see it?* · *What leaves the workspace?*
 
-### 2. Governance, Risk, and Responsible Use (Q21, Q52)
+### 3. Output Evaluation and Quality Control (Q36, Q63)
 
-#### Following your organization's AI policy (Q21)
-**Order of authority** (highest first):
-1. Law and regulation
-2. Your organization's written AI policy (binding whether you agree with it or not)
-3. Team conventions
-4. Your own judgment (the last resort, not the first)
+#### Claims that sound right but aren't in the source (Q36)
+- Claude writes a guess and a supported fact **in the same confident voice**.
+- Checking the numbers confirms **only the numbers**. **Trace every claim separately**, including **causes and explanations**.
+- Timing ("installed in March, score fell after") is not evidence of cause. A survey can show *that* something changed, not *why*.
+- **Fix:** find the passage in the source. If it isn't there, **remove the claim or mark it as unconfirmed**.
+- **Things that don't count as checking:** numbers that match, Claude confirming its own claim, or a stronger model giving the same answer again. None of these compare the claim with the source.
 
-- **You disagree with a rule:** follow it **and** take your objection to the policy owner through the proper channel. Being right that a rule is outdated doesn't give you permission to break it.
-- **The policy says nothing about something:** that is **neither permission nor prohibition**. Ask the policy owner before you go ahead.
-- **Two common ways people drift out of compliance:** (a) overriding a rule because of your own risk assessment; (b) treating a gap in the policy as a green light.
-- **Layers that all apply together:** Anthropic Usage Policy, organization instructions set by Team/Enterprise admins, and your company's policy.
+#### Making a document stand on its own (Q63)
+A summary written at the end of a long chat is written for **the person who was in the chat**. Before it goes to other readers:
+- Replace references to the chat ("the table above") with the actual content.
+- Replace labels you made up during the chat ("Group A") with names readers already use.
+- **State the time period and the data source.**
+- The findings stay the same; only how they're presented changes. **Check the numbers again after any rewrite.**
+- **Format is not content.** Moving the same text into an artifact gives you a separate document, but the text still depends on the chat. Making it self-contained is a **content** edit.
 
-#### Delegation criteria for screening use cases (Q52)
-Score each proposed use on four tests:
+### 4. Workflow Design and Integration (Q5)
 
-| Test | Question |
-|---|---|
-| **Reversibility** | Can a bad output be undone easily? |
-| **Consequence** | How much harm if it's wrong? |
-| **Human element** | Is judging or caring for people central to the task? |
-| **Accountability** | Who stands behind the output before it reaches someone? |
+#### Explaining connectors and what Claude knows to new users
+New users make **two opposite mistakes**: expecting Claude to see or know **more** than it does, or to be able to do **less** than it can.
+- **Connector permissions:** a connector like Google Drive uses **the signed-in person's permissions**. Claude can reach only the files that person can already open. (Sharing settings still matter: if you give someone access to a folder, Claude can reach it in their session.)
+- **Training cutoff:** Claude's built-in knowledge may be **out of date** and can state an old rule with confidence. With web search off, it can't look up recent changes.
+- **Claude can still use new material you give it.** It can read and apply recent documents you supply. Saying "it can't use any rule adopted after its training" **understates what it can do**.
+- **What to tell them:** supply the current text, and have a person check each item against it.
 
-- **Appropriate:** low stakes, reversible, a person picks or uses the result (brainstorming, summarizing published articles for internal use).
-- **Appropriate with review:** Claude drafts and **a person reviews before** anything reaches a customer (for example, email templates checked by staff). The review step is what makes a customer-facing task acceptable.
-- **Inappropriate:** high stakes, decisions about specific people, **no human in the loop** (for example, final performance ratings released without review).
-- **Anthropic Usage Policy:** use cases that produce employment decisions affecting individuals are **high-risk** and **require review by a qualified person**.
-- The same task can be appropriate or inappropriate depending on **where the person sits in the workflow**.
+### 5. Task Definition and Prompting (Q64)
 
-### 3. Workflow Integration and Solution Design (Q42)
-
-#### Asking about your own files vs running Research
-| | Ask about the files you provide | Research |
-|---|---|---|
-| **Source** | Files you attach yourself | Many sources retrieved from the web |
-| **Speed** | Fast | Slower (runs many searches) |
-| **Checking** | You can check line by line against your own file | Citations show what it used |
-| **Use when** | The answer is **inside your own data** | The answer is **outside your material**, is more recent than it, or needs several sources combined |
-
-- Research **can't see your internal files**. For internal data, attach the files.
-- A plan is only as trustworthy as the numbers under it. Numbers worked out from your actual data can be defended; numbers from Claude's general knowledge or from industry benchmarks can't.
-- Using industry averages **quietly changes the question** from "how did *we* do?" to "how did *the industry* do?"
-- Asking with no attachments risks **made-up specifics**.
-
-### 4. Prompting and Task Execution (Q58)
-
-#### Writing a prompt for an analysis task
-Analysis tasks need **detailed instructions and little creative freedom**. A good analysis prompt says:
-1. **What to measure**: the data
-2. **What to compare it against**: the thresholds or criteria you provide
-3. **How to handle unclear or missing data**: for example, "mark blanks as *data missing*, do not estimate"
-4. **What the output should look like**: for example, a table with one row per site, so it can be checked line by line
-
-- **Prompts that don't help:** "be extremely careful", "accuracy is critical", or a persona ("act as a senior scientist"). These add pressure or style but **no information**.
-- **Prompts that cause harm:** "use your best judgment to fill in blanks". This asks Claude to make up data, which is dangerous in a report for a regulator.
-- Claude tries to finish the task it's given. Asking for a "complete" summary of incomplete data invites invented values. Say up front how to treat gaps.
+#### Breaking work into steps
+Each step should have **one action**, **one output a person can check**, and **no dependency on something that hasn't happened yet**.
+- When a step needs a missing input (such as a board decision), Claude **assumes something reasonable and keeps going**. The result looks finished, so the assumption is easy to miss.
+- If one step passes its check, **that tells you nothing about the steps after it**.
+- **Some checkpoints are for decisions, not just accuracy checks:** stop where a person with authority has to decide, then continue using their actual choice.
+- **Wrong fixes:** asking Claude to justify its pick (you get a more convincing argument for an option nobody chose yet), using a stronger model (the problem is the missing decision, not the reasoning), or drafting every possible version (wasted work, and it still ignores changes the board might make).
 
 ### Quick-recall checklist
-- [ ] Output path: inline text for quick answers · artifact for revising with Claude · file for editing outside Claude
-- [ ] PDF over 100 pages = text only; charts are invisible
-- [ ] Matching the source checks accuracy; it doesn't replace expert review for high-stakes content
-- [ ] Never accept Claude's own confirmation as validation
-- [ ] Policy order: law → organization policy → team → you; silence means ask
-- [ ] Delegation tests: reversibility, consequence, human element, accountability
-- [ ] Your own data → attach the files; outside or recent info → Research
-- [ ] Analysis prompt: criteria + output format + rule for missing data
+- [ ] Team needs one source → **shared Project**; personal facts everywhere → **memory** (then check it in settings)
+- [ ] Procedure still changing → keep prompting; **settle it, then build a Skill**
+- [ ] Opus or higher effort ≠ better context: check what each person gives Claude first
+- [ ] Skill trust check: **source · reach · appropriateness** → enable / review / decline
+- [ ] Project knowledge persists until **deleted**; removing members ≠ deleting
+- [ ] Thumbs-up/down sends the **whole chat** to Anthropic (kept up to 5 years, may be used for training)
+- [ ] Check claims of cause separately from the numbers
+- [ ] Before forwarding: replace chat references, use real names, state the period and source
+- [ ] Connectors = the signed-in person's permissions; Claude can apply new documents you supply
+- [ ] Stop the sequence where a human decision is still pending
